@@ -4,3 +4,4 @@
 redirects = [
   {from = "/next", to = "/.netlify/functions/next", status = "301"},
   {from = "/random", to = "/.netlify/functions/random", status = "301"}
+]

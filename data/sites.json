@@ -1,11 +1,12 @@
 [
-    {
-        "name": "Some site",
-        "uri": "http://localhost:9000"
-    },
+
     {
         "name": "Some site",
         "uri": "https://something.com"
+    },
+    {
+        "name": "Some site",
+        "uri": "http://localhost:9000"
     },
     {
         "name": "Bryan's site",

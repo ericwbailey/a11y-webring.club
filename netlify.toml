@@ -1,7 +1,2 @@
 [build]
   functions = "./functions"
-
-redirects = [
-  {from = "/next", to = "/.netlify/functions/next", status = "301", force = true},
-  {from = "/random", to = "/.netlify/functions/random", status = "301", force = true}
-]

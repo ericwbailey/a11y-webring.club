@@ -24,7 +24,8 @@ exports.handler = function(event, context, callback) {
     var response = {
         statusCode: 302,
         headers: {
-            "Location": nextSite
+            "Location": nextSite,
+            "Cache-Control": "no-cache, no-store, must-revalidate"
         },
         body: `event is ${event}`
     };

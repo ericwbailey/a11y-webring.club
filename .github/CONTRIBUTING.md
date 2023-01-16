@@ -13,7 +13,7 @@ Big-picture there's two things you need to do:
 
 ### 1. Add yourself to the webring
 
-To add yourself to the webring, submit a Pull Request to this repository where you have added your information to the end of [`sites.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/sites.json).
+To add yourself to the webring, submit a pull request to this repository where you have added your information to the end of [`sites.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/sites.json).
 
 <strong>Required</strong> information is:
 
@@ -31,7 +31,7 @@ Ideally, your `uri` points to the page that displays the webring code, but this 
 
 If you are the last entry in `sites.json` make sure that your closing curly brace (`}`) <strong>does not</strong> have a comma (`,`) placed after it, as this will cause the site to break.
 
-Once your Pull Request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided.
+Once your pull request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided.
 
 ### 2. Add the webring code to your website
 
@@ -43,19 +43,28 @@ Once these two steps are done, both the webring and your site will allow for dis
 
 ## I want to update my information
 
-This process is similar to adding yourself to the webring. Submit a Pull Request that modifies your `sites.json` information. This can include adding info, updating info, and removing info.
+This process is similar to adding yourself to the webring. Submit a pull request that modifies your `sites.json` information. This can include adding info, updating info, and removing info.
 
 ## I want to make updates to the webring's website
 
 Want to help out? Cool!
 
-Please check the project [Issues](https://github.com/ericwbailey/a11y-webring.club/issues) to see if there is something I'm specifically looking for help with.
+Please check the project [Issues](https://github.com/ericwbailey/a11y-webring.club/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to see if there is something I'm specifically looking for help with.
 
-If you want to propose new features or functionality, please create an issue before submitting a Pull Request. This will help us determine if your suggestion is inline with my vision for where the project should go.
+If you want to propose new features or functionality, please [create an issue](https://github.com/ericwbailey/a11y-webring.club/issues/new) before submitting a pull request. This will help us determine if your suggestion is inline with my vision for where the project should go.
 
 ## I want to add someone else's website
 
 That's a nice idea, but I prefer if the person who made the site adds themselves for a variety of reasons. You could definitely suggest they do so, though!
+
+## I want to leave the webring
+
+That's fine, too. If you choose leave the webring we ask that:
+
+1. You either submit a PR removing yourself from `sites.json` or raise an issue asking to be removed, and
+1. You delete the webring code from your website.
+
+This will remove you from the webring and also allow people browsing the webring to not get stuck.
 
 ## I want to start my own webring
 

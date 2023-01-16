@@ -1,8 +1,34 @@
 {
-    "name": "Webring-functions",
-    "version": "0.0.1",
-    "dependencies": {},
+    "name": "a11y-webring.club",
+    "description": "A webring for digital accessibility practitioners.",
+    "version": "1.0.0",
+    "homepage": "https://a11y-webring.club/",
+    "author": {
+        "name": "Eric Bailey",
+        "email": "eric.w.bailey@gmail.com",
+        "url": "http://ericwbailey.website"
+    },
+    "scripts": {
+      "clean": "rm -rf _site/*",
+      "start": "npx eleventy --serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com:ericwbailey/a11y-webring.club.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ericwbailey/a11y-webring.club/issues"
+    },
+    "keywords": [
+        "a11y",
+        "accessibility",
+        "webring"
+    ],
     "devDependencies": {
+        "@11ty/eleventy": "^1.0.2",
         "netlify-lambda": "^1.1.0"
+    },
+    "dependencies": {
+        "@11ty/eleventy-plugin-directory-output": "^1.0.1"
     }
 }

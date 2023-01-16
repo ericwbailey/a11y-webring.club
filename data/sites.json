@@ -1,15 +1,10 @@
 [
-
-    {
-        "name": "Some site",
-        "uri": "https://something.com"
-    },
-    {
-        "name": "Some site",
-        "uri": "http://localhost:9000"
-    },
-    {
-        "name": "Bryan's site",
-        "uri": "https://somethingelse.com"
-    }
+  {
+    "name": "Eric Bailey",
+    "uri": "https://ericwbailey.website",
+    "linkedin": "https://www.linkedin.com/in/ericwbailey/",
+    "mastodon": "https://social.ericwbailey.website/@eric",
+    "rss": "https://ericwbailey.website/feed/feed.xml",
+    "twitter": "https://twitter.com/ericwbailey"
+  }
 ]

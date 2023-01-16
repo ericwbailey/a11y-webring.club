@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.lang }}">
+<head>
+  {% include "includes/head.njk" %}
+</head>
+<body class="flow-5">
+
+  <main class="flow-3">
+    {% include "includes/intro.njk" %}
+    {% include "includes/members.njk" %}
+    {% include "includes/join.njk" %}
+    {% include "includes/widget.njk" %}
+  </main>
+
+  <aside id="aside" class="flow-3">
+    {% include "includes/faq.njk" %}
+  </aside>
+
+  <footer id="footer" class="flow-3">
+    {% include "includes/footer.njk" %}
+  </footer>
+
+{% include "includes/script.njk" %}
+</body>
+</html>

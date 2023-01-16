@@ -10,6 +10,7 @@
     },
     "scripts": {
       "clean": "rm -rf _site/*",
+      "build": "npx @11ty/eleventy",
       "start": "npx eleventy --serve"
     },
     "repository": {

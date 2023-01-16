@@ -1,0 +1,16 @@
+{
+  "title": "a11y-webring.club",
+  "description": "A webring for digital accessibility practitioners.",
+  "url": "https://a11y-webring.club",
+  "author": "Eric Bailey",
+  "lang": "en",
+  "analytics": "1234567890",
+  "social": {
+    "color": "#030F58",
+    "logo": "avatar.png",
+    "twitter": "twitter.png",
+    "facebook": "facebook.png",
+    "apple": "apple-touch-icon",
+    "safari": "safari-pinned-tab.svg"
+  }
+}

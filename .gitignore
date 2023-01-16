@@ -1,6 +1,5 @@
 ## Project-specific files and folders
-/published/
-*.css.map
+/_site/
 
 
 ## Generic files to ignore

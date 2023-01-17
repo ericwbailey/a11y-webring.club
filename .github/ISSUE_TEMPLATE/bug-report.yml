@@ -1,0 +1,45 @@
+name: Bug report
+description: File a bug report
+title: "[Bug] "
+labels: "bug"
+assignees:
+  - ericwbailey
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Filling out this form will help us address the code of contact issue you encountered.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe the code of conduct issue in detail, including what you expected to happen. Please include screenshots if they are relevant.
+    validations:
+      required: true
+  - type: input
+    id: operating-systems
+    attributes:
+      label: Operating systems
+      description: What operating systems are you using when encountering the bug?
+    validations:
+      required: true
+  - type: input
+    id: browsers
+    attributes:
+      label: Browsers
+      description: What browsers are you using when encountering the bug?
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Any other information we should know about for this bug?
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of conduct
+      description: By submitting this issue, you agree to follow our [code of conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's code of conduct
+          required: true

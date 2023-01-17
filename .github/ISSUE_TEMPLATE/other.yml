@@ -1,0 +1,25 @@
+name: Something else
+description: Raise an issue that isn't covered with the other issue topics
+labels: "needs triage"
+assignees:
+  - ericwbailey
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for this project? Let's chat about it!
+  - type: textarea
+    id: your-issue
+    attributes:
+      label: Your issue
+      description: Please describe your issue in as much detail as possible. Include screenshots and other information if they are applicable to the issue you are describing.
+    validations:
+      required: true
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of conduct
+      description: By submitting this issue, you agree to follow our [code of conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's code of conduct
+          required: true

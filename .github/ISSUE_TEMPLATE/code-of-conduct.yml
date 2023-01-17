@@ -1,0 +1,39 @@
+name: Code of conduct issue
+description: Raise a code of conduct issue
+title: "[CoC] "
+labels: "code of conduct"
+assignees:
+  - ericwbailey
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Filling out this form will help us address the code of contact issue you encountered.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe the code of conduct issue in detail, including what you expected to happen. Please include screenshots if they are relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Is there any other context that could be helpful?
+  - type: checkboxes
+    id: private-followup
+    attributes:
+      label: Would you like to follow up privately?
+      description: Check this box if you don't want to communicate this information publicly. You will need to provide contact information such as an email address.
+      options:
+        - label: I would like a private follow up
+          required: true
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of conduct
+      description: By submitting this issue, you agree to follow our [code of conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's code of conduct
+          required: true

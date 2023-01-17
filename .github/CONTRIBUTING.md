@@ -59,7 +59,7 @@ That's a nice idea, but I prefer if the person who made the site adds themselves
 
 ## I want to leave the webring
 
-That's fine, too. If you choose leave the webring we ask that:
+That's fine, too. If you choose leave the webring I ask that:
 
 1. You either submit a PR removing yourself from `sites.json` or raise an issue asking to be removed, and
 1. You delete the webring code from your website.
@@ -72,6 +72,6 @@ Nice! Check out this [netlify-webring project](https://github.com/brob/netlify-w
 
 This code is the starting point I used to make this project. It relies on [Netlify](https://netlify.com/) to work.
 
-## I want to help out, but I'm not good at git
+## I want to participate, but I'm not good at git
 
 Send me an email or a DM on [Mastodon](https://social.ericwbailey.website/@eric) and we'll get things sorted.

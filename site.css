@@ -136,7 +136,7 @@ strong { font-weight: var(--font-weight-bold); }
 
 ul,
 ol {
-  margin-left: var(--size-2);
+  margin-left: var(--size-3);
 }
 
 li { margin-top: var(--size-1); }
@@ -198,7 +198,7 @@ li { margin-top: var(--size-1); }
 .contact {
   display: flex;
   font-size: var(--size-2);
-  gap: var(--size-1);
+  gap: var(--size-2);
   list-style-type: none;
   margin-top: var(--size-1);
   margin-left: 0;
@@ -291,6 +291,7 @@ button:active {
   }
 
   .contact {
+    gap: var(--size-1);
     margin-top: 0.25rem;
   }
 }

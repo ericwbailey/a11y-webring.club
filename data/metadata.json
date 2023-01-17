@@ -4,8 +4,9 @@
   "url": "https://a11y-webring.club",
   "author": "Eric Bailey",
   "lang": "en",
+  "theme": "#bac3fa",
   "social": {
-    "color": "#030F58",
+    "color": "#030f58",
     "logo": "avatar.png",
     "twitter": "twitter.png",
     "facebook": "facebook.png",

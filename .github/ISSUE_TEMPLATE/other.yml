@@ -1,5 +1,5 @@
 name: Something else
-description: Raise an issue that isn't covered with the other issue topics
+description: Raise an issue that isn't covered with the other issue topics.
 labels: "needs triage"
 assignees:
   - ericwbailey

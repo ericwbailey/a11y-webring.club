@@ -1,0 +1,35 @@
+name: Feature suggestion
+description: Have an idea for this project?
+title: "[Feature suggestion] "
+labels: "feature"
+assignees:
+  - ericwbailey
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for this project? Let's chat about it!
+  - type: textarea
+    id: feature-suggestion
+    attributes:
+      label: Feature suggestion
+      description: What would you like added to this project? Describe what it is, how you envision it will work, and what benefits it will create.
+    validations:
+      required: true
+  - type: checkboxes
+    id: ownership
+    attributes:
+      label: Who would you like to work on this feature?
+      options:
+        - label: I would like to work on this feature
+          required: true
+        - label: I would like the site maintainers to work on this feature
+          required: true
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of conduct
+      description: By submitting this issue, you agree to follow our [code of conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's code of conduct
+          required: true

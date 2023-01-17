@@ -1,9 +1,9 @@
 'use strict';
-const sites = require('../data/sites.json');
+const sites = require('../../data/sites.json');
 
 const findSite = (url) => {
     const site = sites.findIndex(function(item) {
-        return item.uri.includes(url) 
+        return item.uri.includes(url)
     });
     console.log(site);
     return site;

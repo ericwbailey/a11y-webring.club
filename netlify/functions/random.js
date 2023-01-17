@@ -1,5 +1,5 @@
 'use strict';
-const sites = require('../data/sites.json');
+const sites = require('../../data/sites.json');
 
 exports.handler = function(event, context, callback) {
     const randomSite = sites[Math.floor(Math.random()*sites.length)];
@@ -13,6 +13,6 @@ exports.handler = function(event, context, callback) {
         },
         body: `Redirecting to ${randomSite.name}`
     };
-    
+
     callback(null, response);
 };

@@ -22,9 +22,7 @@ body:
       label: Who would you like to work on this feature?
       options:
         - label: I would like to work on this feature
-          required: true
         - label: I would like the site maintainers to work on this feature
-          required: true
   - type: checkboxes
     id: code-of-conduct
     attributes:

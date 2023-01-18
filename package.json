@@ -32,6 +32,6 @@
         "netlify-lambda": "^1.6.3"
     },
     "dependencies": {
-        "@11ty/eleventy-plugin-directory-output": "^1.0.1",
+        "@11ty/eleventy-plugin-directory-output": "^1.0.1"
     }
 }

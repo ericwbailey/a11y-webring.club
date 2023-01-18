@@ -1,34 +1,34 @@
 {
-    "name": "a11y-webring.club",
-    "description": "A webring for digital accessibility practitioners.",
-    "version": "1.0.0",
-    "homepage": "https://a11y-webring.club/",
-    "author": {
-        "name": "Eric Bailey",
-        "email": "eric.w.bailey@gmail.com",
-        "url": "http://ericwbailey.website"
-    },
-    "scripts": {
+  "name": "a11y-webring.club",
+  "description": "A webring for digital accessibility practitioners.",
+  "version": "1.0.0",
+  "homepage": "https://a11y-webring.club/",
+  "author": {
+      "name": "Eric Bailey",
+      "email": "eric.w.bailey@gmail.com",
+      "url": "http://ericwbailey.website"
+  },
+  "scripts": {
       "start": "npx eleventy --serve",
       "build": "eleventy",
+      "netlify:dev": "netlify dev",
+      "netlify": "netlify",
       "clean": "rm -rf _site/*"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com:ericwbailey/a11y-webring.club.git"
-    },
-    "bugs": {
-        "url": "https://github.com/ericwbailey/a11y-webring.club/issues"
-    },
-    "keywords": [
-        "a11y",
-        "accessibility",
-        "webring"
-    ],
-    "devDependencies": {
-        "@11ty/eleventy": "^1.0.2"
-    },
-    "dependencies": {
-        "@11ty/eleventy-plugin-directory-output": "^1.0.1"
-    }
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com:ericwbailey/a11y-webring.club.git"
+  },
+  "bugs": {
+      "url": "https://github.com/ericwbailey/a11y-webring.club/issues"
+  },
+  "keywords": [
+      "a11y",
+      "accessibility",
+      "webring"
+  ],
+  "devDependencies": {
+      "@11ty/eleventy": "^1.0.2",
+      "netlify-cli": "^12.7.2"
+  }
 }

@@ -1,5 +1,6 @@
 ## Project-specific files and folders
 /_site/
+.netlify/
 
 
 ## Generic files to ignore

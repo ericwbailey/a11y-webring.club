@@ -68,7 +68,7 @@ This will remove you from the webring and also allow people browsing the webring
 
 ## I want to start my own webring
 
-Nice! Check out this [netlify-webring project](https://github.com/brob/netlify-webring) made by [Bryan Robinson](http://bryanlrobinson.com/).
+Nice! Check out this [webring project](https://github.com/maxboeck/webring/) made by [Max Böck](https://mxb.dev/).
 
 This code is the starting point I used to make this project. It relies on [Netlify](https://netlify.com/) to work.
 

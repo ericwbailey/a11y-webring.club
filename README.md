@@ -32,4 +32,4 @@ This should make Eleventy process required files, run a local server you can loa
 
 ## Credit
 
-This project is a fork of [Bryan Robinson](http://bryanlrobinson.com)'s [netlify-webring repo](https://github.com/brob/netlify-webring).
+This project is a fork of [Max Böck](https://mxb.dev/)'s [webring repo](https://github.com/maxboeck/webring/).

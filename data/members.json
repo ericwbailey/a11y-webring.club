@@ -1,10 +1,18 @@
 [
   {
     "name": "Eric Bailey",
-    "uri": "https://ericwbailey.website/colophon/",
+    "url": "https://ericwbailey.website/colophon/",
     "linkedin": "https://www.linkedin.com/in/ericwbailey/",
     "mastodon": "https://social.ericwbailey.website/@eric",
     "rss": "https://ericwbailey.website/feed/feed.xml",
     "twitter": "https://twitter.com/ericwbailey"
+  },
+  {
+    "name": "A fake entry",
+    "url": "https://abcdefg.com/",
+    "linkedin": null,
+    "mastodon": "https://a11y.info/@thea11yproject",
+    "rss": null,
+    "twitter": null
   }
 ]

@@ -9,9 +9,11 @@
         "url": "http://ericwbailey.website"
     },
     "scripts": {
-      "clean": "rm -rf _site/*",
-      "build": "npx @11ty/eleventy",
-      "start": "npx eleventy --serve"
+      "start": "npx eleventy --serve",
+      "build": "eleventy && npm run build:lambda",
+      "serve:lambda": "netlify-lambda serve _lambda",
+      "build:lambda": "netlify-lambda build _lambda",
+      "clean": "rm -rf _site/*"
     },
     "repository": {
         "type": "git",
@@ -27,9 +29,9 @@
     ],
     "devDependencies": {
         "@11ty/eleventy": "^1.0.2",
-        "netlify-lambda": "^1.1.0"
+        "netlify-lambda": "^1.6.3"
     },
     "dependencies": {
-        "@11ty/eleventy-plugin-directory-output": "^1.0.1"
+        "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     }
 }

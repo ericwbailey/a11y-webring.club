@@ -8,9 +8,9 @@
 <meta name="author" content="{{ metadata.author }}">
 
 <link rel="mask-icon" href="{{ metadata.social.safari }}" color="{{ metadata.social.color }}">
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ metadata.social.apple }}">
+<link rel="icon" href="favicon.ico{{ metadata.cachebust }}" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg{{ metadata.cachebust }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ metadata.social.apple }}{{ metadata.cachebust }}">
 <meta name="apple-mobile-web-app-title" content="{{ metadata.title }}">
 <meta name="application-name" content="{{ metadata.title }}">
 <meta name="theme-color" content="{{ metadata.theme }}">
@@ -25,11 +25,11 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ metadata.title }}">
 <meta property="og:description" content="{{ metadata.description }}">
-<meta property="og:image" content="{{ metadata.url }}/{{ metadata.social.facebook }}">
+<meta property="og:image" content="{{ metadata.url }}/{{ metadata.social.facebook }}{{ metadata.cachebust }}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="a11y-webring.club">
 <meta property="twitter:url" content="{{ metadata.url }}">
 <meta name="twitter:title" content="{{ metadata.title }}">
 <meta name="twitter:description" content="{{ metadata.description }}">
-<meta name="twitter:image" content="{{ metadata.url }}/{{ metadata.social.twitter }}">
+<meta name="twitter:image" content="{{ metadata.url }}/{{ metadata.social.twitter }}{{ metadata.cachebust }}">

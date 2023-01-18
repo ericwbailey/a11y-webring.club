@@ -1,4 +1,4 @@
-import members from '../../data/members.json'
+import members from '../../../data/members.json'
 
 export const redirect = site => {
     const statusMessage = `redirecting to: ${site.url}`

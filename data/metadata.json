@@ -5,6 +5,7 @@
   "author": "Eric Bailey",
   "lang": "en",
   "theme": "#bac3fa",
+  "cachebust": "?v=1",
   "social": {
     "color": "#030f58",
     "logo": "avatar.png",

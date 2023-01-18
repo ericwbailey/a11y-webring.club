@@ -8,19 +8,19 @@ Great!
 
 Big-picture there's two things you need to do:
 
-1. Add yourself to the webring's `sites.json` file as a pull request, and
-2. Add the webring code to your website.
+1. [Add yourself to the webring's `members.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members.json) file as a pull request, and
+2. [Add the webring code]((https://a11y-webring.club#code)) to your website.
 
 ### 1. Add yourself to the webring
 
-To add yourself to the webring, submit a pull request to this repository where you have added your information to the end of [`sites.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/sites.json).
+To add yourself to the webring, submit a pull request to this repository where you have added your information to the end of `members.json`.
 
 <strong>Required</strong> information is:
 
 - `name`: Your name (can be your given name, your full name, a handle, etc.)
-- `uri`: Your website's address (ex: `https://web-a11y.club/`)
+- `url`: Your website's address (ex: `https://web-a11y.club/`)
 
-Ideally, your `uri` points to the page that displays the webring code, but this is not required.
+Ideally, your `url` points to the page that displays the webring code, but this is not required.
 
 <strong>Optional</strong> information is:
 
@@ -29,13 +29,19 @@ Ideally, your `uri` points to the page that displays the webring code, but this 
 - `rss`: The RSS feed for your website
 - `twitter`: Your Twitter account (ex: `https://twitter.com/yourname`)
 
-If you are the last entry in `sites.json` make sure that your closing curly brace (`}`) <strong>does not</strong> have a comma (`,`) placed after it, as this will cause the site to break.
+If you do not have this information, please use `null` for the entrie's value:
+
+```
+"twitter": null"
+```
+
+If you are the last entry in `members.json` make sure that your closing curly brace (`}`) <strong>does not</strong> have a comma (`,`) placed after it, as this will cause the site to break.
 
 Once your pull request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided.
 
 ### 2. Add the webring code to your website
 
-Copy [this code](https://a11y-webring.club#code) and put it somewhere on your website.
+Copy [the webring code](https://a11y-webring.club#code) and put it somewhere on your website.
 
 This process depends on how your website is built, so I can't provide much support for this step.
 
@@ -43,7 +49,7 @@ Once these two steps are done, both the webring and your site will allow for dis
 
 ## I want to update my information
 
-This process is similar to adding yourself to the webring. Submit a pull request that modifies your `sites.json` information. This can include adding info, updating info, and removing info.
+This process is similar to adding yourself to the webring. Submit a pull request that modifies your `members.json` information. This can include adding info, updating info, and removing info.
 
 ## I want to make updates to the webring's website
 
@@ -61,7 +67,7 @@ That's a nice idea, but I prefer if the person who made the site adds themselves
 
 That's fine, too. If you choose leave the webring I ask that:
 
-1. You either submit a PR removing yourself from `sites.json` or raise an issue asking to be removed, and
+1. You either submit a PR removing yourself from `members.json` or raise an issue asking to be removed, and
 1. You delete the webring code from your website.
 
 This will remove you from the webring and also allow people browsing the webring to not get stuck.

@@ -4,16 +4,16 @@
   "version": "1.0.0",
   "homepage": "https://a11y-webring.club/",
   "author": {
-      "name": "Eric Bailey",
-      "email": "eric.w.bailey@gmail.com",
-      "url": "http://ericwbailey.website"
+    "name": "Eric Bailey",
+    "email": "eric.w.bailey@gmail.com",
+    "url": "https://ericwbailey.website"
   },
   "scripts": {
-      "start": "npx eleventy --serve",
-      "build": "eleventy",
-      "netlify:dev": "netlify dev",
-      "netlify": "netlify",
-      "clean": "rm -rf _site/*"
+    "start": "npx eleventy --serve",
+    "build": "eleventy",
+    "netlify:dev": "netlify dev",
+    "netlify": "netlify",
+    "clean": "rm -rf _site/*"
   },
   "repository": {
       "type": "git",

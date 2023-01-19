@@ -65,7 +65,7 @@ If you want to propose new features or functionality, please [create an issue](h
 
 ## I want to use Medium, LinkedIn, Facebook, Twitter, etc. as my website
 
-Unfortunately this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
+Unfortunately, this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
 
 ## I want to add someone else's website
 

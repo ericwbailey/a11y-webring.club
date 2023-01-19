@@ -8,10 +8,18 @@ Great!
 
 Big-picture there's two things you need to do:
 
-1. [Add yourself to the webring's `members.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members.json) file as a pull request, and
-2. [Add the webring code]((https://a11y-webring.club#code)) to your website.
+1. [Add the webring code]((https://a11y-webring.club#code)) to your website.
+2. [Add yourself to the webring's `members.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members.json) file as a pull request, and
 
-### 1. Add yourself to the webring
+### 1. Add the webring code to your website
+
+This step ensures that the webring will not have a dead end when you join it.
+
+Copy [the webring code](https://a11y-webring.club#code) and put it somewhere on your website.
+
+This process depends on how your website is built, so I can't provide much support for this step.
+
+### 2. Add yourself to the webring
 
 To add yourself to the webring, submit a pull request to this repository where you have added your information to the end of `members.json`.
 
@@ -32,20 +40,16 @@ Ideally, your `url` points to the page that displays the webring code, but this 
 If you do not have this information, please use `null` for the entrie's value:
 
 ```
-"twitter": null"
+"twitter": null
 ```
 
 If you are the last entry in `members.json` make sure that your closing curly brace (`}`) <strong>does not</strong> have a comma (`,`) placed after it, as this will cause the site to break.
 
-Once your pull request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided.
+Once your pull request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided ✨
 
-### 2. Add the webring code to your website
+---
 
-Copy [the webring code](https://a11y-webring.club#code) and put it somewhere on your website.
-
-This process depends on how your website is built, so I can't provide much support for this step.
-
-Once these two steps are done, both the webring and your site will allow for discovery!
+Once these two steps are completed, both the webring and your site will allow for discovery!
 
 ## I want to update my information
 
@@ -58,6 +62,10 @@ Want to help out? Cool!
 Please check the project [Issues](https://github.com/ericwbailey/a11y-webring.club/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to see if there is something I'm specifically looking for help with.
 
 If you want to propose new features or functionality, please [create an issue](https://github.com/ericwbailey/a11y-webring.club/issues/new) before submitting a pull request. This will help us determine if your suggestion is inline with my vision for where the project should go.
+
+## I want to use Medium, LinkedIn, Facebook, Twitter, etc. as my website
+
+Unfortunately this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
 
 ## I want to add someone else's website
 

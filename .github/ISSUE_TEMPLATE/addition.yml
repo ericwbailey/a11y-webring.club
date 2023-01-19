@@ -43,6 +43,14 @@ body:
       label: Anything else?
       description: Any other information we should know about for this bug?
   - type: checkboxes
+    id: added-code
+    attributes:
+      label: I have added the webring code to my website
+      description: Please ensure [the webring code](https://a11y-webring.club/#list-the-webring-on-your-website) has been added to your site before submitting this issue.
+      options:
+        - label: I have added the webring code to my website
+          required: true
+  - type: checkboxes
     id: code-of-conduct
     attributes:
       label: Code of conduct

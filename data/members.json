@@ -6,5 +6,13 @@
     "mastodon": "https://social.ericwbailey.website/@eric",
     "rss": "https://ericwbailey.website/feed/feed.xml",
     "twitter": "https://twitter.com/ericwbailey"
+  },
+  {
+    "name": "Your name here",
+    "url": null,
+    "linkedin": null,
+    "mastodon": null,
+    "rss": null,
+    "twitter": null
   }
 ]

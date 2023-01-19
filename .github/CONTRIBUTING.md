@@ -8,8 +8,8 @@ Great!
 
 Big-picture there's two things you need to do:
 
-1. [Add the webring code]((https://a11y-webring.club#code)) to your website.
-2. [Add yourself to the webring's `members.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members.json) file as a pull request, and
+1. [Add the webring code]((https://a11y-webring.club#code)) to your website, and
+2. [Add yourself to the webring's `members.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members.json) file as a pull request.
 
 ### 1. Add the webring code to your website
 
@@ -17,7 +17,7 @@ This step ensures that the webring will not have a dead end when you join it.
 
 Copy [the webring code](https://a11y-webring.club#code) and put it somewhere on your website.
 
-This process depends on how your website is built, so I can't provide much support for this step.
+This process depends on how your website is built, so unfortunately I cannot provide much support for this step.
 
 ### 2. Add yourself to the webring
 
@@ -25,19 +25,19 @@ To add yourself to the webring, submit a pull request to this repository where y
 
 <strong>Required</strong> information is:
 
-- `name`: Your name (can be your given name, your full name, a handle, etc.)
-- `url`: Your website's address (ex: `https://web-a11y.club/`)
+- `name`: Your name (can be your given name, your full name, a handle, etc.).
+- `url`: Your website's address (ex: `https://web-a11y.club/`).
 
 Ideally, your `url` points to the page that displays the webring code, but this is not required.
 
 <strong>Optional</strong> information is:
 
-- `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`)
-- `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`)
-- `rss`: The RSS feed for your website
-- `twitter`: Your Twitter account (ex: `https://twitter.com/yourname`)
+- `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
+- `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
+- `rss`: The RSS feed for your website.
+- `twitter`: Your Twitter account (ex: `https://twitter.com/yourname`).
 
-If you do not have this information, please use `null` for the entrie's value:
+If you do not have this information, please use `null` for the entry's value:
 
 ```
 "twitter": null
@@ -65,7 +65,7 @@ If you want to propose new features or functionality, please [create an issue](h
 
 ## I want to use Medium, LinkedIn, Facebook, Twitter, etc. as my website
 
-Unfortunately this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
+Unfortunately, this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
 
 ## I want to add someone else's website
 

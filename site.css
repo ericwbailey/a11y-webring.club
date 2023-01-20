@@ -220,6 +220,31 @@ li { margin-top: var(--size-1); }
   padding-left: 0.5ch;
 }
 
+.name-lockup {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hiring,
+.seeking {
+  background-color: hsl(var(--theme-h) var(--theme-s) var(--theme-l));
+  border-radius: 0.25rem;
+  color: var(--color-white);
+  display: inline-block;
+  font-size: 0.75rem;
+  height: max-content;
+  padding: 0.1rem 0.5rem;
+}
+
+.hiring {
+
+}
+
+.seeking {
+  --theme-l: 10%;
+}
+
 .contact {
   display: flex;
   font-size: var(--size-2);

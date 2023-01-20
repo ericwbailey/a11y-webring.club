@@ -7,11 +7,14 @@
 <ul class="flow-3 members">
 {% for member in members %}
   <li class="member">
-    {% if member.url %}
+
+    <span class="name-lockup">
       <a href="{{ member.url }}">{{ member.name }}</a>
-    {% else %}
-      {{ member.name }}
-    {% endif %}
+      {% if member.employment.hiring %} <span class="hiring">hiring</span>{% endif %}
+      {% if member.employment.seeking %} <span class="seeking">seeking work</span>{% endif %}
+    </span>
+
+
     <ul class="contact">
       {% if member.linkedin %}
       <li>

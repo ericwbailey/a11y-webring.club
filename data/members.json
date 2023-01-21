@@ -46,5 +46,17 @@
     "mastodon": null,
     "rss": null,
     "twitter": null
+  },
+  {
+    "name": "EJ Mason",
+    "url": "https://www.ejmason.com/",
+    "employment": {
+      "hiring": false,
+      "seeking": true
+    },
+    "linkedin": "https://www.linkedin.com/in/mxmason/",
+    "mastodon": "https://front-end.social/@codeability",
+    "rss": null,
+    "twitter": "https://twitter.com/codeability"
   }
 ]

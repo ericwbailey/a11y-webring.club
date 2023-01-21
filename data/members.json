@@ -24,6 +24,18 @@
     "twitter": "https://twitter.com/segdeha"
   },
   {
+    "name": "Rachele DiTullio",
+    "url": "https://racheleditullio.com/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/racheleditullio/",
+    "mastodon": "https://mastodon.social/@racheled",
+    "rss": null,
+    "twitter": "https://twitter.com/racheleditullio"
+  },
+  {
     "name": "Your name here",
     "url": "https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CONTRIBUTING.md#contributing",
     "employment": {

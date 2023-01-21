@@ -52,7 +52,7 @@
     "url": "https://yatil.net/",
     "employment": {
       "hiring": false,
-      "seeking": true
+      "seeking": false
     },
     "linkedin": "http://linkedin.com/in/yatil/",
     "mastodon": "https://toot.cafe/@yatil",

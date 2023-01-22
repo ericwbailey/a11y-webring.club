@@ -6,6 +6,12 @@
 [functions]
   directory = "functions"
 
+[functions."verify"]
+schedule = "@daily"
+
+[functions."verifyDNS"]
+schedule = "@weekly
+
 [[headers]]
     for = "/*"
     [headers.values]

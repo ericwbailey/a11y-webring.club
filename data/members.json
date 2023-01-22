@@ -58,5 +58,17 @@
     "mastodon": "https://toot.cafe/@yatil",
     "rss": "https://yatil.net/feed",
     "twitter": null
-  }
+  },
+  {
+    "name": "Marcus Herrmann",
+    "url": "https://marcus.io/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "hhttps://www.linkedin.com/in/marcusherrmann/",
+    "mastodon": "https://mastodon.social/@marcus",
+    "rss": "https://marcus.io/feed",
+    "twitter": null
+ }
 ]

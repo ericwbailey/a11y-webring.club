@@ -60,6 +60,30 @@
     "twitter": null
   },
   {
+    "name": "Zoë Bijl",
+    "url": "https://moiety.me",
+    "employment": {
+      "hiring": false,
+      "seeking": true
+    },
+    "linkedin": "https://www.linkedin.com/in/zoë-bijl/",
+    "mastodon": "https://front-end.social/@moiety",
+    "rss": null,
+    "twitter": null
+  },
+  {
+    "name": "Marcus Herrmann",
+    "url": "https://marcus.io/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "hhttps://www.linkedin.com/in/marcusherrmann/",
+    "mastodon": "https://mastodon.social/@marcus",
+    "rss": "https://marcus.io/feed",
+    "twitter": null
+  },
+  {
     "name": "Steve Faulkner",
     "url": "https://html5accessibility.com/stuff/",
     "employment": {
@@ -70,5 +94,5 @@
     "mastodon": "https://mastodon.social/@SteveFaulkner",
     "rss": "https://html5accessibility.com/stuff/feed",
     "twitter": "https://twitter.com/SteveFaulkner"
-  },
+  }
 ]

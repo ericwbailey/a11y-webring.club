@@ -94,5 +94,17 @@
     "mastodon": "https://mastodon.social/@SteveFaulkner",
     "rss": "https://html5accessibility.com/stuff/feed",
     "twitter": "https://twitter.com/SteveFaulkner"
+  },
+  {
+    "name": "Matt Obee",
+    "url": "https://mattobee.com",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://linkedin.com/in/mattobee",
+    "mastodon": "https://mastodon.social/@mattobee",
+    "rss": null,
+    "twitter": "https://twitter.com/mattobee"
   }
 ]

@@ -58,5 +58,17 @@
     "mastodon": "https://toot.cafe/@yatil",
     "rss": "https://yatil.net/feed",
     "twitter": null
-  }
+  },
+  {
+    "name": "Zoë Bijl",
+    "url": "https://moiety.me",
+    "employment": {
+      "hiring": false,
+      "seeking": true
+    },
+    "linkedin": "https://www.linkedin.com/in/zoë-bijl/",
+    "mastodon": "https://front-end.social/@moiety",
+    "rss": null,
+    "twitter": null
+  },
 ]

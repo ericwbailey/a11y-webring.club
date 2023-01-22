@@ -82,5 +82,17 @@
     "mastodon": "https://mastodon.social/@marcus",
     "rss": "https://marcus.io/feed",
     "twitter": null
- }
+  },
+  {
+    "name": "Steve Faulkner",
+    "url": "https://html5accessibility.com/stuff/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/steven-faulkner-3781ab1/",
+    "mastodon": "https://mastodon.social/@SteveFaulkner",
+    "rss": "https://html5accessibility.com/stuff/feed",
+    "twitter": "https://twitter.com/SteveFaulkner"
+  }
 ]

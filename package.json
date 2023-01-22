@@ -16,19 +16,22 @@
     "clean": "rm -rf _site/*"
   },
   "repository": {
-      "type": "git",
-      "url": "git://github.com:ericwbailey/a11y-webring.club.git"
+    "type": "git",
+    "url": "git://github.com:ericwbailey/a11y-webring.club.git"
   },
   "bugs": {
-      "url": "https://github.com/ericwbailey/a11y-webring.club/issues"
+    "url": "https://github.com/ericwbailey/a11y-webring.club/issues"
   },
   "keywords": [
-      "a11y",
-      "accessibility",
-      "webring"
+    "a11y",
+    "accessibility",
+    "webring"
   ],
   "devDependencies": {
-      "@11ty/eleventy": "^1.0.2",
-      "netlify-cli": "^12.7.2"
+    "@11ty/eleventy": "^1.0.2",
+    "netlify-cli": "^12.9.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
   }
 }

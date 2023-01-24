@@ -84,6 +84,18 @@
     "twitter": null
   },
   {
+    "name": "Saptak S.",
+    "url": "https://saptaks.blog/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://linkedin.com/in/saptaks",
+    "mastodon": "https://toots.dgplug.org/@saptaks",
+    "rss": "https://saptaks.blog/rss.xml",
+    "twitter": "https://twitter.com/Saptak013"
+  },
+  {
     "name": "Steve Faulkner",
     "url": "https://html5accessibility.com/stuff/",
     "employment": {

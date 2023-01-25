@@ -26,7 +26,7 @@ To add yourself to the webring, submit a pull request to this repository where y
 <strong>Required</strong> information is:
 
 - `name`: Your name (can be your given name, your full name, a handle, etc.).
-- `url`: Your website's address (ex: `https://web-a11y.club/`).
+- `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
 
 Ideally, your `url` points to the page that displays the webring code, but this is not required.
 

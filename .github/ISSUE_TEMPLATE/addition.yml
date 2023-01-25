@@ -51,6 +51,13 @@ body:
         - label: I have added the webring code to my website
           required: true
   - type: checkboxes
+    id: https
+    attributes:
+      label: HTTPS
+      options:
+        - label: My site uses the HTTPS protocol
+          required: true
+  - type: checkboxes
     id: code-of-conduct
     attributes:
       label: Code of conduct

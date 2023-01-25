@@ -128,5 +128,17 @@
     },
     "linkedin": "https://www.linkedin.com/in/dylanhthomas/",
     "rss": "https://dht.is/writing/index.xml"
+  },
+  {
+    "name": "Mike Herchel",
+    "url": "https://herchel.com",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "http://www.linkedin.com/in/mherchel",
+    "mastodon": "https://mastodon.social/@mherchel",
+    "twitter": "https://twitter.com/mikeherchel"
+    "rss": "https://herchel.com/rss.xml"
   }
 ]

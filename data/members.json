@@ -128,5 +128,17 @@
     },
     "linkedin": "https://www.linkedin.com/in/dylanhthomas/",
     "rss": "https://dht.is/writing/index.xml"
+  },
+   {
+    "name": "Cristian Díaz",
+    "url": "https://www.itscrisdiaz.com/",
+    "employment": {
+      "hiring": false,
+      "seeking": true
+    },
+    "linkedin": "https://www.linkedin.com/in/itscrisdiaz/",
+    "mastodon": "https://mastodon.social/@ItsCrisDiaz",
+    "rss": null,
+    "twitter": "https://twitter.com/ItsCrisDiaz"
   }
 ]

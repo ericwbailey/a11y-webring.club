@@ -154,7 +154,6 @@
     "twitter": "https://twitter.com/ItsCrisDiaz"
   },
   {
-<<<<<<< patch-1 -- Incoming Change
     "name": "Taner Aydın",
     "url": "https://taner-aydin.dev/",
     "employment": {
@@ -164,7 +163,8 @@
     "linkedin": "https://www.linkedin.com/in/taner-aydın/",
     "mastodon": "https://indieweb.social/@a11yup",
     "rss": "https://a11yup.com/rss.xml"
-=======
+  },
+  {
     "name": "Jasmine Rae Friedrich",
     "url": "https://www.jasminemadethis.com/",
     "employment": {
@@ -175,6 +175,5 @@
     "mastodon": "https://mastodon.social/@jrfbz",
     "rss": null,
     "twitter": "https://twitter.com/jrfbz"
->>>>>>> main -- Current Change
   }
 ]

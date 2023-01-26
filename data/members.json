@@ -185,5 +185,17 @@
     },
     "mastodon": "https://pleroma.envs.net/@jrfbz",
     "rss": "https://seirdy.one/atom.xml"
+  },
+  {
+    "name": "Brian DeConinck",
+    "url": "https://www.briandeconinck.com/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/bdeconinck/",
+    "mastodon": null,
+    "rss": "https://www.briandeconinck.com/notes/feed/",
+    "twitter": null
   }
 ]

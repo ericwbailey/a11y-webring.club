@@ -211,15 +211,15 @@
     "twitter": "https://twitter.com/jenstrickland"
   },
   {
-    "name": "Brian DeConinck",
-    "url": "https://www.briandeconinck.com/",
+    "name": "David A. Kennedy",
+    "url": "https://davidakennedy.com",
     "employment": {
       "hiring": false,
       "seeking": false
     },
-    "linkedin": "https://www.linkedin.com/in/bdeconinck/",
+    "linkedin": "https://www.linkedin.com/in/davidakennedy/",
     "mastodon": null,
-    "rss": "https://www.briandeconinck.com/notes/feed/",
-    "twitter": null
+    "rss": "https://davidakennedy.com/feed/",
+    "twitter": "https://twitter.com/davidakennedy"
   }
 ]

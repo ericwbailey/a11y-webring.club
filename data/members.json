@@ -197,5 +197,17 @@
     "mastodon": "https://oldbytes.space/@vleguru",
     "rss": "https://matthewdeeprose.github.io/feed.rss",
     "twitter": "https://twitter.com/vleguru"
+  },
+  {
+    "name": "Winnie Bosibori",
+    "url": "https://bosibori.netlify.app/",
+    "employment": {
+      "hiring": false,
+      "seeking": true
+    },
+    "linkedin": "https://www.linkedin.com/in/winnie-bosibori-b37601141/",
+    "mastodon": "https://mstdn.social/@MissB",
+    "rss": null,
+    "twitter": "https://twitter.com/winysummer"
   }
 ]

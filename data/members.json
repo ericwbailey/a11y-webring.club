@@ -199,27 +199,15 @@
     "twitter": "https://twitter.com/vleguru"
   },
   {
-    "name": "Winnie Bosibori",
-    "url": "https://bosibori.netlify.app/",
-    "employment": {
-      "hiring": false,
-      "seeking": true
-    },
-    "linkedin": "https://www.linkedin.com/in/winnie-bosibori-b37601141/",
-    "mastodon": "https://mstdn.social/@MissB",
-    "rss": null,
-    "twitter": "https://twitter.com/winysummer"
-  },
-  {
-    "name": "Steve Woodson",
-    "url": "https://stevenwoodson.com/",
+    "name": "Jennifer Strickland",
+    "url": "https://jenstrickland.design/",
     "employment": {
       "hiring": false,
       "seeking": false
     },
-    "linkedin": "https://www.linkedin.com/in/stevenwoodson/",
-    "mastodon": "https://mastodon.online/@stevenwoodson",
-    "rss": "https://stevenwoodson.com/feed/feed.xml",
-    "twitter": "https://twitter.com/stevenwoodson"
+    "mastodon": "https://mastodon.social/@listening",
+    "rss": null,
+    "linkedin": "https://www.linkedin.com/in/StricklandJen/",
+    "twitter": "https://twitter.com/jenstrickland"
   }
 ]

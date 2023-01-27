@@ -258,4 +258,8 @@
     "rss": "https://davidakennedy.com/feed/",
     "twitter": "https://twitter.com/davidakennedy"
   }
+      "employment": {
+      "hiring": false,
+      "seeking": false
+  }
 ]

@@ -187,6 +187,30 @@
     "rss": "https://seirdy.one/atom.xml"
   },
   {
+    "name": "Matthew Deeprose",
+    "url": "https://matthewdeeprose.github.io/",
+    "employment": {
+      "hiring": false,
+      "seeking": true
+    },
+    "linkedin": "https://www.linkedin.com/in/mattdeeprose/",
+    "mastodon": "https://oldbytes.space/@vleguru",
+    "rss": "https://matthewdeeprose.github.io/feed.rss",
+    "twitter": "https://twitter.com/vleguru"
+  },
+  {
+    "name": "Jennifer Strickland",
+    "url": "https://jenstrickland.design/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "mastodon": "https://mastodon.social/@listening",
+    "rss": null,
+    "linkedin": "https://www.linkedin.com/in/StricklandJen/",
+    "twitter": "https://twitter.com/jenstrickland"
+  },
+  {
     "name": "Brian DeConinck",
     "url": "https://www.briandeconinck.com/",
     "employment": {

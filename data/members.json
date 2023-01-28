@@ -266,8 +266,8 @@
       "seeking": false
     },
     "linkedin": "https://www.linkedin.com/in/Meryl/",
-    "mastodon": null,
-    "rss": null,
-    "twitter": "https://mastodon.social/@MerylEvans"
+    "mastodon": https://mastodon.social/@MerylEvans,
+    "rss": https://meryl.net/?feed=rss,
+    "twitter": "https://twitter.com/merylkevans"
   }
 ]

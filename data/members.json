@@ -269,5 +269,17 @@
     "mastodon": null,
     "rss": "https://davidakennedy.com/feed/",
     "twitter": "https://twitter.com/davidakennedy"
+  },
+  {
+    "name": "Meryl Evans",
+    "url": "https://meryl.net/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/Meryl/",
+    "mastodon": null,
+    "rss": null,
+    "twitter": "https://mastodon.social/@MerylEvans"
   }
 ]

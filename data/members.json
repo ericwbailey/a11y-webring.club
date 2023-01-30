@@ -247,6 +247,18 @@
     "twitter": null
   },
   {
+    "name": "foreverliketh.is",
+    "url": "https://foreverliketh.is/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": null,
+    "mastodon": "https://indieweb.social/@accordionpolar",
+    "rss": "https://foreverliketh.is/blog/index.xml",
+    "twitter": null
+  },
+  {
     "name": "David A. Kennedy",
     "url": "https://davidakennedy.com",
     "employment": {
@@ -269,6 +281,18 @@
     "mastodon": "https://mastodon.social/@MerylEvans",
     "rss": "https://meryl.net/?feed=rss",
     "twitter": "https://twitter.com/merylkevans"
+  },
+  {
+    "name": "Todd Libby",
+    "url": "https://toddl.dev/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/todd-libby/",
+    "mastodon": "https://a11y.info/@todd",
+    "rss": "https://toddl.de/feed/feed.xml",
+    "twitter": "https://twitter.com/toddlibby"
   },
   {
     "name": "Daniela Kubesch",

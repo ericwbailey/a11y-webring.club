@@ -293,5 +293,29 @@
     "mastodon": "https://hachyderm.io/@ronv",
     "rss": null,
     "twitter": null
+  },
+  {
+    "name": "Todd Libby",
+    "url": "https://toddl.dev/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/todd-libby/",
+    "mastodon": "https://a11y.info/@todd",
+    "rss": "https://toddl.de/feed/feed.xml",
+    "twitter": "https://twitter.com/toddlibby"
+  },
+  {
+    "name": "Daniela Kubesch",
+    "url": "https://dnikub.dev/",
+    "employment": {
+      "hiring": false,
+      "seeking": false
+    },
+    "linkedin": "https://www.linkedin.com/in/danikubesch/",
+    "mastodon": "https://front-end.social/@dnikub",
+    "rss": null,
+    "twitter": "https://twitter.com/dnikub"
   }
 ]

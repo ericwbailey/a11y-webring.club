@@ -1,0 +1,12 @@
+{
+  "name": "Todd Libby",
+  "url": "https://toddl.dev/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": "https://www.linkedin.com/in/todd-libby/",
+  "mastodon": "https://a11y.info/@todd",
+  "rss": "https://toddl.de/feed/feed.xml",
+  "twitter": "https://twitter.com/toddlibby"
+}

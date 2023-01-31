@@ -1,0 +1,10 @@
+{
+  "name": "Dylan Thomas",
+  "url": "https://dht.is",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": "https://www.linkedin.com/in/dylanhthomas/",
+  "rss": "https://dht.is/writing/index.xml"
+}

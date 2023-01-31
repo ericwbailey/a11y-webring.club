@@ -1,0 +1,12 @@
+{
+  "name": "foreverliketh.is",
+  "url": "https://foreverliketh.is/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": null,
+  "mastodon": "https://indieweb.social/@accordionpolar",
+  "rss": "https://foreverliketh.is/blog/index.xml",
+  "twitter": null
+}

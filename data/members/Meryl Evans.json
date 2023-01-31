@@ -1,0 +1,12 @@
+{
+  "name": "Meryl Evans",
+  "url": "https://meryl.net/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": "https://www.linkedin.com/in/Meryl/",
+  "mastodon": "https://mastodon.social/@MerylEvans",
+  "rss": "https://meryl.net/?feed=rss",
+  "twitter": "https://twitter.com/merylkevans"
+}

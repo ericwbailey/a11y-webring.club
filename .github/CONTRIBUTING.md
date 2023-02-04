@@ -9,7 +9,7 @@ Great!
 Big-picture there's two things you need to do:
 
 1. [Add the webring code]((https://a11y-webring.club#code)) to your website, and
-2. [Add yourself to the webring's `members.json`](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members.json) file as a pull request.
+2. [Add yourself to the webring's `data/members/` directory as JSON](https://github.com/ericwbailey/a11y-webring.club/tree/main/data/members) file as a pull request.
 
 ### 1. Add the webring code to your website
 
@@ -21,10 +21,11 @@ This process depends on how your website is built, so unfortunately I cannot pro
 
 ### 2. Add yourself to the webring
 
-To add yourself to the webring, submit a pull request to this repository where you have added your information to the end of `members.json`.
+To add yourself to the webring, submit a pull request to this repository where you have added your information as a JSON file. You can reference and copy/paste [my JSON entry](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members/Eric%20Bailey.json) as a format to use.
 
 <strong>Required</strong> information is:
 
+- `date`: The day you add yourself to the webring, in `YYYY-MM-DDThh:mm` format. You can use `T00:00` for the hour an minute if you want.
 - `name`: Your name (can be your given name, your full name, a handle, etc.).
 - `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
 
@@ -46,7 +47,7 @@ If you do not have this information, please use `null` for the entry's value:
 "twitter": null
 ```
 
-If you are the last entry in `members.json` make sure that your closing curly brace (`}`) <strong>does not</strong> have a comma (`,`) placed after it, as this will cause the site to break.
+Be sure to save your webring member JSON file using the same name as your `name` value. For example, mine is called `Eric Bailey.json`.
 
 Once your pull request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided ✨
 
@@ -56,7 +57,7 @@ Once these two steps are completed, both the webring and your site will allow fo
 
 ## I want to update my information
 
-This process is similar to adding yourself to the webring. Submit a pull request that modifies your `members.json` information. This can include adding info, updating info, and removing info.
+This process is similar to adding yourself to the webring. Submit a pull request that modifies your JSON member information. This can include adding info, updating info, and removing info.
 
 ## I want to make updates to the webring's website
 
@@ -78,7 +79,7 @@ That's a nice idea, but I prefer if the person who made the site adds themselves
 
 That's fine, too. If you choose leave the webring I ask that:
 
-1. You either submit a PR removing yourself from `members.json` or raise an issue asking to be removed, and
+1. You either submit a PR removing your membership JSON file, or raise an issue asking to be removed, and
 1. You delete the webring code from your website.
 
 This will remove you from the webring and also allow people browsing the webring to not get stuck.

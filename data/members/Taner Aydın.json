@@ -1,0 +1,12 @@
+{
+  "date": "2023-01-25T18:20",
+  "name": "Taner Aydın",
+  "url": "https://taner-aydin.dev/",
+  "employment": {
+    "hiring": false,
+    "seeking": true
+  },
+  "linkedin": "https://www.linkedin.com/in/taner-aydın/",
+  "mastodon": "https://indieweb.social/@a11yup",
+  "rss": "https://a11yup.com/rss.xml"
+}

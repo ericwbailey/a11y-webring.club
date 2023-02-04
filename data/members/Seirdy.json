@@ -1,0 +1,11 @@
+{
+  "date": "2023-01-26T00:15",
+  "name": "Seirdy",
+  "url": "https://seirdy.one/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "mastodon": "https://pleroma.envs.net/@jrfbz",
+  "rss": "https://seirdy.one/atom.xml"
+}

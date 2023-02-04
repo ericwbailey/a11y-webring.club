@@ -1,13 +1,12 @@
 <h2 class="site-section" id="members">
-  Members <span class="count">({{ members.length }})</span>
+  Members <span class="count">({{ members | length }})</span>
 </h2>
 <p>
   <a class="hide-visually" href="#join-this-webring">Skip member list</a>
 </p>
 <ul class="flow-3 members">
-{% for member in members %}
+{% for key, member in members | sortDataByDate %}
   <li class="member">
-
     <span class="name-lockup">
       <a href="{{ member.url }}">{{ member.name }}</a>
       {% if member.employment.hiring %} <span class="hiring">hiring</span>{% endif %}

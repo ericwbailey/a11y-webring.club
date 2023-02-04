@@ -32,4 +32,8 @@ This should make Eleventy process required files, run a local server you can loa
 
 ## Credit
 
-This project is a fork of [Max Böck](https://mxb.dev/)'s [webring repo](https://github.com/maxboeck/webring/). Also a huge thank you to [Sarah Higley](https://sarahmhigley.com/) for help with debugging Netlify functions.
+This project is a fork of [Max Böck](https://mxb.dev/)'s [webring repo](https://github.com/maxboeck/webring/). Also a huge thank you to the following people:
+
+- [Sarah Higley](https://sarahmhigley.com/), for help with debugging Netlify functions.
+- [Seirdy](https://seirdy.one/), for referrer header advice.
+- [Steven Woodson](https://stevenwoodson.com/), for help with making adding webring members easier.

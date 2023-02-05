@@ -8,6 +8,10 @@ glob.sync("./data/members/*.json").forEach(function (file) {
     members.push(contents);
 });
 
+members.sort((a, b) => {
+    return a.date > b.date ? 1 : -1;
+})
+
 export const redirect = site => {
     const statusMessage = `redirecting to: ${site.url}`
     console.log(statusMessage)

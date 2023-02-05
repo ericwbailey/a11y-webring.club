@@ -358,3 +358,44 @@ button:active {
     transition: none;
   }
 }
+
+@media (forced-colors: active) {
+  body {
+    background: none;
+  }
+
+  a {
+    background: none;
+    text-decoration: underline;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+
+  .hiring,
+  .seeking {
+    background-color: CanvasText;
+    color: Canvas;
+    -ms-high-contrast-adjust: none;
+  }
+
+  svg path {
+    fill: LinkText;
+  }
+
+  .codeblock {
+    outline: 1px solid CanvasText;
+  }
+
+  button {
+    background-color: ButtonText;
+    -ms-high-contrast-adjust: none;
+  }
+
+  button svg path {
+    fill: Canvas;
+    -ms-high-contrast-adjust: none;
+  }
+}

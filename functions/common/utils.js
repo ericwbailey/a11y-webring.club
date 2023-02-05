@@ -1,4 +1,12 @@
-import members from '../../data/members.json'
+let glob = require("glob");
+let path = require("path");
+
+let members = [];
+
+glob.sync("./data/members/*.json").forEach(function (file) {
+    let contents = require(path.resolve(file));
+    members.push(contents);
+});
 
 export const redirect = site => {
     const statusMessage = `redirecting to: ${site.url}`

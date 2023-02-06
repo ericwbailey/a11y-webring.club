@@ -1,11 +1,10 @@
-let glob = require("glob");
+let fs = require("fs");
 let path = require("path");
-
 let members = [];
 
-glob.sync("./data/members/*.json").forEach(function (file) {
-    let contents = require(path.resolve(file));
-    members.push(contents);
+fs.readdirSync('./data/members').forEach(function(file) {
+  let contents = require(path.resolve('./data/members/' + file));
+  members.push(contents);
 });
 
 members.sort((a, b) => {

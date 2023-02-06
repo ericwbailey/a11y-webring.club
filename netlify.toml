@@ -5,6 +5,7 @@
 
 [functions]
   directory = "functions"
+  included_files = ["data/members/**"]
 
 [[headers]]
     for = "/*"

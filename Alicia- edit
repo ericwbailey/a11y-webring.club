@@ -1,0 +1,13 @@
+{
+  "date": "2023-02-11T00:00",
+  "name": "Alicia Jarvis",
+  "url": "https://aliciajarvis.github.io/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": "https://www.linkedin.com/in/aliciajarvis/",
+  "mastodon": "https://mastodon.social/@A11yAlicia",
+  "rss": false
+  "twitter": "https://twitter.com/a11yalicia"
+}

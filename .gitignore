@@ -2,7 +2,6 @@
 /_site/
 .netlify/
 
-
 ## Generic files to ignore
 *~
 *.DS_Store
@@ -33,6 +32,7 @@ codekit-config.json
 dwsync.xml
 node_modules
 npm-debug.log
+.vscode/
 
 
 ## Compiled source

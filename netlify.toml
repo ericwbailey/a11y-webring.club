@@ -7,6 +7,12 @@
   directory = "functions"
   included_files = ["data/members/**"]
 
+[functions."verify"]
+schedule = "@daily"
+
+[functions."verifyDNS"]
+schedule = "@weekly
+
 [[headers]]
     for = "/*"
     [headers.values]

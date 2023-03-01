@@ -1,0 +1,13 @@
+{
+	"date": "2023-02-21T00:00",
+	"name": "Mike Mai",
+	"url": "https://mikemai.net",
+	"employment": {
+	"hiring": false,
+	"seeking": false
+	},
+	"linkedin": "https://www.linkedin.com/in/mikemai/",
+	"mastodon": "https://mastodon.social/@mikemai2awesome",
+	"rss": "https://mikemai.net/blog/feed.xml",
+	"twitter": "https://twitter.com/mikemai2awesome"
+}

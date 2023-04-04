@@ -1,0 +1,13 @@
+{
+  "date": "2023-04-04T00:00",
+  "name": "Matthew Hallonbacka",
+  "url": "https://mallonbacka.com/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": "https://www.linkedin.com/in/mallonbacka/",
+  "mastodon": "https://mastodon.social/@mallonbacka",
+  "rss": "https://mallonbacka.com/feed.xml",
+  "twitter": null 
+}

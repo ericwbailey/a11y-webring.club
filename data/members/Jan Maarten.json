@@ -1,0 +1,13 @@
+{
+  "date": "2023-01-21T03:35",
+  "name": "Jan Maarten",
+  "url": "https://janmaarten.com/",
+  "employment": {
+    "hiring": false,
+    "seeking": true
+  },
+  "linkedin": "https://www.linkedin.com/in/jmaarten/",
+  "mastodon": null,
+  "rss": "https://janmaarten.com/feed",
+  "twitter": "https://twitter.com/worldsayer"
+}

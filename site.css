@@ -399,3 +399,8 @@ button:active {
     -ms-high-contrast-adjust: none;
   }
 }
+
+.legal {
+  display: block;
+  margin-top: var(--size-2);
+}

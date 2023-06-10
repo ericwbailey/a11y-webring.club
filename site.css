@@ -234,7 +234,7 @@ li { margin-top: var(--size-1); }
   display: inline-block;
   font-size: 0.75rem;
   height: max-content;
-  padding: 0.1rem 0.5rem;
+  padding: 0.1rem 0.5rem 0.05rem 0.5rem;
 }
 
 .hiring {
@@ -398,4 +398,9 @@ button:active {
     fill: Canvas;
     -ms-high-contrast-adjust: none;
   }
+}
+
+.legal {
+  display: block;
+  margin-top: var(--size-1);
 }

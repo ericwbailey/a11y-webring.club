@@ -6,7 +6,7 @@ a11y-webring.club strives to be AA [WCAG 2.1 compliant](https://www.w3.org/WAI/s
 
 The following initiatives are how this webring attempts to be accessible. We are:
 
--Guided by a [Code of Conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md) that outlines expected behaviors.
+- Guided by a [Code of Conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md) that outlines expected behaviors.
 - Using time-tested, stable and interoperable technology based on open standards to help ensure our content can be accessed by the widest range of devices as possible.
 - Running automated and manual checks to test for accessibility issues.
 - Hosting our code on [a public repository](https://github.com/ericwbailey/a11y-webring.club/), allowing anyone with the interest and capability to inspect and modify it.

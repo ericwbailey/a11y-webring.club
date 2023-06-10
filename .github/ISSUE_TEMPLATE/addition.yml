@@ -22,6 +22,10 @@ body:
     validations:
       required: true
   - type: input
+    id: accessibilitystatement
+    attributes:
+      label: The URL of your website's accessibility statement
+  - type: input
     id: linkedin
     attributes:
       label: Your LinkedIn profile URL

@@ -33,6 +33,7 @@ Ideally, your `url` points to the page that displays the webring code, but this 
 
 <strong>Optional</strong> information is:
 
+- `accessibilityStatement`: The URL for your website's accessibility statement.
 - `employment`: There are two pieces of sub-content you can enable to signal that you are looking for work or hiring:
     - `hiring`: Set this to `true` if you or our organization is hiring for accessibility-related roles.
     - `seeking`: Set this to `true` if you are looking to be hired for an accessibility-related role.

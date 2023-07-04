@@ -1,0 +1,14 @@
+{
+  "date": "2023-07-04T00:00",
+  "name": "Sara Joy",
+  "url": "https://sarajoy.dev/",
+  "accessibilityStatement": "https://sarajoy.dev/#a11y",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "linkedin": null,
+  "mastodon": "https://front-end.social/@sarajw",
+  "rss": "https://sarajoy.dev/rss.xml",
+  "twitter": null
+}

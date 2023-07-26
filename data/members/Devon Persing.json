@@ -4,10 +4,10 @@
   "url": "https://dpersing.com/",
   "employment": {
     "hiring": false,
-    "seeking": false
+    "seeking": true
   },
   "linkedin": "https://www.linkedin.com/in/devonpersing/",
-  "mastodon": null,
-  "rss": null,
+  "mastodon": "https://octodon.social/@viscousplatypus,"
+  "rss": "https://devonpersing.netlify.app/feed.xml",
   "twitter": "https://twitter.com/devonpersing"
 }

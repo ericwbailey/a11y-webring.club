@@ -7,6 +7,9 @@
     "hiring": false,
     "seeking": false
   },
+  "github": null,
+  "linkedin": null,
   "mastodon": "https://pleroma.envs.net/@jrfbz",
-  "rss": "https://seirdy.one/atom.xml"
+  "rss": "https://seirdy.one/atom.xml",
+  "twitter": null
 }

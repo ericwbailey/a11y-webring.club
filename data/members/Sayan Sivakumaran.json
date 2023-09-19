@@ -1,14 +1,15 @@
 {
-    "date": "2023-07-24T00:00",
-    "name": "Sayan Sivakumaran",
-    "url": "https://sayansivakumaran.com/",
-    "accessibilityStatement": null,
-    "employment": {
-        "hiring": false,
-        "seeking": true
-    },
-    "linkedin": "https://www.linkedin.com/in/sayan-sivakumaran-a70763239/",
-    "mastodon": null,
-    "rss": "https://sayansivakumaran.com/rss.xml",
-    "twitter": null
+  "date": "2023-07-24T00:00",
+  "name": "Sayan Sivakumaran",
+  "url": "https://sayansivakumaran.com/",
+  "accessibilityStatement": null,
+  "employment": {
+    "hiring": false,
+    "seeking": true
+  },
+  "github": null,
+  "linkedin": "https://www.linkedin.com/in/sayan-sivakumaran-a70763239/",
+  "mastodon": null,
+  "rss": "https://sayansivakumaran.com/rss.xml",
+  "twitter": null
 }

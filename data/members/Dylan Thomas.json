@@ -6,6 +6,9 @@
     "hiring": false,
     "seeking": false
   },
+  "github": null,
   "linkedin": "https://www.linkedin.com/in/dylanhthomas/",
-  "rss": "https://dht.is/writing/index.xml"
+  "mastodon": null,
+  "rss": "https://dht.is/writing/index.xml",
+  "twitter": null
 }

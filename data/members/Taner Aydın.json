@@ -6,7 +6,9 @@
     "hiring": false,
     "seeking": true
   },
+  "github": null,
   "linkedin": "https://www.linkedin.com/in/taner-aydın/",
   "mastodon": "https://indieweb.social/@a11yup",
-  "rss": "https://a11yup.com/rss.xml"
+  "rss": "https://a11yup.com/rss.xml",
+  "twitter": null
 }

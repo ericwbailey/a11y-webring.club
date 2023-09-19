@@ -38,6 +38,7 @@ Ideally, your `url` points to the page that displays the webring code, but this 
     - `hiring`: Set this to `true` if you or our organization is hiring for accessibility-related roles.
     - `seeking`: Set this to `true` if you are looking to be hired for an accessibility-related role.
 - `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
+- `github`: Your GitHub profile address (ex: `https://github.com/yourname`).
 - `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
 - `rss`: The RSS feed for your website.
 - `twitter`: Your Twitter account (ex: `https://twitter.com/yourname`).

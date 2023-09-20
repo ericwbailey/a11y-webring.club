@@ -6,9 +6,8 @@
     "hiring": false,
     "seeking": false
   },
-  "github": null,
+  "github": "https://github.com/saptaks",
   "linkedin": "https://linkedin.com/in/saptaks",
   "mastodon": "https://toots.dgplug.org/@saptaks",
-  "rss": "https://saptaks.blog/rss.xml",
-  "twitter": "https://twitter.com/Saptak013"
+  "rss": "https://saptaks.blog/rss.xml"
 }

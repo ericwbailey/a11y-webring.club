@@ -1,0 +1,14 @@
+{
+  "date": "2023-09-21T00:00",
+  "name": "Nicki Faulk",
+  "url": "https://www.nickifaulk.com/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "github": "https://github.com/harleykin",
+  "linkedin": "https://www.linkedin.com/in/nickifaulk/",
+  "mastodon": null,
+  "rss": "https://www.nickifaulk.com/feed/",
+  "twitter": "https://twitter.com/nitallica"
+}

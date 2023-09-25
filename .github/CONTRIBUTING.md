@@ -41,7 +41,6 @@ Ideally, your `url` points to the page that displays the webring code, but this 
 - `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
 - `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
 - `rss`: The RSS feed for your website.
-- `twitter`: Your Twitter account (ex: `https://twitter.com/yourname`).
 
 If you do not have this information, please use `null` for the entry's value:
 

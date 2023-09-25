@@ -37,10 +37,6 @@ body:
     id: rss
     attributes:
       label: Your website's RSS feed URL
-  - type: input
-    id: twitter
-    attributes:
-      label: Your Twitter profile URL
   - type: textarea
     id: anything-else
     attributes:

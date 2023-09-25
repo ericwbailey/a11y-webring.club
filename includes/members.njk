@@ -46,14 +46,6 @@
         </a>
       </li>
       {% endif %}
-      {% if member.twitter %}
-      <li>
-        <a class="contact-link" href="{{ member.twitter }}">
-          <svg class="logo" aria-hidden="true" focusable="false" height="26" width="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M23.34 7.7c.02.23.02.46.02.69 0 7.05-5.37 15.18-15.18 15.18-2.9 0-5.74-.83-8.18-2.4a10.66 10.66 0 0 0 7.89-2.21 5.335 5.335 0 0 1-4.98-3.7c.8.15 1.62.12 2.41-.09a5.333 5.333 0 0 1-4.28-5.23v-.07c.74.41 1.57.64 2.42.67a5.36 5.36 0 0 1-1.65-7.13c2.71 3.33 6.7 5.36 10.99 5.57-.43-1.85.16-3.79 1.54-5.1a5.34 5.34 0 0 1 7.55.23c1.19-.24 2.34-.67 3.39-1.29a5.396 5.396 0 0 1-2.34 2.95c1.06-.12 2.09-.41 3.06-.84a10.91 10.91 0 0 1-2.66 2.76Z"/></svg>
-          <span class="hide-visually">Twitter account for {{ member.name }}</span>
-        </a>
-      </li>
-      {% endif %}
     </ul>
   </li>
 {% endfor %}

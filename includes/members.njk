@@ -7,11 +7,11 @@
 <ul class="flow-3 members">
 {% for key, member in members | sortDataByDate %}
   <li class="member">
-    <span class="name-lockup">
+    <h3 class="name-lockup">
       <a href="{{ member.url }}">{{ member.name }}</a>
       {% if member.employment.hiring %} <span class="hiring">hiring</span>{% endif %}
       {% if member.employment.seeking %} <span class="seeking">seeking work</span>{% endif %}
-    </span>
+    </h3>
 
     <ul class="contact">
       {% if member.linkedin %}

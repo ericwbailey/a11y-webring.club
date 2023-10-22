@@ -180,8 +180,15 @@ li { margin-top: var(--size-1); }
   margin-top: var(--size-6);
 }
 
+.title,
+.tagline {
+  text-align: center;
+}
+
 .webring {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   gap: var(--size-2);
   list-style-type: none;
   margin-left: 0;
@@ -189,7 +196,7 @@ li { margin-top: var(--size-1); }
 
 .webring a {
   align-items: center;
-  display: flex;
+  display: inline-flex;
   gap: 0.25rem;
   justify-content: center;
 }
@@ -213,7 +220,6 @@ li { margin-top: var(--size-1); }
   border-top: 1px dotted currentColor;
   display: flex;
   flex-direction: column;
-  font-size: var(--size-2);
   justify-content: space-between;
   padding-top: var(--size-1);
   padding-right: 0.5ch;
@@ -222,6 +228,8 @@ li { margin-top: var(--size-1); }
 
 .name-lockup {
   display: flex;
+  font-size: var(--size-2);
+  font-weight: 500;
   gap: 0.75rem;
   align-items: center;
 }
@@ -337,7 +345,13 @@ button:active {
     margin-left: 0;
   }
 
+  .title,
+  .tagline {
+    text-align: left;
+  }
+
   .webring {
+    flex-direction: row;
     gap: var(--size-3);
   }
 

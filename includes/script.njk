@@ -15,3 +15,36 @@
     }
   }
 </script>
+
+<script>
+  function initMemberLayout() {
+    const members = document.querySelector('[data-members-list]');
+    const toggleButtonList = document.querySelector('[data-toggle-button-list]');
+    const toggleButtonGrid = document.querySelector('[data-toggle-button-grid]');
+
+    toggleButtonList.addEventListener('click', function () {
+      members.classList.replace('members--grid', 'members--list');
+      toggleButtonList.setAttribute('aria-pressed', true);
+      toggleButtonGrid.setAttribute('aria-pressed', false);
+      localStorage.setItem('memberLayout', 'list');
+    });
+
+    function applyGridLayout() {
+      members.classList.replace('members--list', 'members--grid');
+      toggleButtonList.setAttribute('aria-pressed', false);
+      toggleButtonGrid.setAttribute('aria-pressed', true);
+    }
+
+    toggleButtonGrid.addEventListener('click', function () {
+      applyGridLayout();
+      localStorage.setItem('memberLayout', 'grid');
+    });
+
+    const storedMemberLayout = localStorage.getItem('memberLayout');
+    if (storedMemberLayout === 'grid') {
+      applyGridLayout();
+    }
+  }
+
+  initMemberLayout();
+</script>

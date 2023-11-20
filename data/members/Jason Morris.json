@@ -1,0 +1,14 @@
+{
+  "date": "2023-11-13T00:00",
+  "name": "Jason Morris",
+  "url": "https://jasonmorris.com",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "github": "https://github.com/jsnmrs",
+  "linkedin": "https://www.linkedin.com/in/jsnmrs/",
+  "accessibilityStatement": "https://jasonmorris.com/accessibility",
+  "mastodon": "https://indieweb.social/@jasonmorris",
+  "rss": "https://jasonmorris.com/atom.xml"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2023-12-20T00:00",
+  "name": "Tevin Steinke",
+  "url": "https://www.frankensteinke.com",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "accessibilityStatement": "https://www.frankensteinke.com/accessibility-statement/",
+  "github": "https://github.com/frankensteinke",
+  "linkedin": null,
+  "mastodon": null,
+  "rss": "https://www.frankensteinke.com/feed.xml",
+  "twitter": null
+}

@@ -3,7 +3,107 @@
 <head>
   {% include "includes/head.njk" %}
 </head>
-<body class="flow-4">
+
+<body>
+
+<main>
+
+  <div class="grid-title u-centered">
+    <h1>a11y-webring.club</h1>
+    <p>A webring for digital accessibility practitioners.</p>
+  </div>
+
+  <nav
+    class="grid-prev-rand-next u-centered"
+    aria-label="Previous, random, and next">
+    <ul>
+      <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</a></li>
+      <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</a></li>
+      <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/next">Next website</a></li>
+    </ul>
+    <p>
+      <a href="https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md">
+        Code of Conduct
+      </a>
+    </p>
+    <p>
+      <a href="https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/ACCESSIBILITY_STATEMENT.md">
+        Accessibility Statement
+      </a>
+    </p>
+  </nav>
+
+  <nav
+    class="grid-members"
+    aria-labeledby="members">
+    <h2 id="members">Members</h2>
+    <ul>
+      <li class="member">
+        <h3>
+          <a href="https://ericwbailey.website/colophon/">Eric Bailey</a>
+        </h3>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/ericwbailey/">
+              <svg aria-hidden="true" focusable="false" height="26" width="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M22.37 2H3.62C2.72 2 2 2.71 2 3.58v18.83c0 .88.73 1.59 1.62 1.59h18.75c.9 0 1.63-.71 1.63-1.59V3.59c0-.87-.73-1.58-1.63-1.58ZM8.53 20.75H5.26v-10.5h3.27v10.5ZM6.89 8.81C5.85 8.81 5 7.96 5 6.92s.85-1.89 1.89-1.89 1.89.85 1.89 1.89-.85 1.89-1.89 1.89Zm13.86 11.94h-3.26v-5.11c0-1.22-.02-2.78-1.7-2.78s-1.96 1.33-1.96 2.7v5.19h-3.26v-10.5h3.12v1.43h.04c.44-.83 1.5-1.7 3.09-1.7 3.3 0 3.91 2.17 3.91 5v5.76Z"></path></svg>
+              <span class="hide-visually">LinkedIn profile for Eric Bailey</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ericwbailey">
+              <svg aria-hidden="true" focusable="false" width="26" height="26" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill-rule="evenodd" d="M13.01 0C5.817 0 0 5.859 0 13.107a13.097 13.097 0 0 0 8.896 12.435c.647.13.884-.282.884-.63 0-.303-.022-1.345-.022-2.43-3.62.782-4.373-1.562-4.373-1.562-.581-1.52-1.443-1.91-1.443-1.91-1.185-.803.086-.803.086-.803 1.314.087 2.004 1.346 2.004 1.346 1.163 1.996 3.037 1.432 3.79 1.085.108-.847.453-1.433.82-1.758-2.887-.304-5.924-1.432-5.924-6.467 0-1.432.516-2.604 1.335-3.516-.13-.325-.582-1.67.13-3.472 0 0 1.098-.347 3.575 1.346a12.51 12.51 0 0 1 3.253-.434c1.098 0 2.218.152 3.252.434 2.478-1.693 3.576-1.346 3.576-1.346.711 1.801.259 3.147.13 3.472.84.912 1.335 2.084 1.335 3.516 0 5.035-3.037 6.141-5.945 6.467.474.412.883 1.193.883 2.43 0 1.758-.022 3.169-.022 3.603 0 .347.238.76.884.63A13.097 13.097 0 0 0 26 13.106C26.02 5.86 20.184 0 13.01 0Z" clip-rule="evenodd"></path></svg>
+              <span class="hide-visually">GitHub profile for Eric Bailey</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://social.ericwbailey.website/@eric">
+              <svg aria-hidden="true" focusable="false" height="26" width="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M21.43 1.24C19.57.39 16.37.03 13.04 0h-.08C9.64.03 6.44.39 4.58 1.24c0 0-3.7 1.65-3.7 7.29C.88 9.82.85 11.37.9 13c.13 5.52 1.01 10.95 6.11 12.3 2.35.62 4.37.75 6 .66 2.95-.16 4.6-1.05 4.6-1.05l-.1-2.14s-2.11.66-4.47.58c-2.34-.08-4.82-.25-5.2-3.13a5.18 5.18 0 0 1-.05-.81s2.3.56 5.22.7c1.78.08 3.46-.1 5.15-.31 3.26-.39 6.09-2.4 6.45-4.23.56-2.89.52-7.05.52-7.05 0-5.64-3.7-7.29-3.7-7.29Zm-.66 14.56h-2.71V9.17c0-1.4-.59-2.11-1.76-2.11-1.3 0-1.95.84-1.95 2.5v3.63h-2.69V9.56c0-1.66-.65-2.5-1.95-2.5-1.18 0-1.76.71-1.76 2.11v6.63H5.24V8.97c0-1.4.36-2.51 1.07-3.33.74-.82 1.7-1.24 2.9-1.24 1.38 0 2.43.53 3.13 1.6l.67 1.13.67-1.13c.69-1.06 1.74-1.6 3.13-1.6 1.2 0 2.16.42 2.9 1.24.71.82 1.07 1.93 1.07 3.33v6.83Z"></path></svg>
+              <span class="hide-visually">Mastodon account for Eric Bailey</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://ericwbailey.website/feed/feed.xml">
+              <svg aria-hidden="true" focusable="false" width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M13 1C6.367 1 1 6.367 1 13s5.367 12 12 12 12-5.367 12-12S19.633 1 13 1ZM9.29 18.41c-.872 0-1.57-.697-1.57-1.57 0-.873.698-1.57 1.57-1.57.874 0 1.572.697 1.572 1.57 0 .873-.698 1.57-1.571 1.57Zm3.928 0a5.511 5.511 0 0 0-5.542-5.54V10.6c4.32 0 7.811 3.534 7.811 7.854h-2.269v-.043Zm4.058 0c0-5.28-4.276-9.6-9.556-9.6V6.543c6.502 0 11.826 5.324 11.826 11.869h-2.27Z"></path></svg>
+              <span class="hide-visually">RSS feed for Eric Bailey</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <nav
+    class="grid-toc"
+    aria-labeledby="table-of-contents">
+    <h2 id="table-of-contents">Table of contents</h2>
+    <ol>
+      <li>
+        <a href="#members">
+          Members
+        </a>
+      </li>
+      <li>
+        <a href="#join-this-webring">
+          Join this webring
+        </a>
+      </li>
+      <li>
+        <a href="#list-the-webring-on-your-website">
+          List the webring on your website
+        </a>
+      </li>
+      <li>
+        <a href="#frequently-asked-questions">
+          Frequently asked questions
+        </a>
+      </li>
+    </ol>
+  </nav>
+
+</main>
+
+
+{# <body class="flow-4">
 
   <main class="flow-3">
     {% include "includes/intro.njk" %}
@@ -22,5 +122,5 @@
   </footer>
 
 {% include "includes/script.njk" %}
-</body>
+</body> #}
 </html>

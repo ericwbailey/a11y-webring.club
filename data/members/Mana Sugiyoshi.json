@@ -1,0 +1,14 @@
+{
+  "date": "2023-04-01T00:00",
+  "name": "Mana Sugiyoshi",
+  "url": "https://www.maddy.codes/",
+  "employment": {
+    "hiring": false,
+    "seeking": false
+  },
+  "github": "https://github.com/maddyscodes",
+  "linkedin": "https://www.linkedin.com/in/manasugiyoshi/",
+  "mastodon": null,
+  "rss": null,
+  "twitter": "https://twitter.com/manasugiyoshi"
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2024-04-15T00:00",
+  "name": "Wagner Beethoven",
+  "url": "https://sumo.pe",
+  "employment": {
+    "hiring": false,
+    "seeking": true
+  },
+  "github": "https://github.com/wagnerbeethoven",
+  "linkedin": "https://www.linkedin.com/in/wagnerbeethoven/",
+  "mastodon": null,
+  "rss": "https://sumo.pe/feed/",
+  "twitter": "https://twitter.com/wagnerbeethoven"
+}

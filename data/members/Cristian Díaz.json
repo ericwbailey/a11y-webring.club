@@ -2,13 +2,8 @@
   "date": "2023-01-25T16:54",
   "name": "Cristian Díaz",
   "url": "https://www.itscrisdiaz.com/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": "https://github.com/ItsCrisDiaz",
   "linkedin": "https://www.linkedin.com/in/itscrisdiaz/",
   "mastodon": "https://mastodon.social/@ItsCrisDiaz",
-  "rss": null,
-  "twitter": "https://twitter.com/ItsCrisDiaz"
+  "rss": null
 }

@@ -2,13 +2,8 @@
   "date": "2023-01-30T22:05",
   "name": "Ron Vaisman",
   "url": "https://ronvaisman.dev/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/ron-vaisman/",
   "mastodon": "https://hachyderm.io/@ronv",
-  "rss": null,
-  "twitter": null
+  "rss": null
 }

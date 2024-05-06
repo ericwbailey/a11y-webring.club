@@ -2,13 +2,8 @@
   "date": "2023-11-08T00:00",
   "name": "Elizabeth McCready",
   "url": "https://gingerkiwi.dev",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/elizabethmccready",
   "mastodon": null,
-  "rss": "https://gingerkiwi.dev/feed.xml",
-  "twitter": null
+  "rss": "https://gingerkiwi.dev/feed.xml"
 }

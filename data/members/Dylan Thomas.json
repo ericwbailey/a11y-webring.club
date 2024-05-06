@@ -2,13 +2,8 @@
   "date": "2023-01-23T15:34",
   "name": "Dylan Thomas",
   "url": "https://dht.is",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/dylanhthomas/",
   "mastodon": null,
-  "rss": "https://dht.is/writing/index.xml",
-  "twitter": null
+  "rss": "https://dht.is/writing/index.xml"
 }

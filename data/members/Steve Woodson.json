@@ -2,13 +2,8 @@
   "date": "2023-01-26T12:46",
   "name": "Steve Woodson",
   "url": "https://stevenwoodson.com/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/stevenwoodson/",
   "mastodon": "https://mastodon.online/@stevenwoodson",
-  "rss": "https://stevenwoodson.com/feed/feed.xml",
-  "twitter": "https://twitter.com/stevenwoodson"
+  "rss": "https://stevenwoodson.com/feed/feed.xml"
 }

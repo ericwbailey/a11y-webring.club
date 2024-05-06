@@ -3,13 +3,8 @@
   "name": "Seirdy",
   "url": "https://seirdy.one/",
   "accessibilityStatement": "https://seirdy.one/meta/site-design/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": null,
   "mastodon": "https://pleroma.envs.net/@jrfbz",
-  "rss": "https://seirdy.one/atom.xml",
-  "twitter": null
+  "rss": "https://seirdy.one/atom.xml"
 }

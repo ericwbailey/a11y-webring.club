@@ -2,13 +2,8 @@
   "date": "2023-02-05T00:00",
   "name": "Darin Senneff",
   "url": "https://darins.page",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": null,
   "mastodon": "https://mas.to/@darin",
-  "rss": "https://www.darins.page/articles/feed",
-  "twitter": "https://twitter.com/dsenneff"
+  "rss": "https://www.darins.page/articles/feed"
 }

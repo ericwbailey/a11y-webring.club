@@ -2,13 +2,8 @@
   "date": "2023-01-30T12:34",
   "name": "Daniela Kubesch",
   "url": "https://dnikub.dev/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/danikubesch/",
   "mastodon": "https://front-end.social/@dnikub",
-  "rss": "https://dnikub.dev/feed.xml",
-  "twitter": "https://twitter.com/dnikub"
+  "rss": "https://dnikub.dev/feed.xml"
 }

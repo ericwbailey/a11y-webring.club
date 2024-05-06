@@ -2,13 +2,8 @@
   "date": "2023-01-26T07:57",
   "name": "Matthew Deeprose",
   "url": "https://matthewdeeprose.github.io/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/mattdeeprose/",
   "mastodon": "https://oldbytes.space/@vleguru",
-  "rss": "https://matthewdeeprose.github.io/feed.rss",
-  "twitter": "https://twitter.com/vleguru"
+  "rss": "https://matthewdeeprose.github.io/feed.rss"
 }

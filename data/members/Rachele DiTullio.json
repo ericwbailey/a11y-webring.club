@@ -2,13 +2,8 @@
   "date": "2023-01-21T03:35",
   "name": "Rachele DiTullio",
   "url": "https://racheleditullio.com/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/racheleditullio/",
   "mastodon": "https://mastodon.social/@racheled",
-  "rss": null,
-  "twitter": "https://twitter.com/racheleditullio"
+  "rss": null
 }

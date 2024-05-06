@@ -2,13 +2,8 @@
   "date": "2023-02-26T00:00",
   "name": "Josh Kim",
   "url": "https://www.joshkimux.com/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/joshkimux/",
   "mastodon": null,
-  "rss": null,
-  "twitter": "https://twitter.com/joshkimux"
+  "rss": null
 }

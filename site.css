@@ -771,6 +771,7 @@
 
   @layer components {
     .c-webring-links {
+      align-items: start;
       display: flex;
       flex-direction: column;
       list-style-type: none;

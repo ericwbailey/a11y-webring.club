@@ -2,14 +2,9 @@
   "date": "2023-07-14T00:00",
   "name": "Kehinde Adeleke",
   "url": "https://www.kehinde.xyz/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": null,
   "linkedin": "https://linkedin.com/in/adeleke5140",
   "accessibilityStatement": "https://www.kehinde.xyz/blog/web-accessibility",
   "mastodon": null,
-  "rss": null,
-  "twitter": "https://twitter.com/adeleke5140"
+  "rss": null
 }

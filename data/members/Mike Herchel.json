@@ -2,13 +2,8 @@
   "date": "2023-01-25T16:27",
   "name": "Mike Herchel",
   "url": "https://herchel.com",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "http://www.linkedin.com/in/mherchel",
   "mastodon": "https://mastodon.social/@mherchel",
-  "twitter": "https://twitter.com/mikeherchel",
   "rss": "https://herchel.com/rss.xml"
 }

@@ -77,7 +77,7 @@ Unfortunately, this is something that will break the webring. Since you do not o
 
 ## I want to suggest a new social media service to add
 
-I'm definitely open to suggestions! I will not allow Twitter/X or Threads, due to ethical issues I have with each platform.
+I'm definitely open to suggestions! I will not allow [Twitter/X](https://twitter.com/) or [Threads](https://www.threads.net/), due to ethical issues I have with each platform.
 
 If you have a suggestion for a service other than those two, please [create an issue](https://github.com/ericwbailey/a11y-webring.club/issues/new) so we can chat it out.
 

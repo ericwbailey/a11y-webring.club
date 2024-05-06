@@ -2,13 +2,8 @@
   "date": "2023-01-31T19:08",
   "name": "Grace Snow",
   "url": "https://fedmentor.dev/about/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/gracesnow/",
   "mastodon": null,
-  "rss": "https://fedmentor.dev/feed/feed.xml",
-  "twitter": "https://twitter.com/gracesnow"
+  "rss": "https://fedmentor.dev/feed/feed.xml"
 }

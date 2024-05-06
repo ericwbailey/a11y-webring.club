@@ -2,13 +2,8 @@
   "date": "2024-02-12T00:00",
   "name": "Esrah Boulton",
   "url": "https://www.esrahboulton.com/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": "https://github.com/esrahboulton",
   "linkedin": "https://ca.linkedin.com/in/esrah-boulton",
   "mastodon": null,
-  "rss": null,
-  "twitter": null
+  "rss": null
 }

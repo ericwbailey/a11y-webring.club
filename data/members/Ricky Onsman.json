@@ -2,13 +2,8 @@
   "date": "2023-10-09T00:00",
   "name": "Ricky Onsman",
   "url": "https://onsman.com",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/rickyonsman/",
   "mastodon": "https://aus.social/@onsman",
-  "rss": "https://onsman.com/feed/",
-  "twitter": "https://twitter.com/onsman"
+  "rss": "https://onsman.com/feed/"
 }

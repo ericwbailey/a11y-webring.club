@@ -2,13 +2,8 @@
   "date": "2023-01-22T19:08",
   "name": "Marcus Herrmann",
   "url": "https://marcus.io/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/marcusherrmann/",
   "mastodon": "https://mastodon.social/@marcus",
-  "rss": "https://marcus.io/feed",
-  "twitter": null
+  "rss": "https://marcus.io/feed"
 }

@@ -2,13 +2,8 @@
   "date": "2023-05-03T00:00",
   "name": "Devon Persing",
   "url": "https://dpersing.com/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/devonpersing/",
   "mastodon": "https://octodon.social/@viscousplatypus",
-  "rss": "https://devonpersing.netlify.app/feed.xml",
-  "twitter": "https://twitter.com/devonpersing"
+  "rss": "https://devonpersing.netlify.app/feed.xml"
 }

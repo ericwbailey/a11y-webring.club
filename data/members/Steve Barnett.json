@@ -2,13 +2,8 @@
   "date": "2023-02-01T23:36",
   "name": "Steve Barnett",
   "url": "https://naga.co.za/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/steve-barnett/",
   "mastodon": null,
-  "rss": "https://naga.co.za/feed/",
-  "twitter": null
+  "rss": "https://naga.co.za/feed/"
 }

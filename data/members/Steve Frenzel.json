@@ -3,13 +3,8 @@
   "name": "Steve Frenzel",
   "url": "https://stevefrenzel.dev/",
   "accessibilityStatement": "https://stevefrenzel.dev/accessibility/",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": "https://github.com/stevefrenzel",
   "linkedin": "https://www.linkedin.com/in/stevefrenzel",
   "mastodon": "https://mastodon.online/@stvfrnzl",
-  "rss": "https://stevefrenzel.dev/rss.xml",
-  "twitter": null
+  "rss": "https://stevefrenzel.dev/rss.xml"
 }

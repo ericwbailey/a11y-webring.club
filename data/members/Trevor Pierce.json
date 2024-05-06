@@ -3,13 +3,8 @@
   "name": "Trevor Pierce",
   "url": "https://continuumdesign.net",
   "accessibilityStatement": "https://continuumdesign.net/accessibility/",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": "https://github.com/1copenut",
   "linkedin": "https://www.linkedin.com/in/1copenut",
   "mastodon": null,
-  "rss": null,
-  "twitter": null
+  "rss": null
 }

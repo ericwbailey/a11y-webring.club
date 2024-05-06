@@ -2,13 +2,8 @@
   "date": "2024-03-22T00:00",
   "name": "Bruno Pulis",
   "url": "https://brunopulis.com",
-  "employment": {
-    "hiring": false,
-    "seeking": true
-  },
   "github": "https://github.com/brunopulis",
   "linkedin": "https://www.linkedin.com/in/pulis/",
   "mastodon": null,
-  "rss": "https://brunopulis.com/feed/",
-  "twitter": "https://twitter.com/obrunopulis"
+  "rss": "https://brunopulis.com/feed/"
 }

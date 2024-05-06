@@ -2,13 +2,8 @@
   "date": "2023-01-19T00:00",
   "name": "Adam Norris",
   "url": "https://acnorris.uk",
-  "employment": {
-    "hiring": false,
-    "seeking": false
-  },
   "github": null,
   "linkedin": "https://www.linkedin.com/in/adam-norris-ab2590a0/?originalSubdomain=uk",
   "mastodon": null,
-  "rss": null,
-  "twitter": "https://twitter.com/acnorrisuk?lang=en"
+  "rss": null
 }

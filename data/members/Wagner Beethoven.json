@@ -1,0 +1,14 @@
+{
+  "date": "2024-05-03T00:00",
+  "name": "Wagner Beethoven / Foco Acessível",
+  "url": "https://focoacessivel.com.br",
+  "github": "https://github.com/wagnerbeethoven",
+  "linkedin": "https://www.linkedin.com/company/focoacessivel/",
+  "mastodon": null,
+  "rss": "https://focoacessivel.com.br/feed/",
+  "twitter": "https://x.com/focoacessivel",
+  "employment": {
+    "hiring": false,
+    "seeking": true
+  }
+}

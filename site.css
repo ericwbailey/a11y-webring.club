@@ -1,11 +1,12 @@
 @layer core, layout, utilities;
 
+/* MARK: Core */
 @layer core {
   @font-face {
     font-display: fallback;
     font-family: "basiersquare";
     font-weight: 700;
-    src: url('/fonts/basiersquare-bold.woff2') format('woff2');
+    src: url('/fonts/basiersquare-semibold.woff2') format('woff2');
   }
 
   @font-face {
@@ -23,6 +24,7 @@
     padding: 0;
   }
 
+  /* MARK: Root */
   :root {
     --ratio: 1.25;
     --base-font-size: 130%;
@@ -52,8 +54,18 @@
     --step-6: clamp(3.3592rem, 2.8691rem + 2.4507vi, 4.7684rem);
 
     --transition-medium: 125ms ease-in-out;
+
+    &:has(#scheme-button-dark[aria-pressed="true"]) {
+      --color-primary: #ff7066;
+      --color-secondary: #1f1f1f;
+    }
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      --transition-medium: none;
+    }
   }
 
+  /* MARK: Basics */
   html {
     margin: 0;
     min-height: 100%;
@@ -76,6 +88,9 @@
     line-height: var(--ratio);
     min-height: 100%;
     text-wrap: pretty;
+    transition:
+      background-color var(--transition-medium),
+      color var(--transition-medium);
   }
 
   main {
@@ -135,7 +150,7 @@
   }
 }
 
-
+/* MARK: Utilities */
 @layer utilities {
   .u-hidden {
     display: none;
@@ -251,7 +266,7 @@
   .u-tracking-slight { letter-spacing: 0.05ch;}
 }
 
-
+/* MARK: Layout */
 @layer layout {
   .grid-title {
     grid-area: title;
@@ -311,7 +326,7 @@
   }
 }
 
-
+/* MARK: Components */
 @layer components {
   .c-sprite {
     display: none;
@@ -661,6 +676,7 @@
   }
 }
 
+/* MARK: Media Queries */
 @media (min-width: 38rem) {
   @layer components {
     .view-as-grid {
@@ -771,16 +787,7 @@
   }
 }
 
-
-@media (prefers-color-scheme: dark) {
-  @layer core {
-    :root {
-      --color-primary: #ff7066;
-      --color-secondary: #1f1f1f;
-    }
-  }
-}
-
+/* MEDIA: Forced Colors */
 @media (forced-colors: active) {
   @layer core {
     a:not([class]) {

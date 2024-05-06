@@ -6,7 +6,7 @@ Thank you for your interest in contributing to this project!
 
 Great!
 
-Big-picture there's two things you need to do:
+Big-picture there are two things you need to do:
 
 1. [Add the webring code]((https://a11y-webring.club#code)) to your website, and
 2. [Add yourself to the webring's `data/members/` directory as JSON](https://github.com/ericwbailey/a11y-webring.club/tree/main/data/members) file as a pull request.
@@ -23,42 +23,45 @@ This process depends on how your website is built, so unfortunately I cannot pro
 
 To add yourself to the webring, submit a pull request to this repository where you have added your information as a JSON file. You can reference and copy/paste [my JSON entry](https://github.com/ericwbailey/a11y-webring.club/blob/main/data/members/Eric%20Bailey.json) as a format to use.
 
-<strong>Required</strong> information is:
+#### Required information
 
-- `date`: The day you add yourself to the webring, in `YYYY-MM-DDThh:mm` format. You can use `T00:00` for the hour an minute if you want.
-- `name`: Your name (can be your given name, your full name, a handle, etc.).
-- `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
+* `date`: The day you add yourself to the webring, in `YYYY-MM-DDThh:mm` format. You can use `T00:00` for the hour an minute if you want.
+* `name`: Your name (can be your given name, a nickname, a handle, etc.).
+* `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
 
 Ideally, your `url` points to the page that displays the webring code, but this is not required.
 
-<strong>Optional</strong> information is:
+#### Optional information
 
-- `accessibilityStatement`: The URL for your website's accessibility statement.
-- `employment`: There are two pieces of sub-content you can enable to signal that you are looking for work or hiring:
-    - `hiring`: Set this to `true` if you or our organization is hiring for accessibility-related roles.
-    - `seeking`: Set this to `true` if you are looking to be hired for an accessibility-related role.
-- `github`: Your GitHub profile address (ex: `https://github.com/yourname`).
-- `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
-- `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
-- `rss`: The RSS feed for your website.
+* `accessibilityStatement`: The URL for your website's accessibility statement.
+* `github`: Your GitHub profile address (ex: `https://github.com/yourname`).
+* `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
+* `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
+* `rss`: The RSS feed for your website.
 
 If you do not have this information, please use `null` for the entry's value:
 
 ```
-"twitter": null
+"mastodon": null
 ```
 
 Be sure to save your webring member JSON file using the same name as your `name` value. For example, mine is called `Eric Bailey.json`.
 
 Once your pull request is merged, [the webring's list of members](https://a11y-webring.club#members) will automatically update to list the information you provided ✨
 
----
-
 Once these two steps are completed, both the webring and your site will allow for discovery!
+
+---
 
 ## I want to update my information
 
-This process is similar to adding yourself to the webring. Submit a pull request that modifies your JSON member information. This can include adding info, updating info, and removing info.
+This process is similar to adding yourself to the webring.
+
+Submit a pull request that modifies your JSON member information. This can include:
+
+* Adding info,
+* Updating info, and
+* Removing info.
 
 ## I want to make updates to the webring's website
 
@@ -68,9 +71,15 @@ Please check the project [Issues](https://github.com/ericwbailey/a11y-webring.cl
 
 If you want to propose new features or functionality, please [create an issue](https://github.com/ericwbailey/a11y-webring.club/issues/new) before submitting a pull request. This will help us determine if your suggestion is inline with my vision for where the project should go.
 
-## I want to use Medium, LinkedIn, Facebook, Twitter, etc. as my website
+## I want to use Medium, LinkedIn, Facebook, Twitter/X, etc. as my website
 
 Unfortunately, this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
+
+## I want to suggest a new social media service to add
+
+I'm definitely open to suggestions! I will not allow Twitter/X or Threads, due to ethical issues I have with each platform.
+
+If you have a suggestion for a service other than those two, please [create an issue](https://github.com/ericwbailey/a11y-webring.club/issues/new) so we can chat it out.
 
 ## I want to add someone else's website
 
@@ -84,6 +93,10 @@ That's fine, too. If you choose leave the webring I ask that:
 1. You delete the webring code from your website.
 
 This will remove you from the webring and also allow people browsing the webring to not get stuck.
+
+## I want to re-join the webring
+
+Welcome back! All you need to do is follow the steps to [add your site to the webring](#i-want-to-add-my-site-to-the-webring) again.
 
 ## I want to start my own webring
 

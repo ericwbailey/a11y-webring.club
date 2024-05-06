@@ -1,17 +1,15 @@
 {
   "title": "a11y-webring.club",
-  "description": "A webring for digital accessibility practitioners.",
+  "description": "A webring for digital accessibility practitioners",
   "url": "https://a11y-webring.club",
   "author": "Eric Bailey",
   "lang": "en",
-  "theme": "#c2e5fd",
-  "cachebust": "?v=1",
+  "theme": "#0e00f5",
+  "cachebust": "?v=3",
   "social": {
-    "color": "#051929",
+    "color": "#0e00f5",
     "logo": "avatar.png",
-    "twitter": "twitter.png",
-    "facebook": "facebook.png",
-    "apple": "apple-touch-icon",
-    "safari": "safari-pinned-tab.svg"
+    "preview": "social-share-image.png",
+    "apple": "apple-touch-icon.png"
   }
 }

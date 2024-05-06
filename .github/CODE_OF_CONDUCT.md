@@ -6,19 +6,19 @@ I ([Eric Bailey](https://ericwbailey.website/)) believe that people who want to 
 
 If you choose to participate in this webring, you agree to not discriminate based on the following criteria:
 
-- Age,
-- Body size,
-- Permanent disability and temporary impairments,
-- Ethnicity,
-- Gender identity and expression,
-- Level of experience and education,
-- Nationality,
-- Physical appearance,
-- Race,
-- Religion,
-- Sex characteristics,
-- Sexual identity, and
-- Socioeconomic status
+* Age,
+* Body size,
+* Permanent disability and temporary impairments,
+* Ethnicity,
+* Gender identity and expression,
+* Level of experience and education,
+* Nationality,
+* Physical appearance,
+* Race,
+* Religion,
+* Sex characteristics,
+* Sexual identity, and
+* Socioeconomic status
 
 Discrimination is not limited to the preceding list. The list serves as an example of the kinds of criteria we take into consideration when considering what constitutes discrimination.
 
@@ -54,8 +54,8 @@ Any participants who attempt to abuse the reporting process will be considered t
 
 This code of conduct applies to:
 
-- The [a11y-webring.club](https://a11y-webring.club/) website
-- Websites listed in the webring
-- Supporting resources and services (ex: [GitHub](https://github.com/ericwbailey/a11y-webring.club))
-- Communication channels (ex: email)
-- Social media (ex: Mastodon or LinkedIn)
+* The [a11y-webring.club](https://a11y-webring.club/) website
+* Websites listed in the webring
+* Supporting resources and services (ex: [GitHub](https://github.com/ericwbailey/a11y-webring.club))
+* Communication channels (ex: email)
+* Social media (ex: Mastodon or LinkedIn)

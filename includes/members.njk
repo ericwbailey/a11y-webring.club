@@ -1,83 +1,84 @@
-<div class="site-section">
+<div class="[ u-push-apart ]">
+  <h2
+    id="members"
+    tabindex="-1">
+    Members
+    <span class="[ c-count ]">({{ members | length }})</span>
+  </h2>
 
-  <div class="flex repel gap">
-    <h2 id="members">
-      Members <span class="count">({{ members | length }})</span>
-    </h2>
+  <a class="[ u-hide-visually ]" href="#join-this-webring">
+    Skip member list
+  </a>
 
-    <div class="layout-switcher flex repel gap align-items-center">
-      <p class="instructions">
-        Layout:
-      </p>
-      <button
-        class="button-toggle"
-        aria-pressed="true"
-        data-toggle-button-list
-        type="button">
-        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
-        <span class="hide-visually">List</span>
-      </button>
-      <button
-        class="button-toggle"
-        aria-pressed="false"
-        data-toggle-button-grid
-        type="button">
-        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
-        <span class="hide-visually">Grid</span>
-      </button>
-    </div>
+  <div class="[ c-layout-switcher ]">
+    <p class="[ c-layout-switcher-label ]">
+      Layout:
+    </p>
+    <button
+      class="[ u-button u-icon-press ] [ c-toggle-button c-toggle-button-first ]"
+      aria-pressed="true"
+      data-toggle-button-members-list
+      type="button">
+      <svg aria-hidden="true" focusable="false" class="[ c-icon ]"><use xlink:href="#list"></use></svg>
+      <span class="[ u-hide-visually ]">List</span>
+    </button>
+    <button
+      class="[ u-button u-icon-press ] [ c-toggle-button c-toggle-button-last ]"
+      aria-pressed="false"
+      data-toggle-button-members-grid
+      type="button">
+      <svg aria-hidden="true" focusable="false" class="[ c-icon ]"><use xlink:href="#grid"></use></svg>
+      <span class="[ u-hide-visually ]">Grid</span>
+    </button>
   </div>
-
-  <p>
-    <a class="hide-visually" href="#join-this-webring">Skip member list</a>
-  </p>
-  <ul 
-    data-members-list
-    class="flow-3 members members--list">
-  {% for key, member in members | sortDataByDate %}
-    <li class="member">
-      <h3 class="name-lockup">
-        <a href="{{ member.url }}">{{ member.name }}</a>
-        {% if member.employment.hiring %} <span class="hiring">hiring</span>{% endif %}
-        {% if member.employment.seeking %} <span class="seeking">seeking work</span>{% endif %}
-      </h3>
-
-      <ul class="contact">
-        {% if member.linkedin %}
-        <li>
-          <a class="contact-link" href="{{ member.linkedin }}">
-            <svg class="logo" aria-hidden="true" focusable="false" height="26" width="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M22.37 2H3.62C2.72 2 2 2.71 2 3.58v18.83c0 .88.73 1.59 1.62 1.59h18.75c.9 0 1.63-.71 1.63-1.59V3.59c0-.87-.73-1.58-1.63-1.58ZM8.53 20.75H5.26v-10.5h3.27v10.5ZM6.89 8.81C5.85 8.81 5 7.96 5 6.92s.85-1.89 1.89-1.89 1.89.85 1.89 1.89-.85 1.89-1.89 1.89Zm13.86 11.94h-3.26v-5.11c0-1.22-.02-2.78-1.7-2.78s-1.96 1.33-1.96 2.7v5.19h-3.26v-10.5h3.12v1.43h.04c.44-.83 1.5-1.7 3.09-1.7 3.3 0 3.91 2.17 3.91 5v5.76Z"/></svg>
-            <span class="hide-visually">LinkedIn profile for {{ member.name }}</span>
-          </a>
-        </li>
-        {% endif %}
-        {% if member.github %}
-        <li>
-          <a class="contact-link" href="{{ member.github }}">
-            <svg class="logo" aria-hidden="true" focusable="false" width="26" height="26" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill-rule="evenodd" d="M13.01 0C5.817 0 0 5.859 0 13.107a13.097 13.097 0 0 0 8.896 12.435c.647.13.884-.282.884-.63 0-.303-.022-1.345-.022-2.43-3.62.782-4.373-1.562-4.373-1.562-.581-1.52-1.443-1.91-1.443-1.91-1.185-.803.086-.803.086-.803 1.314.087 2.004 1.346 2.004 1.346 1.163 1.996 3.037 1.432 3.79 1.085.108-.847.453-1.433.82-1.758-2.887-.304-5.924-1.432-5.924-6.467 0-1.432.516-2.604 1.335-3.516-.13-.325-.582-1.67.13-3.472 0 0 1.098-.347 3.575 1.346a12.51 12.51 0 0 1 3.253-.434c1.098 0 2.218.152 3.252.434 2.478-1.693 3.576-1.346 3.576-1.346.711 1.801.259 3.147.13 3.472.84.912 1.335 2.084 1.335 3.516 0 5.035-3.037 6.141-5.945 6.467.474.412.883 1.193.883 2.43 0 1.758-.022 3.169-.022 3.603 0 .347.238.76.884.63A13.097 13.097 0 0 0 26 13.106C26.02 5.86 20.184 0 13.01 0Z" clip-rule="evenodd"/></svg>
-            <span class="hide-visually">GitHub profile for {{ member.name }}</span>
-          </a>
-        </li>
-        {% endif %}
-        {% if member.mastodon %}
-        <li>
-          <a class="contact-link" href="{{ member.mastodon }}">
-            <svg class="logo" aria-hidden="true" focusable="false" height="26" width="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M21.43 1.24C19.57.39 16.37.03 13.04 0h-.08C9.64.03 6.44.39 4.58 1.24c0 0-3.7 1.65-3.7 7.29C.88 9.82.85 11.37.9 13c.13 5.52 1.01 10.95 6.11 12.3 2.35.62 4.37.75 6 .66 2.95-.16 4.6-1.05 4.6-1.05l-.1-2.14s-2.11.66-4.47.58c-2.34-.08-4.82-.25-5.2-3.13a5.18 5.18 0 0 1-.05-.81s2.3.56 5.22.7c1.78.08 3.46-.1 5.15-.31 3.26-.39 6.09-2.4 6.45-4.23.56-2.89.52-7.05.52-7.05 0-5.64-3.7-7.29-3.7-7.29Zm-.66 14.56h-2.71V9.17c0-1.4-.59-2.11-1.76-2.11-1.3 0-1.95.84-1.95 2.5v3.63h-2.69V9.56c0-1.66-.65-2.5-1.95-2.5-1.18 0-1.76.71-1.76 2.11v6.63H5.24V8.97c0-1.4.36-2.51 1.07-3.33.74-.82 1.7-1.24 2.9-1.24 1.38 0 2.43.53 3.13 1.6l.67 1.13.67-1.13c.69-1.06 1.74-1.6 3.13-1.6 1.2 0 2.16.42 2.9 1.24.71.82 1.07 1.93 1.07 3.33v6.83Z"/></svg>
-            <span class="hide-visually">Mastodon account for {{ member.name }}</span>
-          </a>
-        </li>
-        {% endif %}
-        {% if member.rss %}
-        <li>
-          <a class="contact-link" href="{{ member.rss }}">
-            <svg class="logo" aria-hidden="true" focusable="false" width="26" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M13 1C6.367 1 1 6.367 1 13s5.367 12 12 12 12-5.367 12-12S19.633 1 13 1ZM9.29 18.41c-.872 0-1.57-.697-1.57-1.57 0-.873.698-1.57 1.57-1.57.874 0 1.572.697 1.572 1.57 0 .873-.698 1.57-1.571 1.57Zm3.928 0a5.511 5.511 0 0 0-5.542-5.54V10.6c4.32 0 7.811 3.534 7.811 7.854h-2.269v-.043Zm4.058 0c0-5.28-4.276-9.6-9.556-9.6V6.543c6.502 0 11.826 5.324 11.826 11.869h-2.27Z"/></svg>
-            <span class="hide-visually">RSS feed for {{ member.name }}</span>
-          </a>
-        </li>
-        {% endif %}
-      </ul>
-    </li>
-  {% endfor %}
-  </ul>
-
 </div>
+
+<ul
+  data-members-list
+  class="[ c-members ][ view-as-list ]">
+  {% for key, member in members | sortDataByDate %}
+  <li class="[ c-member ]">
+    <h3
+      id="{{ member.name | slugify }}"
+      class="[ c-name ]"
+      tabindex="-1">
+      <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name }}</a>
+    </h3>
+
+    <ul class="[ c-member-contact ]">
+      {% if member.linkedin %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.linkedin }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#linkedin"></use></svg>
+          <span class="[ u-hide-visually ]">LinkedIn profile: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if member.github %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.github }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#github"></use></svg>
+          <span class="[ u-hide-visually ]">GitHub profile: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if member.mastodon %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.mastodon }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#mastodon"></use></svg>
+          <span class="[ u-hide-visually ]">Mastodon account: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if member.rss %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.rss }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#rss"></use></svg>
+          <span class="[ u-hide-visually ]">RSS feed: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

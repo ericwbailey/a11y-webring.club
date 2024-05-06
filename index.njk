@@ -3,24 +3,51 @@
 <head>
   {% include "includes/head.njk" %}
 </head>
-<body class="flow-4">
 
-  <main class="flow-3">
+<body data-theme="system">
+  {% include "includes/icon-sprite.njk" %}
+
+<main>
+  <div class="[ grid-title ] [ u-centered u-color-background-primary u-color-text-secondary ]">
     {% include "includes/intro.njk" %}
-    {% include "includes/nav.njk" %}
+  </div>
+
+  <nav
+    class="[ grid-prev-rand-next ]"
+    aria-label="Previous, random, and next">
+    {% include "includes/previous-random-next.njk" %}
+    {% include "includes/legal.njk" %}
+  </nav>
+
+  <nav
+    class="[ grid-toc ] [ u-padding-0 ]"
+    aria-labelledby="table-of-contents">
+    {% include "includes/toc.njk" %}
+  </nav>
+
+  <nav
+    class="[ grid-members ] [ u-content-inset-block-start u-content-inset-block-end u-content-inset-inline-start u-content-inset-inline-end ]"
+    aria-labelledby="members">
     {% include "includes/members.njk" %}
+  </nav>
+
+  <div class="[ grid-join ] [ u-content-inset u-content-max-width u-flow ]">
     {% include "includes/join.njk" %}
+  </div>
+
+  <div class="[ grid-embed ] [ u-content-inset u-color-background-primary u-color-text-secondary ]">
     {% include "includes/widget.njk" %}
-  </main>
+  </div>
 
-  <aside id="aside" class="flow-3">
+  <div class="[ grid-faq ] [ u-content-inset u-content-max-width u-flow ]">
     {% include "includes/faq.njk" %}
-  </aside>
+  </div>
+</main>
 
-  <footer id="footer" class="flow-3">
-    {% include "includes/footer.njk" %}
-  </footer>
+<footer class="[ grid-footer ] [ c-footer ] [ u-push-apart u-color-background-primary u-color-text-secondary ]">
+  {% include "includes/footer.njk" %}
+</footer>
 
-{% include "includes/script.njk" %}
+{% include "includes/scripts.njk" %}
 </body>
 </html>

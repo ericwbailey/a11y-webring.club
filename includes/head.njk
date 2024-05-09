@@ -14,7 +14,8 @@
 <link rel="manifest" href="{{ metadata.url }}/manifest.webmanifest">
 
 <meta name="application-name" content="{{ metadata.title }}">
-<meta name="theme-color" content="{{ metadata.theme }}">
+<meta name="theme-color" content="{{ metadata.theme.light }}">
+<meta name="theme-color" content="{{ metadata.theme.dark }}" media="(prefers-color-scheme: dark)">
 
 <link rel="stylesheet" href="site.css" as="style">
 

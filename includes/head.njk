@@ -14,12 +14,19 @@
 <link rel="manifest" href="{{ metadata.url }}/manifest.webmanifest">
 
 <meta name="application-name" content="{{ metadata.title }}">
-<meta name="theme-color" content="{{ metadata.theme }}">
+<meta name="theme-color" content="{{ metadata.theme.light }}">
+<meta name="theme-color" content="{{ metadata.theme.dark }}" media="(prefers-color-scheme: dark)">
 
 <link rel="stylesheet" href="site.css" as="style">
 
-<meta property="og:url" content="{{ metadata.url }}">
-<meta property="og:type" content="website">
+<link rel="canonical" href="{{ metadata.url }}">
+<meta property="og:site_name" content="{{ metadata.title }}">
 <meta property="og:title" content="{{ metadata.title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ metadata.url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="{{ metadata.url }}/{{ metadata.social.preview }}">
+<meta name="twitter:image" content="{{ metadata.url }}/{{ metadata.social.preview }}">
+<meta name="description" content="{{ metadata.description }}">
+<meta name="twitter:description" content="{{ metadata.description }}">
 <meta property="og:description" content="{{ metadata.description }}">
-<meta property="og:image" content="{{ metadata.url }}/{{ metadata.social.preview }}{{ metadata.cachebust }}">

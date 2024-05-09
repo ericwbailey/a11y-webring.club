@@ -393,6 +393,10 @@
       background-color var(--transition-medium),
       color var(--transition-medium);
 
+    &:first-of-type {
+      margin-inline-end: 0.3rem;
+    }
+
     &:focus {
       background-color: var(--color-primary);
       color: var(--color-secondary);

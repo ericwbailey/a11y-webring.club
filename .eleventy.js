@@ -16,6 +16,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.svg");
   eleventyConfig.addPassthroughCopy("fonts/basiersquare-bold.woff2");
   eleventyConfig.addPassthroughCopy("fonts/basiersquare-regular.woff2");
+  eleventyConfig.addPassthroughCopy("fonts/basiersquare-semibold.woff2");
   eleventyConfig.addPassthroughCopy("humans.txt");
   eleventyConfig.addPassthroughCopy("icon-192.png");
   eleventyConfig.addPassthroughCopy("icon-512.png");

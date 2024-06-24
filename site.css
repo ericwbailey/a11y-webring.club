@@ -26,18 +26,6 @@
     padding: 0;
   }
 
-  @keyframes target-fade {
-    0% {
-      background-color: var(--color-primary);
-      color: var(--color-secondary);
-      outline: var(--border-thickness-2) solid var(--color-primary);
-    }
-    100% {
-      background-color: unset;
-      color: unset;
-      outline: none;
-    }
-  }
 
   /* MARK: Root */
   :root {
@@ -80,6 +68,20 @@
       --transition-medium: none;
     }
   }
+
+
+  @keyframes target-fade {
+    0% {
+      outline: var(--border-thickness-2) solid currentColor;
+    }
+    99% {
+      outline: var(--border-thickness-0) solid currentColor;
+    }
+    100% {
+      outline: none;
+    }
+  }
+
 
   /* MARK: Basics */
   html {
@@ -129,10 +131,6 @@
     color: inherit;
     outline: inherit;
     text-wrap: balance;
-    /* transition:
-      background-color var(--transition-medium),
-      color var(--transition-medium),
-      outline var(--transition-medium); */
   }
 
   a {
@@ -159,7 +157,7 @@
   }
 
   :target {
-    outline: var(--border-thickness-1) solid currentColor;
+    animation: target-fade 1s linear;
     outline-offset: 0.3rem;
   }
 
@@ -366,6 +364,11 @@
 
   .c-title {
     font-size: var(--step-5);
+    line-height: 0.9;
+  }
+
+  .c-tagline {
+    margin-block-start: var(--step-0);
   }
 
   .c-webring-links {
@@ -634,8 +637,6 @@
   }
 
   .c-codeblock {
-    --_codeblock-outer-columns: calc(var(--step-0) * 3);
-
     background-color: var(--color-secondary);
     color: var(--color-primary);
     grid-area: 1 / 1;
@@ -647,7 +648,6 @@
     tab-size: 4;
     text-align: left;
     white-space: pre;
-    /* width: calc(100vw - var(--_codeblock-outer-columns)); */
     word-spacing: normal;
     word-break: normal;
     word-wrap: normal;
@@ -723,14 +723,31 @@
 }
 
 /* MARK: Media Queries */
+@supports (-webkit-tap-highlight-color: transparent) {
+  @media (orientation: landscape) and (min-resolution: 2x) {
+    @layer layout {
+      :where(
+        .grid-prev-rand-next,
+        .grid-toc,
+        .grid-members,
+        .grid-join,
+        .c-embed,
+        .grid-faq,
+        .c-made-with,
+        .c-theme-switcher,
+        .c-footer-additional
+      ) {
+        margin-inline-start: env(safe-area-inset-left);
+        margin-inline-end: env(safe-area-inset-right);
+      }
+    }
+  }
+}
+
 @media (min-width: 38rem) {
   @layer components {
     .view-as-grid {
       grid-template-columns: 1fr 1fr;
-    }
-
-    .c-codeblock {
-      --_codeblock-outer-columns: calc(var(--step-1) * 2.75);
     }
 
     .c-footer {

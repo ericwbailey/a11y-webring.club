@@ -36,7 +36,7 @@ The [webring's issue tracker](https://github.com/ericwbailey/a11y-webring.club/i
 
 ## Reporting issues
 
-I ([Eric Bailey](https://ericwbailey.website/)) ask that you please let me know if discover an accessibility-related issue. I take these issues extremely seriously and will fix them as fast as possible. i will also include you in the process, if desired.
+I ([Eric Bailey](https://ericwbailey.website/)) ask that you please let me know if discover an accessibility-related issue. I take these issues extremely seriously and will fix them as fast as possible. I will also include you in the process, if desired.
 
 You can submit an accessibility issue by [filing a bug report using the issue tracker's bug issue template](https://github.com/ericwbailey/a11y-webring.club/issues/new?assignees=ericwbailey&labels=bug&projects=&template=bug-report.yml&title=%5BBug%5D+).
 

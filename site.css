@@ -82,6 +82,12 @@
     }
   }
 
+  @starting-style {
+    :target {
+      outline: none;
+    }
+  }
+
 
   /* MARK: Basics */
   html {

@@ -2,9 +2,10 @@
   "date": "2024-05-16T00:00",
   "name": "Eva Decker",
   "url": "https://eva.town",
+  "bluesky": "https://bsky.app/profile/eva.town",
   "github": "https://github.com/evadecker",
   "linkedin": "https://www.linkedin.com/in/evadecker",
   "accessibilityStatement": "https://eva.town/colophon#accessibility",
   "mastodon": null,
-  "rss": null
+  "rss": "https://eva.town/rss.xml",
 }

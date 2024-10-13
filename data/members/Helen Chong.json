@@ -1,10 +1,10 @@
-{ 
-   "date": "2024-05-29T11:29", 
-   "name": "Helen Chong", 
-   "url": "https://helenchong.dev/", 
-   "accessibilityStatement": "https://helenchong.dev/accessibility", 
-   "github": "https://github.com/helenclx", 
-   "linkedin": "https://www.linkedin.com/in/helenclx/", 
-   "mastodon": "https://tech.lgbt/@helenclx", 
-   "rss": "https://helenchong.dev/blog/feed.xml" 
- }
+{
+  "date": "2024-05-29T11:29",
+  "name": "Helen Chong",
+  "url": "https://helenchong.dev/",
+  "accessibilityStatement": "https://helenchong.dev/accessibility",
+  "github": "https://github.com/helenclx",
+  "linkedin": "https://www.linkedin.com/in/helenclx/",
+  "mastodon": "https://tech.lgbt/@helenclx",
+  "rss": "https://helenchong.dev/blog/feed.xml"
+}

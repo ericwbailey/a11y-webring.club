@@ -35,6 +35,7 @@ Ideally, your `url` points to the page that displays the webring code, but this 
 
 * `accessibilityStatement`: The URL for your website's accessibility statement.
 * `github`: Your GitHub profile address (ex: `https://github.com/yourname`).
+* `codeberg`: Your Codeberg profile address (ex: `https://codeberg.org/yourname`).
 * `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
 * `bluesky`: Your Bluesky account (ex: `https://bsky.app/profile/@YourName.bsky.social`).
 * `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).

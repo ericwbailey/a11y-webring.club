@@ -62,6 +62,14 @@
         </a>
       </li>
       {% endif %}
+      {% if member.codeberg %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.codeberg }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#codeberg"></use></svg>
+          <span class="[ u-hide-visually ]">Codeberg profile: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
       {% if member.bluesky %}
       <li>
         <a class="[ c-member-link ]" href="{{ member.bluesky }}">

@@ -29,6 +29,6 @@
   ],
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "netlify-cli": "^21.5.0"
+    "netlify-cli": "^23.0.0"
   }
 }

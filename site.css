@@ -64,6 +64,11 @@
       --color-secondary: #1f1f1f;
     }
 
+    @media screen and (prefers-color-scheme: dark) {
+      --color-primary: #ff7066;
+      --color-secondary: #1f1f1f;
+    }
+
     @media screen and (prefers-reduced-motion: reduce) {
       --transition-medium: none;
     }

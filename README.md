@@ -8,7 +8,7 @@ A way for people doing digital accessibility work to find each other.
 
 ## Can I add myself to this webring?
 
-You sure can! Here's [instructions for how to join](https://a11y-webring.club#join-this-webring).
+I'm trying to do so right now!
 
 ## Installation instructions
 

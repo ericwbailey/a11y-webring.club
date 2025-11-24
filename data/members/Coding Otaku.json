@@ -6,6 +6,6 @@
   "github": null,
   "linkedin": null,
   "bluesky": null,
-  "mastodon": "https://fosstodon.org/@codingotaku",
-  "rss": "https://codingotaku.com/blogs/atom.xml"
+  "mastodon": null,
+  "rss": "https://codingotaku.com/blogs/feed.atom"
 }

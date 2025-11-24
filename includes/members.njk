@@ -42,7 +42,7 @@
       id="{{ member.name | slugify }}"
       class="[ c-name ]"
       tabindex="-1">
-      <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name }}</a>
+      <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name | safe }}</a>
     </h3>
 
     <ul class="[ c-member-contact ]">

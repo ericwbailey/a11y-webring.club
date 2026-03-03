@@ -1,11 +1,12 @@
 {
   "date": "2024-07-24T08:00",
-  "name": "Matthias Zöchling",
+  "name": "<bdi lang='de'>Matthias Zöchling</bdi>",
   "url": "https://cssence.com/webrings/",
+  "role": "Accessibility developer",
   "github": "https://github.com/cssence",
   "linkedin": null,
-  "bluesky": null,
+  "bluesky": "https://bsky.app/profile/cssence.com",
   "mastodon": "https://mas.to/@CSSence",
   "accessibilityStatement": "https://cssence.com/imprint/#accessibility-statement",
-  "rss": "https://cssence.com/latest/rss.xml"
+  "rss": "https://cssence.com/rss.xml"
 }

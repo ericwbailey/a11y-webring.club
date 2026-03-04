@@ -857,7 +857,7 @@
     }
 
     .view-as-grid {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       min-height: calc(var(--step-6) * 2);
     }
 

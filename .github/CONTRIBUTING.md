@@ -28,6 +28,7 @@ To add yourself to the webring, submit a pull request to this repository where y
 * `date`: The day you add yourself to the webring, in `YYYY-MM-DDThh:mm` format. You can use `T00:00` for the hour an minute if you want.
 * `name`: Your name (can be your given name, a nickname, a handle, etc.).
 * `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
+* `role`: What your focus is (ex: Accessibility auditor, Indieweb enthusiast, Inclusive user researcher, etc.)
 
 Ideally, your `url` points to the page that displays the webring code, but this is not required.
 
@@ -75,11 +76,13 @@ If you want to propose new features or functionality, please [create an issue](h
 
 ## I want to use Medium, LinkedIn, Facebook, Twitter/X, etc. as my website
 
-Unfortunately, this is something that will break the webring. Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
+Unfortunately, this is something that will break the webring.
+
+Since you do not own your content on these platforms they are incompatible with a webring's approach. This is why some of these services are offered as optional links you can add.
 
 ## I want to suggest a new social media service to add
 
-I'm definitely open to suggestions! I will not allow [Twitter/X](https://twitter.com/) or [Threads](https://www.threads.net/), due to ethical issues I have with each platform.
+I'm definitely open to suggestions! That said, I will not allow [Twitter/X](https://twitter.com/) or [Threads](https://www.threads.net/), due to ethical issues I have with each platform.
 
 If you have a suggestion for a service other than those two, please [create an issue](https://github.com/ericwbailey/a11y-webring.club/issues/new) so we can chat it out.
 

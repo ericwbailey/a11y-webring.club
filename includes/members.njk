@@ -42,7 +42,7 @@
       id="{{ member.name | slugify }}"
       class="[ c-name ]"
       tabindex="-1">
-      <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name }}</a>
+      <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name | safe }}</a>
     </h3>
 
     <ul class="[ c-member-contact ]">
@@ -59,6 +59,22 @@
         <a class="[ c-member-link ]" href="{{ member.github }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#github"></use></svg>
           <span class="[ u-hide-visually ]">GitHub profile: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if member.codeberg %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.codeberg }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#codeberg"></use></svg>
+          <span class="[ u-hide-visually ]">Codeberg profile: {{ member.name }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if member.bluesky %}
+      <li>
+        <a class="[ c-member-link ]" href="{{ member.bluesky }}">
+          <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#bluesky"></use></svg>
+          <span class="[ u-hide-visually ]">Bluesky account: {{ member.name }}</span>
         </a>
       </li>
       {% endif %}

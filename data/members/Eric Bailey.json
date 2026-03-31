@@ -2,7 +2,7 @@
   "date": "2023-01-19T00:00",
   "name": "Eric Bailey",
   "url": "https://ericwbailey.website/colophon/",
-  "role": "Accessibility designer",
+  "roles": [ "Accessibility designer", "test" ],
   "github": "https://github.com/ericwbailey",
   "linkedin": "https://www.linkedin.com/in/ericwbailey/",
   "bluesky": "https://bsky.app/profile/ericwbailey.website",

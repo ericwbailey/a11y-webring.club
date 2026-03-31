@@ -492,6 +492,10 @@
       position: relative;
         top: 1px;
     }
+
+    &[aria-current="true"] {
+      font-weight: var(--font-weight-bold);
+    }
   }
 
   .c-count {

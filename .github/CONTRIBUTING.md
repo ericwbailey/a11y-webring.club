@@ -29,12 +29,12 @@ To add yourself to the webring, submit a pull request to this repository where y
 * `name`: Your name (can be your given name, a nickname, a handle, etc.).
 * `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
 * `role`: What your focus is (ex: Accessibility auditor, Indieweb enthusiast, Inclusive user researcher, etc.)
+* `accessibilityStatement`: The URL for your website's accessibility statement.
 
 Ideally, your `url` points to the page that displays the webring code, but this is not required.
 
 #### Optional information
 
-* `accessibilityStatement`: The URL for your website's accessibility statement.
 * `github`: Your GitHub profile address (ex: `https://github.com/yourname`).
 * `codeberg`: Your Codeberg profile address (ex: `https://codeberg.org/yourname`).
 * `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).

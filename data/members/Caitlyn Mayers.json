@@ -2,7 +2,9 @@
   "date": "2025-01-04",
   "name": "Caitlyn Mayers",
   "url": "https://caitlynmayers.com/colophon.html",
-  "roles": "Accessibility designer",
+  "roles": [
+    "Accessibility designer"
+  ],
   "github": "https://github.com/caitlynmayers",
   "linkedin": "https://www.linkedin.com/in/caitlynmayers/",
   "bluesky": "https://bsky.app/profile/caitlynmayers",

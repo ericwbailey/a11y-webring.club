@@ -2,7 +2,9 @@
   "date": "2024-07-24T08:00",
   "name": "<bdi lang='de'>Matthias Zöchling</bdi>",
   "url": "https://cssence.com/webrings/",
-  "roles": "Accessibility developer",
+  "roles": [
+    "Accessibility developer"
+  ],
   "github": "https://github.com/cssence",
   "linkedin": null,
   "bluesky": "https://bsky.app/profile/cssence.com",

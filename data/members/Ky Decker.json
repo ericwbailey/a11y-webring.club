@@ -1,0 +1,15 @@
+{
+  "date": "2024-05-16T00:00",
+  "name": "Ky Decker",
+  "url": "https://ky.fyi",
+  "roles": [
+    "Designer",
+    "Frontend developer"
+  ],
+  "bluesky": "https://bsky.app/profile/ky.fyi",
+  "github": "https://github.com/kydecker",
+  "linkedin": "https://www.linkedin.com/in/kyfyi",
+  "accessibilityStatement": "https://ky.fyi/colophon#accessibility",
+  "mastodon": null,
+  "rss": "https://ky.fyi/rss.xml"
+}

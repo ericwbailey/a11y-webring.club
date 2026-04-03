@@ -47,6 +47,13 @@
     --effect-pressed: 50%;
     --effect-scale: 1.2;
 
+    --line-height-tight: 0.9;
+    --line-height-single: 1;
+    --line-height-loose: 1.2;
+    --line-height-code: 1.6
+
+  --step-legal: 0.8rem;
+  --step-roles: 0.9rem;
   /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,6,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step-0: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);
     --step-1: clamp(1.35rem, 1.2761rem + 0.3696vi, 1.5625rem);
@@ -60,6 +67,11 @@
     --transition-long: 3000ms ease-in-out;
 
     &:has(#scheme-button-dark[aria-pressed="true"]) {
+      --color-primary: #ff7066;
+      --color-secondary: #1f1f1f;
+    }
+
+    @media screen and (prefers-color-scheme: dark) {
       --color-primary: #ff7066;
       --color-secondary: #1f1f1f;
     }
@@ -225,7 +237,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 1;
+    line-height: var(--line-height-single);
   }
 
   .u-icon-press {
@@ -371,7 +383,7 @@
 
   .c-title {
     font-size: var(--step-5);
-    line-height: 0.9;
+    line-height: var(--line-height-tight);
   }
 
   .c-tagline {
@@ -426,7 +438,7 @@
   }
 
   .c-prn-legal-link {
-    font-size: 0.8rem;
+    font-size: var(--step-legal);
     transition:
       background-color var(--transition-medium),
       color var(--transition-medium);
@@ -486,6 +498,10 @@
       filter: brightness(var(--effect-pressed));
       position: relative;
         top: 1px;
+    }
+
+    &[aria-current="true"] {
+      font-weight: var(--font-weight-bold);
     }
   }
 
@@ -567,20 +583,25 @@
   }
 
   .c-member {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
 
     .view-as-list & {
       align-items: center;
       border-block-start: var(--border-thickness-0) dotted var(--color-primary);
-      flex-direction: row;
-      line-height: 1.2;
+      grid-template-areas:
+        "member-name  member-contact"
+        "member-roles member-roles";
+      line-height: var(--line-height-loose);
       padding-block-start: var(--step-0);
     }
 
     .view-as-grid & {
       border: var(--border-thickness-0) dotted var(--color-primary);
-      flex-direction: column;
+      grid-template-rows: max-content 1fr 1fr;
+      grid-template-areas:
+        "member-name    member-name"
+        "member-roles   member-roles"
+        "member-contact member-contact";
       min-height: calc(var(--step-6) * 3);
       padding: var(--step-0);
     }
@@ -588,6 +609,7 @@
 
   .c-name {
     font-weight: var(--font-weight-regular);
+    grid-area: member-name;
   }
 
   .c-name-link {
@@ -608,15 +630,36 @@
     }
   }
 
+  .c-roles {
+    font-size: var(--step-roles);
+    line-height: var(--line-height-single);
+    grid-area: member-roles;
+
+    .view-as-list & {
+      margin-block-start: 0.2rem;
+    }
+
+    .view-as-grid & {
+      margin-block-start: 1rem;
+    }
+  }
+
   .c-member-contact {
     align-items: center;
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    grid-area: member-contact;
     list-style-type: none;
 
     .view-as-list & {
+      justify-content: end;
       margin-inline-start: 1rem;
+    }
+
+    .view-as-grid & {
+      align-self: end;
+      justify-content: start;
     }
   }
 
@@ -648,7 +691,7 @@
     color: var(--color-primary);
     grid-area: 1 / 1;
     hyphens: none;
-    line-height: 1.6;
+    line-height: var(--line-height-code);
     margin-block: var(--step-2);
     overflow: auto;
     padding: var(--step-1);
@@ -852,7 +895,7 @@
     }
 
     .view-as-grid {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       min-height: calc(var(--step-6) * 2);
     }
 

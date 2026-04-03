@@ -45,6 +45,14 @@
       <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name | safe }}</a>
     </h3>
 
+    <div class="[ c-roles ]">
+    {% if member.roles %}
+      {% for role in member.roles %}
+        {{ role }}{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    {% endif %}
+    </div>
+
     <ul class="[ c-member-contact ]">
       {% if member.linkedin %}
       <li>

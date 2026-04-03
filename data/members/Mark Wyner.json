@@ -1,8 +1,11 @@
 {
   "date": "2025-12-22T00:00",
   "name": "Mark Wyner",
-  "role": "Designer/developer",
   "url": "https://markwyner.com/colophon",
+  "roles": [
+    "Designer",
+    "Developer"
+  ],
   "mastodon": "https://mas.to/@markwyner",
   "rss": "https://markwrites.io/feed.xml",
   "codeberg": "https://codeberg.org/markwyner",

@@ -2,7 +2,10 @@
   "date": "2025-04-15T00:00",
   "name": "Zachary Kai",
   "url": "https://zacharykai.net",
-  "roles": [ null ],
+  "roles": [ 
+    "Writer",
+    "Amateur Programmer"
+  ],
   "github": "https://github.com/zk-codes",
   "linkedin": "https://www.linkedin.com/in/zachary-kai/",
   "rss": "https://zacharykai.net/assets/rss.xml"

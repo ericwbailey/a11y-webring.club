@@ -71,6 +71,11 @@
       --color-secondary: #1f1f1f;
     }
 
+    &:has(#scheme-button-light[aria-pressed="true"]) {
+      --color-primary: #0e00f5;
+      --color-secondary: #ebebeb;
+    }
+
     @media screen and (prefers-color-scheme: dark) {
       --color-primary: #ff7066;
       --color-secondary: #1f1f1f;

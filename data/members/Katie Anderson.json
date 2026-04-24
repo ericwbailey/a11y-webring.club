@@ -2,9 +2,11 @@
   "date": "2023-05-05T00:00",
   "name": "Katie Anderson",
   "url": "https://www.k80anderson.com/",
-  "roles": [ null ],
-  "github": null,
+  "roles": ["Designer"],
+  "github": "https://github.com/krander",
   "linkedin": "https://www.linkedin.com/in/k80anderson/",
+  "bluesky": "https://bsky.app/profile/k80anderson.bsky.social",
+  "accessibilityStatement": "https://k80anderson.com/accessibility",
   "mastodon": null,
   "rss": null
 }

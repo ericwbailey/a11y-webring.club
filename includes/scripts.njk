@@ -51,6 +51,52 @@
 
 
 <script>
+  function initTocHighlight() {
+    const tocLinks = document.querySelectorAll('.c-toc-link');
+    const headingIds = Array.from(tocLinks).map(link => link.getAttribute('href').slice(1));
+    const headings = headingIds.map(id => document.getElementById(id)).filter(Boolean);
+
+    if (!headings.length) return;
+
+    const setCurrent = (id) => {
+      tocLinks.forEach(link => {
+        if (link.getAttribute('href') === `#${id}`) {
+          link.setAttribute('aria-current', 'true');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setCurrent(entry.target.id);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -90% 0px',
+      threshold: 0
+    });
+
+    headings.forEach(heading => observer.observe(heading));
+  }
+
+  const tocMediaQuery = window.matchMedia('(min-width: 56rem)');
+
+  if (tocMediaQuery.matches) {
+    initTocHighlight();
+  }
+
+  tocMediaQuery.addEventListener('change', (event) => {
+    if (event.matches) {
+      initTocHighlight();
+    }
+  });
+</script>
+
+
+<script>
 function initSiteColorScheme() {
   const siteColorScheme = document.querySelector('[data-theme="system"]');
   const schemeButtonSystem = document.getElementById('scheme-button-system');
@@ -95,4 +141,10 @@ function initSiteColorScheme() {
 };
 
 initSiteColorScheme();
+</script>
+
+<script async src="https://plausible.io/js/pa-vMpro0VoHpxYVBDJFRJAK.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
 </script>

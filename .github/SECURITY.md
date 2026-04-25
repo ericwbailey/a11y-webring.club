@@ -39,6 +39,11 @@ The webring is precompiled on Netlify. Nearly all content is static, save for [t
 
 [The webring code](https://a11y-webring.club/#list-the-webring-on-your-website) is entirely static HTML, and does not require CSS, JavaScript, or other technologies to work—Netlify handles this.
 
+## Analytics
+
+The webring uses [Plausible analytics](https://plausible.io/), a privacy-friendly service based out of Europe. It also uses a unique password and multifactor authentication.
+
+
 ## Evaluation of content
 
 Requests to be added to the webring are a manual process, where I evaluate the site and its content. This evaluation includes compliance with the [Code of Conduct](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/CODE_OF_CONDUCT.md), which prohibits harmful content.

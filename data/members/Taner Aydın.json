@@ -1,10 +1,12 @@
 {
   "date": "2023-01-25T18:20",
   "name": "Taner Aydın",
-  "url": "https://taner-aydin.dev/",
-  "roles": [ null ],
-  "github": null,
+  "url": "https://a11y-up.com",
+  "roles": [ "Accessibility Consultant", "Senior Software Developer" ],
+  "github": "https://github.com/a11yup",
   "linkedin": "https://www.linkedin.com/in/taner-aydın/",
   "mastodon": "https://indieweb.social/@a11yup",
-  "rss": "https://a11yup.com/rss.xml"
+  "bluesky": "https://bsky.app/profile/a11yup.bsky.social"
+  "rss": "https://a11y-up.com/rss.xml",
+  "accessibilityStatement": "https://a11y-up.com/accessibility-statement/",
 }

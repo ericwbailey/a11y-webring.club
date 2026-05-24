@@ -2,7 +2,7 @@
   "date": "2025-09-01T00:00",
   "name": "James' Coffee Blog",
   "url": "https://jamesg.blog",
-  "roles": [ null ],
+  "roles": [ "Writer", "Art history student", "Indieweb enthusiast" ],
   "github": "https://github.com/capjamesg",
   "rss": "https://jamesg.blog/feeds/posts.xml"
 }

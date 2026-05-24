@@ -3,7 +3,9 @@
   "name": "Steve Woodson",
   "url": "https://stevenwoodson.com/",
   "roles": [ "Freelance web developer", "Accessibility advocate" ],
+  "accessibilityStatement": "https://stevenwoodson.com/accessibility/",
   "github": null,
+  "bluesky": "https://bsky.app/profile/stevenwoodson.com",
   "linkedin": "https://www.linkedin.com/in/stevenwoodson/",
   "mastodon": "https://mastodon.online/@stevenwoodson",
   "rss": "https://stevenwoodson.com/feed/feed.xml"

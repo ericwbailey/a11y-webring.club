@@ -1,11 +1,13 @@
 {
   "date": "2023-09-12T00:00",
   "name": "Rachel Cherry",
-  "url": "https://bamadesigner.com/",
-  "roles": [ "Digital accessibility specialist", "Engineer" ],
+  "url": "https://rachelcherry.me/",
+  "roles": [ "Digital accessibility specialist", "Data scientist", "Engineer" ],
   "accessibilityStatement": null,
   "github": "https://github.com/bamadesigner",
+  "codeberg": null,
   "linkedin": "https://www.linkedin.com/in/rachelmcherry/",
+  "bluesky": "https://bsky.app/profile/rachelcherry.me",
   "mastodon": "https://higheredweb.social/web/@rachelcherry",
-  "rss": null
+  "rss": "https://rachelcherry.me/rss"
 }

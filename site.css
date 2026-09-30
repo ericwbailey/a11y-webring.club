@@ -137,8 +137,8 @@
 
   main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 80vh auto auto auto auto auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: max(400px, 80vh) auto auto auto auto auto;
     grid-template-areas:
       "title"
       "prn"
@@ -331,7 +331,7 @@
     display: grid;
     grid-area: prn;
     grid-template-columns: var(--step-0) 1fr var(--step-0);
-    grid-template-rows: var(--step-3) 1fr var(--step-6);
+    grid-template-rows: var(--step-3) 1fr auto;
     grid-template-areas:
     ". .     ."
     ". links ."
@@ -345,6 +345,7 @@
   .prn-legal {
     align-self: end;
     grid-area: legal;
+    padding-block: 1rem;
   }
 
   .grid-members {
@@ -389,6 +390,7 @@
   .c-title {
     font-size: var(--step-5);
     line-height: var(--line-height-tight);
+    word-wrap: break-word;
   }
 
   .c-tagline {
@@ -440,17 +442,17 @@
 
   .c-prn-legal {
     text-align: center;
+    margin-block-start: var(--step-1);
   }
 
   .c-prn-legal-link {
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0.4rem;
     font-size: var(--step-legal);
     transition:
       background-color var(--transition-medium),
       color var(--transition-medium);
-
-    &:first-of-type {
-      margin-inline-end: 0.3rem;
-    }
 
     &:focus {
       background-color: var(--color-primary);
@@ -598,6 +600,13 @@
         "member-roles member-roles";
       line-height: var(--line-height-loose);
       padding-block-start: var(--step-0);
+
+      @media (width < 420px) {
+        grid-template-areas:
+          "member-name"
+          "member-roles"
+          "member-contact"
+      }
     }
 
     .view-as-grid & {
@@ -656,10 +665,14 @@
     gap: 1rem;
     grid-area: member-contact;
     list-style-type: none;
+    margin-block-start: 1rem;
 
-    .view-as-list & {
-      justify-content: end;
-      margin-inline-start: 1rem;
+    @media (width >= 420px) {
+      .view-as-list & {
+        justify-content: end;
+        margin-block-start: 0;
+        margin-inline-start: 1rem;
+      }
     }
 
     .view-as-grid & {

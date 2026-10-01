@@ -1,6 +1,6 @@
 # Accessibility Statement
 
-a11y-webring.club strives to be AA [WCAG 2.1 compliant](https://www.w3.org/WAI/standards-guidelines/wcag/), and is committed to creating and maintaining an accessible, inclusive environment. It is intended to be able to be used by everyone.
+a11y-webring.club strives to be AA [WCAG 2.2 compliant](https://www.w3.org/WAI/standards-guidelines/wcag/), and is committed to creating and maintaining an accessible, inclusive environment. It is intended to be able to be used by everyone.
 
 ## What we are doing
 

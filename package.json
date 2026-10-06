@@ -29,7 +29,7 @@
   ],
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "netlify-cli": "^27.1.2"
+    "netlify-cli": "^27.11.2"
   },
   "dependencies": {
     "picomatch": "^4.0.7"

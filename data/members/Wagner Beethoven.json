@@ -1,10 +1,11 @@
 {
   "date": "2024-05-03T00:00",
   "name": "Wagner Beethoven",
-  "url": "https://wagnerbeethoven.com.br/",
+  "url": "https://focoacessivel.com.br/",
   "roles": [ "Designer", "Accessibility enthusiast" ],
   "github": "https://github.com/wagnerbeethoven",
   "linkedin": "https://www.linkedin.com/company/focoacessivel/",
   "mastodon": null,
-  "rss": "https://focoacessivel.com.br/feed/"
+  "rss": "https://focoacessivel.com.br/feed/",
+  "accessibilityStatement": "https://focoacessivel.com.br/declaracao-de-acessibilidade/"
 }

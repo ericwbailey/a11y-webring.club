@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19T23:30",
+  "name": "leekeh",
+  "url": "https://www.leekeh.com",
+  "roles": ["Senior frontend engineer", "Accessibility advocate", "Indieweb enthusiast"],
+  "accessibilityStatement": "https://www.leekeh.com/accessibility",
+  "mastodon": null,
+  "github": "https://github.com/leekeh",
+  "codeberg": null,
+  "linkedin": "https://www.linkedin.com/in/leekeh",
+  "bluesky": "https://bsky.app/profile/leekeh.com",
+  "rss": "https://www.leekeh.com/rss.xml"
+}

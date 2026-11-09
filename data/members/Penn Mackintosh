@@ -3,5 +3,10 @@
   "name": "Penn Mackintosh",
   "url": "https://hack5.dev/",
   "roles": [ "Accessibility advocate" ],
+  "github": null,
+  "linkedin": null,
+  "bluesky": null,
+  "mastodon": null,
   "rss": "https://hack5.dev/blog/index.xml"
+  "accessibilityStatement": "https://hack5.dev/a11y"
 }

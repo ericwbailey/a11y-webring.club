@@ -1,7 +1,11 @@
 {
   "date": "2023-01-25T16:54",
   "name": "Cristian Díaz",
-  "url": "https://www.itscrisdiaz.com/",
+  "urls": {
+    "homepage": "https://www.itscrisdiaz.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.itscrisdiaz.com/#a11y-webring-club"
+  },
   "roles": [ "Front-End developer", "Accessibility advocate" ],
   "github": "https://github.com/ItsCrisDiaz",
   "linkedin": "https://www.linkedin.com/in/itscrisdiaz/",

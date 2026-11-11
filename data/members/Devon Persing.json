@@ -1,7 +1,11 @@
 {
   "date": "2023-05-03T00:00",
   "name": "Devon Persing",
-  "url": "https://dpersing.com/",
+  "urls": {
+    "homepage": "https://dpersing.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://dpersing.com#a11y-webring-club"
+  },
   "roles": [ "Independent digital accessibility consultant" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/devonpersing/",

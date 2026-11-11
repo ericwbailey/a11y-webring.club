@@ -1,7 +1,11 @@
 {
   "date": "2023-01-27T02:11",
   "name": "David A. Kennedy",
-  "url": "https://davidakennedy.com",
+  "urls": {
+    "homepage": "https://davidakennedy.com",
+    "accessibilityStatement": "https://davidakennedy.com/accessibility/",
+    "webringLink": "https://davidakennedy.com/colophon/"
+  },
   "roles": [
     "Designer"
   ],

@@ -1,12 +1,15 @@
 {
   "date": "2026-11-01T00:00",
   "name": "Daniel Kosbab",
-  "url": "https://www.danielkosbab.com/",
+  "urls": {
+    "homepage": "https://www.danielkosbab.com/",
+    "accessibilityStatement": "https://www.danielkosbab.com/accessibility",
+    "webringLink": "https://www.danielkosbab.com#a11y-webring-club"
+  },
   "roles": [
     "Accessibility engineer",
     "Full-stack engineer"
   ],
-  "accessibilityStatement": "https://www.danielkosbab.com/accessibility",
   "mastodon": null,
   "github": "https://github.com/mad-daniel",
   "codeberg": null,

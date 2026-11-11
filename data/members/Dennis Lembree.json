@@ -1,7 +1,11 @@
 {
   "date": "2023-02-01T13:26",
   "name": "Dennis Lembree",
-  "url": "https://www.dennislembree.com/",
+  "urls": {
+    "homepage": "https://www.dennislembree.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.dennislembree.com/#a11y-webring-club"
+  },
   "roles": [ "Digital accessibility professional" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/lembree/",

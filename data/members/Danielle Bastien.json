@@ -1,10 +1,14 @@
 {
-    "date": "2024-06-11T00:00",
-    "name": "Danielle Bastien",
-    "url": "https://daniellemlbastien.com/",
-    "roles": [ "Software developer", "Webmaster" ],
-    "github": "https://github.com/dmlb",
-    "linkedin": "https://www.linkedin.com/in/daniellemlbastien",
-    "mastodon": null,
-    "rss": null
+  "date": "2024-06-11T00:00",
+  "name": "Danielle Bastien",
+  "urls": {
+    "homepage": "https://daniellemlbastien.com/",
+    "accessibilityStatement": "https://github.com/dmlb/dmlb-portfolio-2024/blob/main/ACCESSIBILITY_STATEMENT.md",
+    "webringLink": "https://daniellemlbastien.com#a11y-webring-club"
+  },
+  "roles": [ "Software developer", "Webmaster" ],
+  "github": "https://github.com/dmlb",
+  "linkedin": "https://www.linkedin.com/in/daniellemlbastien",
+  "mastodon": null,
+  "rss": null
   }

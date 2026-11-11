@@ -1,7 +1,11 @@
 {
   "date": "2023-01-30T12:34",
   "name": "Daniela Kubesch",
-  "url": "https://dnikub.dev/",
+  "urls": {
+    "homepage": "https://dnikub.dev/",
+    "accessibilityStatement": null,
+    "webringLink": "https://dnikub.dev#a11y-webring-club"
+  },
   "roles": [ "Accessibility Engineer" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/danikubesch/",

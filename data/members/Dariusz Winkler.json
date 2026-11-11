@@ -1,7 +1,11 @@
 {
   "date": "2023-06-08T13:45",
   "name": "Dariusz Winkler",
-  "url": "https://dariuszwinkler.com/",
+  "urls": {
+    "homepage": "https://dariuszwinkler.com/",
+    "accessibilityStatement": "https://dariuszwinkler.com/colophon/#accessibility",
+    "webringLink": "https://dariuszwinkler.com/#:~:text=Previous%20a11y,webring%2Eclub,-Next"
+  },
   "roles": [ "Front-end developer", "Accessibility advocate" ],
   "github": "https://github.com/darekkay",
   "linkedin": "https://www.linkedin.com/in/dariuszwinkler/",

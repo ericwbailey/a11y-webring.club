@@ -1,7 +1,11 @@
 {
   "date": "2023-10-02T12:29",
   "name": "Chris Yoong",
-  "url": "https://chrisyoong.com",
+  "urls": {
+    "homepage": "https://chrisyoong.com",
+    "accessibilityStatement": "https://chrisyoong.com/accessibility-and-privacy",
+    "webringLink": "https://chrisyoong.com#a11y-webring-club"
+  },
   "roles": [ "Frontend developer", "Accessibility advocate" ],
   "github": "https://github.com/chris-gds",
   "linkedin": "https://www.linkedin.com/in/chrisyoong/",

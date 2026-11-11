@@ -1,7 +1,11 @@
 {
   "date": "2025-01-04",
   "name": "Caitlyn Mayers",
-  "url": "https://caitlynmayers.com/colophon.html",
+  "urls": {
+    "homepage": "https://caitlynmayers.com/",
+    "accessibilityStatement": "https://caitlynmayers.com/accessibility",
+    "webringLink": "https://caitlynmayers.com/colophon.html"
+  },
   "roles": [
     "Accessibility designer"
   ],

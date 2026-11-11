@@ -1,7 +1,11 @@
 {
   "date": "2026-05-19T00:00",
   "name": "Chaitanya",
-  "url": "https://thefield.blog/",
+  "urls": {
+    "homepage": "https://thefield.blog/",
+    "accessibilityStatement": null,
+    "webringLink": "https://chaitanya.id/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [ "Cultural worker", "Accessibility enthusiast" ],
   "github": "https://github.com/chaitanyacodestoo",
   "codeberg": "https://codeberg.org/chaitanyacodes",

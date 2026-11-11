@@ -1,7 +1,11 @@
 {
   "date": "2024-12-19T13:00",
   "name": "Ben Myers",
-  "url": "https://benmyers.dev",
+  "urls": {
+    "homepage": "https://benmyers.dev",
+    "accessibilityStatement": "https://benmyers.dev/accessibility-statement/",
+    "webringLink": "https://benmyers.dev#a11y-webring-club"
+  },
   "roles": [ "Senior frontend engineer", "Accessibility advocate" ],
   "github": "https://github.com/BenDMyers",
   "linkedin": "https://www.linkedin.com/in/BenDMyers/",

@@ -1,7 +1,11 @@
 {
   "date": "2023-01-26T19:31",
   "name": "Beth DeConinck",
-  "url": "https://www.bethdeconinck.com/",
+    "urls": {
+    "homepage": "https://www.bethdeconinck.com/",
+    "accessibilityStatement": "https://bethdeconinck.com/accessibility/",
+    "webringLink": "https://www.bethdeconinck.com/#a11y-webring-club"
+  },
   "roles": [ "Digital accessibility specialist" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/bdeconinck/",

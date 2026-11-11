@@ -1,9 +1,12 @@
 {
   "date": "2025-12-26T00:00",
   "name": "Brennan Kenneth Brown",
-  "url": "https://brennan.day/",
+  "urls": {
+    "homepage": "https://brennan.day/",
+    "accessibilityStatement": "https://brennan.day/accessibility",
+    "webringLink": "https://brennan.day/#:~:text=a11y%20Webring"
+  },
   "roles": [ "Author", "Web developer", "Indieweb enthusiast" ],
-  "accessibilityStatement": "https://brennan.day/accessibility",
   "github": "https://github.com/brennankbrown",
   "codeberg": null,
   "linkedin": "https://linkedin.com/in/brennankbrown",

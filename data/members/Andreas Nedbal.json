@@ -1,12 +1,15 @@
 {
   "date": "2024-10-27T00:00",
   "name": "Andreas Nedbal",
-  "url": "https://pixelde.su/",
+  "urls": {
+    "homepage": "https://pixelde.su/",
+    "accessibilityStatement": "https://pixelde.su/colophon",
+    "webringLink": null
+  },
   "roles": [ "Senior frontend developer", "Accessibility advocate" ],
   "github": "https://github.com/pixeldesu",
   "linkedin": "https://www.linkedin.com/in/andreas-nedbal/",
   "bluesky": "https://bsky.app/profile/pixelde.su",
   "mastodon": "https://desu.social/@pixel",
-  "rss": "https://pixelde.su/blog/posts.rss",
-  "accessibilityStatement": "https://pixelde.su/colophon"
+  "rss": "https://pixelde.su/blog/posts.rss"
 }

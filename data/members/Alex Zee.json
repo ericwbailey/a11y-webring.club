@@ -1,7 +1,11 @@
 {
   "date": "2025-07-06T00:00",
   "name": "Alex Zee",
-  "url": "https://alexzeecomedy.com/",
+  "urls": {
+    "homepage": "https://alexzeecomedy.com/",
+    "accessibilityStatement": "https://alexzeecomedy.com/pages/accessibility.html",
+    "webringLink": "https://alexzeecomedy.com/#a11y"
+  },
   "roles": [ "Stand-up comedian", "FOSS/privacy enthusiast", "Writer" ],
   "github": "https://github.com/alexzeecomedy",
   "codeberg": "https://codeberg.org/alexzeecomedy",

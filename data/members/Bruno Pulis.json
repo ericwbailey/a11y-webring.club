@@ -1,7 +1,11 @@
 {
   "date": "2024-03-22T00:00",
   "name": "Bruno Pulis",
-  "url": "https://brunopulis.com",
+  "urls": {
+    "homepage": "https://brunopulis.com",
+    "accessibilityStatement": "https://brunopulis.com/accessibility/",
+    "webringLink": "https://brunopulis.com#a11y-webring-club"
+  },
   "roles": [ "Software quality engineer", "Accessibility tester" ],
   "github": "https://github.com/brunopulis",
   "linkedin": "https://www.linkedin.com/in/pulis/",

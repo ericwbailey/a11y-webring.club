@@ -1,7 +1,11 @@
 {
   "date": "2025-04-19T00:00",
   "name": "Ariel Salminen",
-  "url": "https://arielsalminen.com/webrings/",
+  "urls": {
+    "homepage": "https://arielsalminen.com/",
+    "accessibilityStatement": "https://arielsalminen.com/accessibility/",
+    "webringLink": "https://arielsalminen.com/webrings/"
+  },
   "roles": [ "Design systems architect" ],
   "github": "https://github.com/arielsalminen",
   "linkedin": "https://www.linkedin.com/in/arielsalminen",

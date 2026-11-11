@@ -1,7 +1,11 @@
 {
   "date": "2025-06-20T11:10",
   "name": "Boyan Kostov",
-  "url": "https://boyankostov.com/",
+  "urls": {
+    "homepage": "https://boyankostov.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://boyankostov.com/#a11y-webring-club"
+  },
   "roles": ["Designer"],
   "github": "https://github.com/boyankostov",
   "linkedin": "https://www.linkedin.com/in/boyankostov/",

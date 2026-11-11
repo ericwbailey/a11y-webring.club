@@ -1,7 +1,11 @@
 {
   "date": "2023-10-05T00:00",
   "name": "Anne Sturdivant",
-  "url": "https://weblog.anniegreens.lol/webrings",
+  "urls": {
+    "homepage": "https://weblog.anniegreens.lol/",
+    "accessibilityStatement": "https://weblog.anniegreens.lol/accessibility-statement",
+    "webringLink": "https://weblog.anniegreens.lol/webrings"
+  },
   "roles": [ "Front-end web developer", "Indieweb enthusiast" ],
   "github": "https://github.com/anniegreens",
   "linkedin": "https://www.linkedin.com/in/anniegreens",

@@ -1,7 +1,11 @@
 {
   "date": "2025-04-27T22:00",
   "name": "Erin White",
-  "url": "https://erinrwhite.com/",
+  "urls": {
+    "homepage": "https://erinrwhite.com/",
+    "accessibilityStatement": "https://erinrwhite.com/site-info",
+    "webringLink": "https://erinrwhite.com/#a11y-webring-club"
+  },
   "roles": [ "Designer", "Engineering manager" ],
   "github": "https://github.com/erinrwhite",
   "linkedin": "https://www.linkedin.com/in/erinrwhite/",

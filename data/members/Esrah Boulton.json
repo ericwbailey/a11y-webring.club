@@ -1,7 +1,11 @@
 {
   "date": "2024-02-12T00:00",
   "name": "Esrah Boulton",
-  "url": "https://www.esrahboulton.com/",
+  "urls": {
+    "homepage": "https://www.esrahboulton.com/",
+    "accessibilityStatement": "https://www.esrahboulton.com/#a11y",
+    "webringLink": "https://www.esrahboulton.com/#a11y-webring-club"
+  },
   "roles": [ "Front-end developer", "Accessibility advocate" ],
   "github": "https://github.com/esrahboulton",
   "linkedin": "https://ca.linkedin.com/in/esrah-boulton",

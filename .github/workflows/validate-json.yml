@@ -1,0 +1,39 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - 'data/members/*.json'
+      - 'data/members/**/*.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-json:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate changed JSON files
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          status=0
+          count=0
+          while IFS= read -r -d '' file; do
+            count=$((count + 1))
+            if err=$(jq empty "$file" 2>&1); then
+              echo "OK: $file"
+            else
+              echo "::error file=${file}::Invalid JSON: ${err//$'\n'/ }"
+              status=1
+            fi
+          done < <(git diff --name-only --diff-filter=ACMR -z "$BASE_SHA" "$HEAD_SHA" -- 'data/members/*.json')
+          echo "Validated $count JSON file(s)"
+          exit $status

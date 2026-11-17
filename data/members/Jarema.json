@@ -1,7 +1,11 @@
 {
   "date": "2026-01-12T16:00",
   "name": "Jarema",
-  "url": "https://jarema.me/",
+  "urls": {
+    "homepage": "https://jarema.me/",
+    "accessibilityStatement": "https://jarema.me/colophon/",
+    "webringLink": "https://jarema.me/webrings/"
+  },
   "roles": [ "Economics major", "Indieweb enthusiast" ],
   "github": "https://github.com/jartf",
   "linkedin": null,

@@ -1,7 +1,11 @@
 {
   "date": "2023-01-28T12:59",
   "name": "foreverliketh.is",
-  "url": "https://foreverliketh.is/",
+  "urls": {
+    "homepage": "https://foreverliketh.is/",
+    "accessibilityStatement": null,
+    "webringLink": "https://foreverliketh.is/docs/connectivism/home-page/#54-a11y-webringclub"
+  },
   "roles": [ "Indieweb enthusiast" ],
   "github": null,
   "linkedin": null,

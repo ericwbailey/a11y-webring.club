@@ -1,7 +1,11 @@
 {
   "date": "2026-09-21T00:00",
   "name": "J Lopes",
-  "url": "https://jlopes.eu/about/",
+  "urls": {
+    "homepage": "https://jlopes.eu/about/",
+    "accessibilityStatement": "https://jlopes.eu/accessibility/",
+    "webringLink": "https://jlopes.eu/about/#webring-a11y"
+  },
   "roles": [
     "Frontend developer",
     "Design systems developer",
@@ -11,6 +15,5 @@
   "linkedin": "https://www.linkedin.com/in/jpalopes/",
   "bluesky": "https://bsky.app/profile/jlopes.eu",
   "mastodon": null,
-  "accessibilityStatement": "https://jlopes.eu/accessibility/",
   "rss": "https://jlopes.eu/rss.xml"
 }

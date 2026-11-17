@@ -1,9 +1,12 @@
 {
   "date": "2026-04-28T00:00",
   "name": "Katrin Sellerbeck",
-  "url": "https://katrin-sellerbeck.de/",
+  "urls": {
+    "homepage": "https://katrin-sellerbeck.de/",
+    "accessibilityStatement": "https://www.katrin-sellerbeck.de/accessibility/",
+    "webringLink": "https://www.katrin-sellerbeck.de/#a11y-webring-club"
+  },
   "roles": [ "Freelance IT consultant", "Web developer", "Accessibility advocate" ],
-  "accessibilityStatement": "https://www.katrin-sellerbeck.de/accessibility/",
   "github": null,
   "linkedin": "https://www.linkedin.com/in/katrin-sellerbeck/",
   "mastodon": "https://indieweb.social/@ksel",

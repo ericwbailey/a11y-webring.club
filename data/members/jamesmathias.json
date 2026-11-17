@@ -1,7 +1,11 @@
 {
   "date": "2026-07-18T00:00",
   "name": "James Mathias",
-  "url": "https://jamesmathias.com/credits",
+  "urls": {
+    "homepage": "https://jamesmathias.com/",
+    "accessibilityStatement": "https://jamesmathias.com/terms#accessibility",
+    "webringLink": "https://jamesmathias.com/credits"
+  },
   "roles": [ "Accessibility designer", "Accessibility advocate", "Design sytems designer" ],
   "github": "https://github.com/jmathias",
   "linkedin": "https://www.linkedin.com/in/jmathias/",

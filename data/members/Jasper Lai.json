@@ -1,7 +1,11 @@
 {
   "date": "2025-07-30T00:00",
   "name": "Jasper Lai",
-  "url": "https://lai.nz",
+  "urls": {
+    "homepage": "https://lai.nz/",
+    "accessibilityStatement": "https://lai.nz/accessibility",
+    "webringLink": "https://lai.nz/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [ "Design engineer" ],
   "accessibilityStatement": "https://lai.nz/accessibility",
   "bluesky": "https://bsky.app/profile/lai.nz",

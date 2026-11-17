@@ -1,8 +1,11 @@
 {
   "date": "2026-06-25T17:15",
   "name": "Francesco Schwarz",
-  "url": "https://isellsoap.net",
-  "accessibilityStatement": "https://isellsoap.net/meta/#accessibility",
+  "urls": {
+    "homepage": "https://isellsoap.net",
+    "accessibilityStatement": "https://isellsoap.net/meta/#accessibility",
+    "webringLink": "https://isellsoap.net/#a11y-webring"
+  },
   "roles": [ "Frontend Developer" ],
   "github": "https://github.com/isellsoap",
   "linkedin": "https://www.linkedin.com/in/francesco-schwarz/",

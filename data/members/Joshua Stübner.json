@@ -1,7 +1,11 @@
 {
   "date": "2026-01-16T00:00",
   "name": "Joshua Stübner",
-  "url": "https://joshuastuebner.com/",
+  "urls": {
+    "homepage": "https://joshuastuebner.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://joshuastuebner.com/#a11y-webring-club"
+  },
   "roles": [ "Font-end engineer" ],
   "github": "https://github.com/JSHSJ",
   "codeberg": "https://codeberg.org/JSHSJ",

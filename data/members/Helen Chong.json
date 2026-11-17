@@ -1,9 +1,12 @@
 {
   "date": "2024-05-29T11:29",
   "name": "Helen Chong",
-  "url": "https://helenchong.dev/",
+  "urls": {
+    "homepage": "https://helenchong.dev/",
+    "accessibilityStatement": "https://helenchong.dev/accessibility",
+    "webringLink": "https://helenchong.dev/#a11y-webring-club"
+  },
   "roles": [ "Web developer" ],
-  "accessibilityStatement": "https://helenchong.dev/accessibility",
   "github": "https://github.com/helenclx",
   "codeberg": "https://codeberg.org/helenchong",
   "linkedin": "https://www.linkedin.com/in/helenclx/",

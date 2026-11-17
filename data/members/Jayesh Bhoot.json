@@ -1,9 +1,12 @@
 {
   "date": "2024-12-09T00:00",
   "name": "Jayesh Bhoot",
-  "url": "https://bhoot.dev",
+  "urls": {
+    "homepage": "https://bhoot.dev/",
+    "accessibilityStatement": "https://bhoot.dev/accessibility-statement",
+    "webringLink": "https://bhoot.org/about-website/#part-of-webrings"
+  },
   "roles": [ "Software developer" ],
-  "accessibilityStatement": "https://bhoot.dev/accessibility-statement",
   "github": "https://github.com/jbhoot",
   "linkedin": "https://www.linkedin.com/in/jbhoot/",
   "bluesky": "https://bsky.app/profile/bhoot.dev",

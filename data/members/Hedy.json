@@ -1,9 +1,12 @@
 {
   "date": "2024-10-30T00:00",
   "name": "Hedy",
-  "url": "https://home.hedy.dev/",
+  "urls": {
+    "homepage": "https://home.hedy.dev/",
+    "accessibilityStatement": "https://github.com/hedyhli/site/#philosophy",
+    "webringLink": "https://home.hedy.dev/#:~:text=a11y%20webring"
+  },
   "roles": [ "FOSS advocate", "Accessibility advocate" ],
-  "accessibilityStatement": "https://github.com/hedyhli/site/#philosophy",
   "github": "https://github.com/hedyhli",
   "linkedin": null,
   "bluesky": "https://bsky.app/profile/hedy.dev",

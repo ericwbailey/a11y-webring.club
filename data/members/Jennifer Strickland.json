@@ -1,7 +1,11 @@
 {
   "date": "2023-01-26T15:02",
   "name": "Jennifer Strickland",
-  "url": "https://jenstrickland.design/",
+  "urls": {
+    "homepage": "https://jenstrickland.design/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.jenstrickland.design/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [ "Design lead" ],
   "github": "jenstrickland",
   "mastodon": "https://mastodon.social/@listening",

@@ -1,7 +1,11 @@
 {
   "date": "2023-05-05T00:00",
   "name": "Katie Anderson",
-  "url": "https://www.k80anderson.com/",
+  "urls": {
+    "homepage": "https://www.k80anderson.com/",
+    "accessibilityStatement": "https://k80anderson.com/accessibility",
+    "webringLink": "https://k80anderson.com/#a11y-webring-club"
+  },
   "roles": ["Designer"],
   "github": "https://github.com/krander",
   "linkedin": "https://www.linkedin.com/in/k80anderson/",

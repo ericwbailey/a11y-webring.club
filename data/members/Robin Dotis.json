@@ -1,7 +1,11 @@
 {
   "date": "2025-02-12T00:00",
   "name": "Robin Dotis",
-  "url": "https://www.robin.is/",
+  "urls": {
+    "homepage": "https://www.robin.is/",
+    "accessibilityStatement": "https://www.robin.is/accessible/",
+    "webringLink": "https://www.robin.is/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [ "Policy officer", "Accessibility enthusiast" ],
   "github": "https://github.com/robindotis",
   "linkedin": null,

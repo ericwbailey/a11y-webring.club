@@ -1,7 +1,11 @@
 {
   "date": "2025-12-22T00:00",
   "name": "Mark Wyner",
-  "url": "https://markwyner.com/colophon",
+  "urls": {
+    "homepage": "https://markwyner.com/",
+    "accessibilityStatement": "https://markwyner.com/colophon/",
+    "webringLink": "https://markwyner.com/colophon/#:~:text=A11y%2DWebring%2Eclub"
+  },
   "roles": [
     "Designer",
     "Developer"

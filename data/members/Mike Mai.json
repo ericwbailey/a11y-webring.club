@@ -1,7 +1,11 @@
 {
   "date": "2023-02-21T00:00",
   "name": "Mike Mai",
-  "url": "https://mikemai.net",
+  "urls": {
+    "homepage": "https://mikemai.net/",
+    "accessibilityStatement": "",
+    "webringLink": "https://mikemai.net/#a11y-webring-club"
+  },
   "roles": [ "Typography expert", "Accessibility advocate" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/mikemai/",

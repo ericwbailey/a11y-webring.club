@@ -1,9 +1,12 @@
 {
   "date": "2023-09-12T00:00",
   "name": "Rachel Cherry",
-  "url": "https://rachelcherry.me/",
+  "urls": {
+    "homepage": "https://rachelcherry.me/",
+    "accessibilityStatement": null,
+    "webringLink": "https://rachelcherry.me/#a11y-webring-club"
+  },
   "roles": [ "Digital accessibility specialist", "Data scientist", "Engineer" ],
-  "accessibilityStatement": null,
   "github": "https://github.com/bamadesigner",
   "codeberg": null,
   "linkedin": "https://www.linkedin.com/in/rachelmcherry/",

@@ -1,7 +1,11 @@
 {
   "date": "2024-09-17T00:00",
   "name": "Nic Chan",
-  "url": "https://www.nicchan.me/",
+  "urls": {
+    "homepage": "https://www.nicchan.me/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.nicchan.me/blog/#window-title-webring"
+  },
   "roles": [ "Front-end web developer", "Accessibility advocate", "Artist" ],
   "github": "https://github.com/nchan0154",
   "linkedin": null,

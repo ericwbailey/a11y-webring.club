@@ -1,9 +1,12 @@
 {
   "date": "2026-05-15T00:00",
   "name": "Nyssen",
-  "url": "https://nyssen.me/",
+  "urls": {
+    "homepage": "https://nyssen.me/",
+    "accessibilityStatement": "https://nyssen.me/accessibility.html",
+    "webringLink": "https://nyssen.me/#a11y-webring-club"
+  },
   "roles": [ "Digital Accessibility Services" ],
-  "accessibilityStatement": "https://nyssen.me/accessibility.html",
   "github": "https://github.com/nyssen-me",
   "linkedin": "https://www.linkedin.com/in/sergiduran/",
   "rss": null

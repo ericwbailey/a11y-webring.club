@@ -1,9 +1,12 @@
 {
   "date": "2026-10-19T23:30",
   "name": "leekeh",
-  "url": "https://www.leekeh.com",
+  "urls": {
+    "homepage": "https://www.leekeh.com",
+    "accessibilityStatement": "https://www.leekeh.com/accessibility",
+    "webringLink": "https://www.leekeh.com/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": ["Senior frontend engineer", "Accessibility advocate", "Indieweb enthusiast"],
-  "accessibilityStatement": "https://www.leekeh.com/accessibility",
   "mastodon": null,
   "github": "https://github.com/leekeh",
   "codeberg": null,

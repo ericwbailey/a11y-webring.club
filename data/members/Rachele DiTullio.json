@@ -1,7 +1,11 @@
 {
   "date": "2023-01-21T03:35",
   "name": "Rachele DiTullio",
-  "url": "https://racheleditullio.com/",
+  "urls": {
+    "homepage": "https://racheleditullio.com/",
+    "accessibilityStatement": "https://racheleditullio.com/accessibility-statement/",
+    "webringLink": "https://racheleditullio.com/#a11y-webring-club"
+  },
   "roles": [ "Accessibility engineer" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/racheleditullio/",

@@ -1,9 +1,12 @@
 {
   "date": "2024-11-26T15:00",
   "name": "Mary Seph",
-  "url": "https://maryseph.com",
+  "urls": {
+    "homepage": "https://maryseph.com/",
+    "accessibilityStatement": "https://maryseph.com/accessibility/",
+    "webringLink": "https://maryseph.com/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "role": "Indieweb enthusiast" ,
-  "accessibilityStatement": "https://maryseph.com/accessibility/",
   "github": "https://github.com/MarySeph",
   "linkedin": "https://www.linkedin.com/in/mariajoseruizpiza/",
   "bluesky": null,

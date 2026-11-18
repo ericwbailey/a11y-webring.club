@@ -1,7 +1,11 @@
 {
   "date": "2025-11-30T21:32:12+00:00",
   "name": "Paul Kinchla",
-  "url": "https://paulkinchla.com/webrings/",
+  "urls": {
+    "homepage": "https://paulkinchla.com/",
+    "accessibilityStatement": "https://paulkinchla.com/accessibility-statement/",
+    "webringLink": "https://paulkinchla.com/webrings/"
+  },
   "roles": [ "Full stackish developer", "Accessibility enthusiast" ],
   "github": "https://github.com/pkinchla",
   "linkedin": "https://www.linkedin.com/in/paulkinchla/",

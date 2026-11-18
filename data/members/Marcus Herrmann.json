@@ -1,7 +1,11 @@
 {
   "date": "2023-01-22T19:08",
   "name": "Marcus Herrmann",
-  "url": "https://marcus.io/",
+  "urls": {
+    "homepage": "https://marcus.io/",
+    "accessibilityStatement": null,
+    "webringLink": "https://marcus.io/#a11y-webring-club"
+  },
   "roles": [ "Freelance web developer", "Accessibility auditor" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/marcusherrmann/",

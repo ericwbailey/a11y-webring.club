@@ -1,9 +1,12 @@
 {
   "date": "2023-07-04T00:00",
   "name": "Sara Joy",
-  "url": "https://sarajoy.dev/",
+  "urls": {
+    "homepage": "https://sarajoy.dev/",
+    "accessibilityStatement": "https://sarajoy.dev/#a11y",
+    "webringLink": "https://sarajoy.dev/#a11y-webring-club"
+  },
   "roles": [ "Front end developer", "Accessibility enthusiast" ],
-  "accessibilityStatement": "https://sarajoy.dev/#a11y",
   "github": null,
   "linkedin": null,
   "mastodon": "https://front-end.social/@sarajw",

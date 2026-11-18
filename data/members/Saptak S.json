@@ -1,7 +1,11 @@
 {
   "date": "2023-01-24T13:46",
   "name": "Saptak S.",
-  "url": "https://saptaks.blog/",
+  "urls": {
+    "homepage": "https://saptaks.blog/",
+    "accessibilityStatement": null,
+    "webringLink": "https://saptaks.blog/#a11y-webring-club"
+  },
   "roles": [ "Web developer" ],
   "github": "https://github.com/saptaks",
   "linkedin": "https://linkedin.com/in/saptaks",

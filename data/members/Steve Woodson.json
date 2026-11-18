@@ -1,9 +1,12 @@
 {
   "date": "2023-01-26T12:46",
   "name": "Steve Woodson",
-  "url": "https://stevenwoodson.com/",
+  "urls": {
+    "homepage": "https://stevenwoodson.com/",
+    "accessibilityStatement": "https://stevenwoodson.com/accessibility/",
+    "webringLink": "https://stevenwoodson.com/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [ "Freelance web developer", "Accessibility advocate" ],
-  "accessibilityStatement": "https://stevenwoodson.com/accessibility/",
   "github": null,
   "bluesky": "https://bsky.app/profile/stevenwoodson.com",
   "linkedin": "https://www.linkedin.com/in/stevenwoodson/",

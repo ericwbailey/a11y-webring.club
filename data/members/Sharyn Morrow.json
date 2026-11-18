@@ -1,7 +1,11 @@
 {
   "date": "2023-02-01T13:26",
   "name": "Sharyn Morrow",
-  "url": "https://www.sharynmorrow.com/",
+  "urls": {
+    "homepage": "https://www.sharynmorrow.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.sharynmorrow.com/#a11y-webring-club"
+  },
   "roles": [ "Accessibility leader" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/sharynm/",

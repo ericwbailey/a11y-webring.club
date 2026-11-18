@@ -1,7 +1,11 @@
 {
   "date": "2023-07-24T00:00",
   "name": "Sayan Sivakumaran",
-  "url": "https://sayansivakumaran.com/",
+  "urls": {
+    "homepage": "https://sayansivakumaran.com/",
+    "accessibilityStatement": "https://sayansivakumaran.com/accessibility/",
+    "webringLink": "https://sayansivakumaran.com/#a11y-webring-club"
+  },
   "roles": [ "Software developer" ],
   "accessibilityStatement": null,
   "github": null,

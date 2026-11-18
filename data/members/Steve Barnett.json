@@ -1,7 +1,11 @@
 {
   "date": "2023-02-01T23:36",
   "name": "Steve Barnett",
-  "url": "https://human-centred.nz/",
+  "urls": {
+    "homepage": "https://human-centred.nz/",
+    "accessibilityStatement": null,
+    "webringLink": "https://human-centred.nz/#a11y-webring-club"
+  },
   "roles": [ "Front-end developer", "User experience designer" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/steve-barnett/",

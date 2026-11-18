@@ -1,7 +1,11 @@
 {
   "date": "2023-01-26T00:15",
   "name": "Seirdy",
-  "url": "https://seirdy.one/",
+  "urls": {
+    "homepage": "https://seirdy.one/",
+    "accessibilityStatement": null,
+    "webringLink": "https://seirdy.one/#:~:text=a11y%2Dwebring%20webring"
+  },
   "roles": [ "Accessibility advocate", "FLOSS supporter", "Indieweb enthusiast" ],
   "accessibilityStatement": "https://seirdy.one/meta/site-design/",
   "github": null,

@@ -1,7 +1,12 @@
 {
   "date": "2025-02-23",
   "name": "Silvestar Bistrović",
-  "url": "https://www.silvestar.codes/links/",
+  "url": "",
+  "urls": {
+    "homepage": "https://www.silvestar.codes/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.silvestar.codes/links/#a11y-webring-club"
+  },
   "roles": [ "Web engineer" ],
   "github": "https://github.com/maliMirkec",
   "linkedin": "https://www.linkedin.com/in/starbist/",

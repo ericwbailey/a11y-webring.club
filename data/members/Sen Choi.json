@@ -1,9 +1,12 @@
 {
   "date": "2026-06-04T00:00",
   "name": "Sen Choi",
-  "url": "https://sen.fish/",
+  "urls": {
+    "homepage": "https://sen.fish/",
+    "accessibilityStatement": "https://sen.fish/accessibility/",
+    "webringLink": "https://sen.fish/webrings/#a11y-webring-name"
+  },
   "roles": [ "Mapmaker", "Accessibility enthusiast" ],
-  "accessibilityStatement": "https://sen.fish/accessibility/",
   "github": "https://github.com/sen-choi",
   "codeberg": null,
   "linkedin": null,

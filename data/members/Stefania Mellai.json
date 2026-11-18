@@ -1,11 +1,14 @@
 {
   "date": "2026-03-30T00:00",
   "name": "Stefania Mellai",
-  "url": "https://stefania.mellai.it",
+  "urls": {
+    "homepage": "https://stefania.mellai.it/",
+    "accessibilityStatement": "https://stefania.mellai.it/a11y-statement/",
+    "webringLink": "https://stefania.mellai.it/#a11y-webring-club"
+  },
   "roles": [
     "Frontend developer"
   ],
-  "accessibilityStatement": "https://stefania.mellai.it/a11y-statement/",
   "github": "https://github.com/smellai",
   "linkedin": "https://www.linkedin.com/in/stefania-mellai-69896b46/"
 }

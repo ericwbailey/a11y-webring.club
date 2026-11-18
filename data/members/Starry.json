@@ -1,11 +1,14 @@
 {
   "date": "2026-09-04T11:39",
   "name": "Starry",
-  "url": "https://starryyeyes.neocities.org/",
+  "urls": {
+    "homepage": "https://starryyeyes.neocities.org/",
+    "accessibilityStatement": "https://starryyeyes.neocities.org/accessibility",
+    "webringLink": "https://starryyeyes.neocities.org/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [
     "Indieweb enthusiast"
   ],
-  "accessibilityStatement": "https://starryyeyes.neocities.org/accessibility",
   "github": null,
   "linkedin": null,
   "bluesky": null,

@@ -42,8 +42,15 @@
       id="{{ member.name | slugify }}"
       class="[ c-name ]"
       tabindex="-1">
-      <a class="[ c-name-link ]" href="{{ member.url }}">{{ member.name | safe }}</a>
+      <a class="[ c-name-link ]" href="{{ member.urls.homepage }}">{{ member.name | safe }}</a>
     </h3>
+
+    <a
+      aria-label="Webring link for {{ member.name }}"
+      class="[ c-webring-link ]"
+      href="{{ member.urls.webringLink }}">
+      Webring link <span class="[ u-hide-visually ]">for {{ member.name }}</span>
+    </a>
 
     <div class="[ c-roles ]">
     {% if member.roles %}
@@ -54,49 +61,49 @@
     </div>
 
     <ul class="[ c-member-contact ]">
-      {% if member.linkedin %}
+      {% if member.social.linkedin %}
       <li>
-        <a class="[ c-member-link ]" href="{{ member.linkedin }}">
+        <a class="[ c-member-link ]" href="{{ member.social.linkedin }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#linkedin"></use></svg>
           <span class="[ u-hide-visually ]">LinkedIn profile: {{ member.name }}</span>
         </a>
       </li>
       {% endif %}
-      {% if member.github %}
+      {% if member.social.github %}
       <li>
-        <a class="[ c-member-link ]" href="{{ member.github }}">
+        <a class="[ c-member-link ]" href="{{ member.social.github }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#github"></use></svg>
           <span class="[ u-hide-visually ]">GitHub profile: {{ member.name }}</span>
         </a>
       </li>
       {% endif %}
-      {% if member.codeberg %}
+      {% if member.social.codeberg %}
       <li>
-        <a class="[ c-member-link ]" href="{{ member.codeberg }}">
+        <a class="[ c-member-link ]" href="{{ member.social.codeberg }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#codeberg"></use></svg>
           <span class="[ u-hide-visually ]">Codeberg profile: {{ member.name }}</span>
         </a>
       </li>
       {% endif %}
-      {% if member.bluesky %}
+      {% if member.social.bluesky %}
       <li>
-        <a class="[ c-member-link ]" href="{{ member.bluesky }}">
+        <a class="[ c-member-link ]" href="{{ member.social.bluesky }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#bluesky"></use></svg>
           <span class="[ u-hide-visually ]">Bluesky account: {{ member.name }}</span>
         </a>
       </li>
       {% endif %}
-      {% if member.mastodon %}
+      {% if member.social.mastodon %}
       <li>
-        <a class="[ c-member-link ]" href="{{ member.mastodon }}">
+        <a class="[ c-member-link ]" href="{{ member.social.mastodon }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#mastodon"></use></svg>
           <span class="[ u-hide-visually ]">Mastodon account: {{ member.name }}</span>
         </a>
       </li>
       {% endif %}
-      {% if member.rss %}
+      {% if member.social.rss %}
       <li>
-        <a class="[ c-member-link ]" href="{{ member.rss }}">
+        <a class="[ c-member-link ]" href="{{ member.social.rss }}">
           <svg class="[ u-scale-on-hover ] [ c-icon ]"><use xlink:href="#rss"></use></svg>
           <span class="[ u-hide-visually ]">RSS feed: {{ member.name }}</span>
         </a>

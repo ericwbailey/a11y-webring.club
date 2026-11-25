@@ -54,6 +54,7 @@
 
   --step-legal: 0.8rem;
   --step-roles: 0.9rem;
+  --step-webring: 0.7rem;
   /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,6,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step-0: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);
     --step-1: clamp(1.35rem, 1.2761rem + 0.3696vi, 1.5625rem);
@@ -596,14 +597,16 @@
       align-items: center;
       border-block-start: var(--border-thickness-0) dotted var(--color-primary);
       grid-template-areas:
-        "member-name  member-contact"
-        "member-roles member-roles";
+        "member-name    member-contact"
+        "member-webring member-contact"
+        "member-roles   member-roles";
       line-height: var(--line-height-loose);
       padding-block-start: var(--step-0);
 
       @media (width < 420px) {
         grid-template-areas:
           "member-name"
+          "member-webring"
           "member-roles"
           "member-contact"
       }
@@ -611,9 +614,10 @@
 
     .view-as-grid & {
       border: var(--border-thickness-0) dotted var(--color-primary);
-      grid-template-rows: max-content 1fr 1fr;
+      grid-template-rows: max-content max-content 1fr 1fr;
       grid-template-areas:
         "member-name    member-name"
+        "member-webring member-webring"
         "member-roles   member-roles"
         "member-contact member-contact";
       min-height: calc(var(--step-6) * 3);
@@ -629,12 +633,6 @@
   .c-name-link {
     background-color: var(--color-secondary);
     outline: var(--border-thickness-2) solid var(--color-secondary);
-    text-decoration-thickness: 0.05rem;
-    text-underline-offset: 0.25rem;
-    transition:
-      background-color var(--transition-medium),
-      color var(--transition-medium),
-      outline var(--transition-medium);
 
     &:hover,
     &:focus {
@@ -644,17 +642,37 @@
     }
   }
 
+  .c-webring-link {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--step-webring);
+    grid-area: member-webring;
+    margin-block-start: 0.2rem;
+    margin-block-end: 0.5rem;
+  }
+
+  :where(
+    .c-name-link,
+    .c-webring-link
+  ) {
+    text-decoration-thickness: 0.05rem;
+    text-underline-offset: 0.25rem;
+    transition:
+      background-color var(--transition-medium),
+      color var(--transition-medium),
+      outline var(--transition-medium);
+  }
+
   .c-roles {
     font-size: var(--step-roles);
     line-height: var(--line-height-single);
     grid-area: member-roles;
 
     .view-as-list & {
-      margin-block-start: 0.2rem;
+      margin-block-start: 0.3rem;
     }
 
     .view-as-grid & {
-      margin-block-start: 1rem;
+      margin-block-start: 0.3rem;
     }
   }
 

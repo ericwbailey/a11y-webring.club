@@ -1,7 +1,11 @@
 {
   "date": "2023-01-26T12:39",
   "name": "Winnie Bosibori",
-  "url": "https://bosibori.netlify.app/",
+  "urls": {
+    "homepage": "https://bosibori.netlify.app/",
+    "accessibilityStatement": null,
+    "webringLink": "https://bosibori.netlify.app/#a11y-webring-club"
+  },
   "roles": [ "Accessibility engineer" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/winnie-bosibori-b37601141/",

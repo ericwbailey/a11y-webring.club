@@ -1,7 +1,11 @@
 {
   "date": "2023-01-30T03:09",
   "name": "Todd Libby",
-  "url": "https://toddl.dev/",
+  "urls": {
+    "homepage": "https://toddl.dev/",
+    "accessibilityStatement": "https://toddl.dev/accessibility/",
+    "webringLink": "https://toddl.dev/#webring-heading"
+  },
   "roles": [ "Web developer", "Accessibility advocate" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/todd-libby/",

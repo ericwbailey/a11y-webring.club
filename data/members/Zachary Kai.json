@@ -1,8 +1,12 @@
 {
   "date": "2025-04-15T00:00",
   "name": "Zachary Kai",
-  "url": "https://zacharykai.net",
-  "roles": [ 
+  "urls": {
+    "homepage": "https://zacharykai.net/",
+    "accessibilityStatement": "https://zacharykai.net/accessibility",
+    "webringLink": "https://zacharykai.net/webrings#:~:text=a11y%2Dwebring%2Eclub"
+  },
+  "roles": [
     "Writer",
     "Amateur Programmer"
   ],

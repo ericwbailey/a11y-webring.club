@@ -1,7 +1,11 @@
 {
   "date": "2025-11-13T06:58",
   "name": "Vincenzo Marcovecchio",
-  "url": "https://casafraine.com/",
+  "urls": {
+    "homepage": "https://casafraine.com/",
+    "accessibilityStatement": null,
+    "webringLink": "https://www.casafraine.com/#:~:text=a11y%2Dwebring%2Eclub"
+  },
   "roles": [ "Software engineer", "Student" ],
   "github": "https://github.com/VincenzoMarcovecchio",
   "linkedin": "https://www.linkedin.com/in/vincenzo-marcovecchio-290235138/",

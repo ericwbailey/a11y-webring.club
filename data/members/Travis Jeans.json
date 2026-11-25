@@ -1,7 +1,11 @@
 {
   "date": "2025-03-20T00:00",
   "name": "Travis Jeans",
-  "url": "https://futurehorizondesign.net.au/",
+  "urls": {
+    "homepage": "https://futurehorizondesign.net.au/",
+    "accessibilityStatement": "https://futurehorizondesign.net.au/accessibility.html",
+    "webringLink": "https://futurehorizondesign.net.au/about.html#a11y-webring-club"
+  },
   "roles": [ "Web designer", "Graphic designer", "Illustrator" ],
   "codeberg": "https://codeberg.org/travis-jeans",
   "github": "https://github.com/travis-jeans",

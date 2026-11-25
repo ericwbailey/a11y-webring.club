@@ -1,7 +1,11 @@
 {
   "date": "2023-01-22T09:31",
   "name": "Zoë Bijl",
-  "url": "https://moiety.me",
+  "urls": {
+    "homepage": "https://moiety.me/",
+    "accessibilityStatement": null,
+    "webringLink": "https://moiety.me/about#webrings"
+  },
   "roles": [ "Accessibility specialist" ],
   "github": null,
   "linkedin": "https://www.linkedin.com/in/zoë-bijl/",

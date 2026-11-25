@@ -1,9 +1,12 @@
 {
   "date": "2026-04-06T00:00",
   "name": "Trevor Pierce",
-  "url": "https://continuumdesign.net",
+  "urls": {
+    "homepage": "https://continuumdesign.net/",
+    "accessibilityStatement": "https://continuumdesign.net/policies/accessibility-policy",
+    "webringLink": "https://continuumdesign.net/#a11y-webring-club"
+  },
   "roles": ["Web accessibility engineer"],
-  "accessibilityStatement": "https://continuumdesign.net/policies/accessibility-policy",
   "github": "https://github.com/1copenut",
   "linkedin": "https://www.linkedin.com/in/1copenut",
   "mastodon": null,

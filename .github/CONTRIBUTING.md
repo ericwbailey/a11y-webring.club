@@ -27,22 +27,23 @@ To add yourself to the webring, submit a pull request to this repository where y
 
 * `date`: The day you add yourself to the webring, in `YYYY-MM-DDThh:mm` format. You can use `T00:00` for the hour an minute if you want.
 * `name`: Your name (can be your given name, a nickname, a handle, etc.).
-* `url`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
-* `role`: What your focus is (ex: Accessibility auditor, Indieweb enthusiast, Inclusive user researcher, etc.)
-* `accessibilityStatement`: The URL for your website's accessibility statement.
+* `role`: What your focus is (ex: Accessibility auditor, Indieweb enthusiast, Inclusive user researcher, etc.).
+* `urls.homepage`: Your website's address (ex: `https://web-a11y.club/`). The URL <strong>must</strong> use the HTTPS protocol.
+* `urls.webringLink`: The URL where the webring link is placed on your website (ex: `https://ericwbailey.website/colophon/#a11y-webring-webring`).
+* `urls.accessibilityStatement`: The URL for your website's accessibility statement (ex: `https://ericwbailey.website/accessibility-statement/`).
 
-Ideally, your `url` points to the page that displays the webring code, but this is not required.
+Some members who joined early may not have a link to an accessibility statement. This is because this requirement was added at a later date.
 
 #### Optional information
 
-* `github`: Your GitHub profile address (ex: `https://github.com/yourname`).
-* `codeberg`: Your Codeberg profile address (ex: `https://codeberg.org/yourname`).
-* `linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
-* `bluesky`: Your Bluesky account (ex: `https://bsky.app/profile/@YourName.bsky.social`).
-* `mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
-* `rss`: The RSS feed for your website.
+* `social.github`: Your GitHub profile address (ex: `https://github.com/yourname`).
+* `social.codeberg`: Your Codeberg profile address (ex: `https://codeberg.org/yourname`).
+* `social.linkedin`: Your LinkedIn profile address (ex: `https://www.linkedin.com/in/yourname/`).
+* `social.bluesky`: Your Bluesky account (ex: `https://bsky.app/profile/@YourName.bsky.social`).
+* `social.mastodon`: Your Mastodon account (ex: `https://mastodon.social/@YourName`).
+* `social.rss`: The RSS feed for your website.
 
-If you do not have this information, please use `null` for the entry's value:
+If you do not have this information, please use `null` for the entry's value. For example:
 
 ```
 "mastodon": null

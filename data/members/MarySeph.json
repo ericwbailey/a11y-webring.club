@@ -1,15 +1,17 @@
 {
   "date": "2024-11-26T15:00",
   "name": "Mary Seph",
+  "roles": [ "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://maryseph.com/",
     "accessibilityStatement": "https://maryseph.com/accessibility/",
     "webringLink": "https://maryseph.com/#:~:text=a11y%2Dwebring%2Eclub"
   },
-  "role": "Indieweb enthusiast" ,
-  "github": "https://github.com/MarySeph",
-  "linkedin": "https://www.linkedin.com/in/mariajoseruizpiza/",
-  "bluesky": null,
-  "mastodon": "https://scicomm.xyz/@MarySeph",
-  "rss": null
+  "social": {
+    "github": "https://github.com/MarySeph",
+    "linkedin": "https://www.linkedin.com/in/mariajoseruizpiza/",
+    "bluesky": null,
+    "mastodon": "https://scicomm.xyz/@MarySeph",
+    "rss": null
+  }
 }

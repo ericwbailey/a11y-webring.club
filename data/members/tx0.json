@@ -1,16 +1,18 @@
 {
   "date": "2025-10-10T23:30",
   "name": "tx0",
+  "roles": [ "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://tx0.sh/",
     "accessibilityStatement": "https://tx0.sh/a11y.html",
     "webringLink": "https://tx0.sh/about.html#:~:text=a11y%2Dwebring"
   },
-  "roles": [ "Indieweb enthusiast" ],
-  "mastodon": "https://mastodon.social/@spacebot3000",
-  "github": "https://github.com/spacebot3000",
-  "codeberg": null,
-  "linkedin": null,
-  "bluesky": null,
-  "rss": null
+  "social": {
+    "mastodon": "https://mastodon.social/@spacebot3000",
+    "github": "https://github.com/spacebot3000",
+    "codeberg": null,
+    "linkedin": null,
+    "bluesky": null,
+    "rss": null
+  }
 }

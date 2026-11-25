@@ -1,15 +1,17 @@
 {
   "date": "2025-04-19T00:00",
   "name": "Ariel Salminen",
+  "roles": [ "Design systems architect" ],
   "urls": {
     "homepage": "https://arielsalminen.com/",
     "accessibilityStatement": "https://arielsalminen.com/accessibility/",
     "webringLink": "https://arielsalminen.com/webrings/"
   },
-  "roles": [ "Design systems architect" ],
-  "github": "https://github.com/arielsalminen",
-  "linkedin": "https://www.linkedin.com/in/arielsalminen",
-  "bluesky": "https://bsky.app/profile/arielsalminen.com",
-  "mastodon": "https://front-end.social/@ariel",
-  "rss": "https://arielsalminen.com/atom.xml"
+  "social": {
+    "github": "https://github.com/arielsalminen",
+    "linkedin": "https://www.linkedin.com/in/arielsalminen",
+    "bluesky": "https://bsky.app/profile/arielsalminen.com",
+    "mastodon": "https://front-end.social/@ariel",
+    "rss": "https://arielsalminen.com/atom.xml"
+  }
 }

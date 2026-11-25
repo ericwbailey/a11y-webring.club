@@ -1,14 +1,16 @@
 {
   "date": "2023-01-31T19:08",
   "name": "Grace Snow",
+  "roles": [ "Accessibility consultant" ],
   "urls": {
     "homepage": "https://fedmentor.dev/about/",
     "accessibilityStatement": null,
     "webringLink": "https://fedmentor.dev/about/#a11y-webring-club"
   },
-  "roles": [ "Accessibility consultant" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/gracesnow/",
-  "mastodon": null,
-  "rss": "https://fedmentor.dev/feed/feed.xml"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/gracesnow/",
+    "mastodon": null,
+    "rss": "https://fedmentor.dev/feed/feed.xml"
+  }
 }

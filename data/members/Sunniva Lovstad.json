@@ -1,16 +1,18 @@
 {
   "date": "2025-03-28T00:00",
   "name": "Sunniva Løvstad",
+  "roles": [ "Student", "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://sunniva.garden/en/",
     "accessibilityStatement": "https://sunniva.garden/en/accessibility-declaration",
     "webringLink": "https://sunniva.garden/en/webring/#accesibility"
   },
-  "roles": [ "Student", "Indieweb enthusiast" ],
-  "github": "https://github.com/turtlegarden",
-  "codeberg": "https://codeberg.org/turtle",
-  "linkedin": null,
-  "bluesky": null,
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": "https://github.com/turtlegarden",
+    "codeberg": "https://codeberg.org/turtle",
+    "linkedin": null,
+    "bluesky": null,
+    "mastodon": null,
+    "rss": null
+  }
 }

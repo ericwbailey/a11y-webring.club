@@ -1,14 +1,16 @@
 {
   "date": "2026-11-03T00:00",
   "name": "Soren Hamby",
+  "roles": ["Accessibility designer", "Accessibility advocate", "Accessibility Program Manager"],
   "urls": {
     "homepage": "https://soren.work/",
     "accessibilityStatement": "https://www.soren.work/accessibility/",
     "webringLink": "https://soren.work/#a11y-webring-club"
   },
-  "roles": ["Accessibility designer", "Accessibility advocate", "Accessibility Program Manager"],
-  "github": "https://github.com/sorenipsum",
-  "linkedin": "https://www.linkedin.com/in/sorenhamby/",
-  "bluesky": "https://bsky.app/profile/soren.work",
-  "rss": "https://soren.work/writing/rss.xml"
+  "social": {
+    "github": "https://github.com/sorenipsum",
+    "linkedin": "https://www.linkedin.com/in/sorenhamby/",
+    "bluesky": "https://bsky.app/profile/soren.work",
+    "rss": "https://soren.work/writing/rss.xml"
+  }
 }

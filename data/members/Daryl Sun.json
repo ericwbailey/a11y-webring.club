@@ -1,15 +1,16 @@
 {
   "date": "2023-09-18T19:40",
   "name": "Daryl Sun",
+  "roles": [ "Training Facilitator", "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://blog.darylsun.page/",
     "accessibilityStatement": "https://blog.darylsun.page/colophon#content-how-accessible-is-this-website",
     "webringLink": "https://blog.darylsun.page/#:~:text=a11y%2Dwebring%2Eclub%3A%20Previous%20Site%2C%20Random%20Site%2C%20Next%20Site"
   },
-  "roles": [ "Training Facilitator", "Indieweb enthusiast" ],
-  "accessibilityStatement": "https://blog.darylsun.page/colophon",
-  "github": null,
-  "linkedin": null,
-  "mastodon": "https://social.lol/@darylsun",
-  "rss": "https://blog.darylsun.page/rss.xml"
+  "social": {
+    "github": null,
+    "linkedin": null,
+    "mastodon": "https://social.lol/@darylsun",
+    "rss": "https://blog.darylsun.page/rss.xml"
+  }
 }

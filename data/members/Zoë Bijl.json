@@ -1,14 +1,16 @@
 {
   "date": "2023-01-22T09:31",
   "name": "Zoë Bijl",
+  "roles": [ "Accessibility specialist" ],
   "urls": {
     "homepage": "https://moiety.me/",
     "accessibilityStatement": null,
     "webringLink": "https://moiety.me/about#webrings"
   },
-  "roles": [ "Accessibility specialist" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/zoë-bijl/",
-  "mastodon": "https://front-end.social/@moiety",
-  "rss": null
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/zoë-bijl/",
+    "mastodon": "https://front-end.social/@moiety",
+    "rss": null
+  }
 }

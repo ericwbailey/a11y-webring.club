@@ -1,14 +1,16 @@
 {
   "date": "2023-01-26T07:57",
   "name": "Matthew Deeprose",
+  "roles": [ "Accessible solutions architect" ],
   "urls": {
     "homepage": "https://matthewdeeprose.github.io/",
     "accessibilityStatement": "https://matthewdeeprose.github.io/Accessibility_Statement.html",
     "webringLink": "https://matthewdeeprose.github.io/#a11y-webring-club"
   },
-  "roles": [ "Accessible solutions architect" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/mattdeeprose/",
-  "mastodon": "https://oldbytes.space/@vleguru",
-  "rss": "https://matthewdeeprose.github.io/feed.rss"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/mattdeeprose/",
+    "mastodon": "https://oldbytes.space/@vleguru",
+    "rss": "https://matthewdeeprose.github.io/feed.rss"
+  }
 }

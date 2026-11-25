@@ -1,13 +1,15 @@
 {
   "date": "2026-08-20T00:00",
   "name": "Will Ringland",
+  "roles": [ "Head of Accessibility" ],
   "urls": {
     "homepage": "https://angrybunnyman.com/",
     "accessibilityStatement": "https://angrybunnyman.com/accessibility-in-the-here-and-now/",
     "webringLink": "https://angrybunnyman.com/#:~:text=A11y%20Web%20Ring"
   },
-  "roles": [ "Head of Accessibility" ],
-  "linkedin": "https://www.linkedin.com/in/will-ringland-162469110/",
-  "mastodon": "https://indieweb.social/@Angrybunnyman",
-  "rss": "https://angrybunnyman.com/rss"
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/will-ringland-162469110/",
+    "mastodon": "https://indieweb.social/@Angrybunnyman",
+    "rss": "https://angrybunnyman.com/rss"
+  }
 }

@@ -1,15 +1,16 @@
 {
   "date": "2023-07-20T15:50",
   "name": "Floris Jansen",
-  "url": "https://fmjansen.nl/#a11y-webring-club",
+  "roles": [ "PhD candidate", "Designer/developer" ],
   "urls": {
     "homepage": "https://fmjansen.nl/",
     "accessibilityStatement": "https://fmjansen.nl/accessibility.html",
     "webringLink": "https://fmjansen.nl/#a11y-webring-club"
   },
-  "roles": [ "PhD candidate", "Designer/developer" ],
-  "github": "https://github.com/fmjansen",
-  "linkedin": "https://www.linkedin.com/in/florismartijnjansen/",
-  "mastodon": "https://freeradical.zone/@floris",
-  "rss": "https://fmjansen.nl/feed.xml"
+  "social": {
+    "github": "https://github.com/fmjansen",
+    "linkedin": "https://www.linkedin.com/in/florismartijnjansen/",
+    "mastodon": "https://freeradical.zone/@floris",
+    "rss": "https://fmjansen.nl/feed.xml"
+  }
 }

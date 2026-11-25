@@ -1,14 +1,16 @@
 {
   "date": "2023-02-21T00:00",
   "name": "Mike Mai",
+  "roles": [ "Typography expert", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://mikemai.net/",
     "accessibilityStatement": "",
     "webringLink": "https://mikemai.net/#a11y-webring-club"
   },
-  "roles": [ "Typography expert", "Accessibility advocate" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/mikemai/",
-  "mastodon": "https://mastodon.social/@mikemai2awesome",
-  "rss": "https://mikemai.net/blog/feed.xml"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/mikemai/",
+    "mastodon": "https://mastodon.social/@mikemai2awesome",
+    "rss": "https://mikemai.net/blog/feed.xml"
+  }
 }

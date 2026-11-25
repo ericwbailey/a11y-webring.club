@@ -1,16 +1,18 @@
 {
   "date": "2025-03-20T00:00",
   "name": "Travis Jeans",
+  "roles": [ "Web designer", "Graphic designer", "Illustrator" ],
   "urls": {
     "homepage": "https://futurehorizondesign.net.au/",
     "accessibilityStatement": "https://futurehorizondesign.net.au/accessibility.html",
     "webringLink": "https://futurehorizondesign.net.au/about.html#a11y-webring-club"
   },
-  "roles": [ "Web designer", "Graphic designer", "Illustrator" ],
-  "codeberg": "https://codeberg.org/travis-jeans",
-  "github": "https://github.com/travis-jeans",
-  "linkedin": "https://www.linkedin.com/in/travisjeans/",
-  "bluesky": "https://bsky.app/profile/futurehorizondesign.net.au",
-  "mastodon": "https://indieweb.social/@travisj",
-  "rss": "https://futurehorizondesign.net.au/rss.xml"
+  "social": {
+    "codeberg": "https://codeberg.org/travis-jeans",
+    "github": "https://github.com/travis-jeans",
+    "linkedin": "https://www.linkedin.com/in/travisjeans/",
+    "bluesky": "https://bsky.app/profile/futurehorizondesign.net.au",
+    "mastodon": "https://indieweb.social/@travisj",
+    "rss": "https://futurehorizondesign.net.au/rss.xml"
+  }
 }

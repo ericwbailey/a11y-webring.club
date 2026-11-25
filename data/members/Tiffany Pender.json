@@ -1,14 +1,16 @@
 {
   "date": "2023-03-09T00:00",
   "name": "Tiffany Pender",
+  "roles": [ "UX/UI designer", "Accessibility advocate", "Front-end developer" ],
   "urls": {
     "homepage": "https://tiffanypender.com/",
     "accessibilityStatement": null,
     "webringLink": "https://tiffanypender.com/#ally-webring-club"
   },
-  "roles": [ "UX/UI designer", "Accessibility advocate", "Front-end developer" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/tiffanypender/",
-  "mastodon": "https://mastodon.social/@GeekBased",
-  "rss": null
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/tiffanypender/",
+    "mastodon": "https://mastodon.social/@GeekBased",
+    "rss": null
+  }
 }

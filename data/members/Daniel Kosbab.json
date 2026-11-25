@@ -1,19 +1,21 @@
 {
   "date": "2026-11-01T00:00",
   "name": "Daniel Kosbab",
+  "roles": [
+    "Accessibility engineer",
+    "Full-stack engineer"
+  ],
   "urls": {
     "homepage": "https://www.danielkosbab.com/",
     "accessibilityStatement": "https://www.danielkosbab.com/accessibility",
     "webringLink": "https://www.danielkosbab.com#a11y-webring-club"
   },
-  "roles": [
-    "Accessibility engineer",
-    "Full-stack engineer"
-  ],
-  "mastodon": null,
-  "github": "https://github.com/mad-daniel",
-  "codeberg": null,
-  "linkedin": "https://www.linkedin.com/in/danielxkosbab/",
-  "bluesky": null,
-  "rss": null
+  "social": {
+    "mastodon": null,
+    "github": "https://github.com/mad-daniel",
+    "codeberg": null,
+    "linkedin": "https://www.linkedin.com/in/danielxkosbab/",
+    "bluesky": null,
+    "rss": null
+  }
 }

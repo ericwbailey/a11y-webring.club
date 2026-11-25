@@ -1,14 +1,16 @@
 {
   "date": "2023-02-12T00:00",
   "name": "<bdi lang='fr'>Luce Carević</bdi>",
+  "roles": [ "Digital accessibility trainer" ],
   "urls": {
     "homepage": "https://luce.carevic.eu/fr",
     "accessibilityStatement": "",
     "webringLink": "https://luce.carevic.eu/fr#a11y-webring-club"
   },
-  "roles": [ "Digital accessibility trainer" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/lucecarevic/",
-  "mastodon": "https://mastodon.design/@luce",
-  "rss": "https://luce.carevic.eu/fr/flux"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/lucecarevic/",
+    "mastodon": "https://mastodon.design/@luce",
+    "rss": "https://luce.carevic.eu/fr/flux"
+  }
 }

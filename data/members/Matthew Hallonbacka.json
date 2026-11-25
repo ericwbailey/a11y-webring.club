@@ -1,14 +1,16 @@
 {
   "date": "2023-04-04T00:00",
   "name": "Matthew Hallonbacka",
+  "roles": [ "Software engineer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://mallonbacka.com/",
     "accessibilityStatement": "https://mallonbacka.com/about-website/#accessibility",
     "webringLink": "https://mallonbacka.com/about-website/#a11y-webring-club"
   },
-  "roles": [ "Software engineer", "Accessibility advocate" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/mallonbacka/",
-  "mastodon": "https://mastodon.social/@mallonbacka",
-  "rss": "https://mallonbacka.com/feed.xml"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/mallonbacka/",
+    "mastodon": "https://mastodon.social/@mallonbacka",
+    "rss": "https://mallonbacka.com/feed.xml"
+  }
 }

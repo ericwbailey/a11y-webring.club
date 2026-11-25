@@ -1,14 +1,16 @@
 {
   "date": "2026-3-31T00:00",
   "name": "Andrew Bullock",
+  "roles": [
+    "Webmaster",
+    "Social media manager"
+  ],
   "urls": {
     "homepage": "https://vcard.bullserv.dev/",
     "accessibilityStatement": "https://vcard.bullserv.dev/#accessibility-statement",
     "webringLink": "https://vcard.bullserv.dev/#webring"
   },
-  "roles": [
-    "Webmaster",
-    "Social media manager"
-  ],
-  "github": "https://github.com/AYJAYY"
+  "social": {
+    "github": "https://github.com/AYJAYY"
+  }
 }

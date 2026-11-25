@@ -1,15 +1,17 @@
 {
   "date": "2024-09-05T18:37",
   "name": "Coding Otaku",
+  "roles": ["Software generalist", "Accessibility advocate", "Indieweb enthusiast"],
   "urls": {
     "homepage": "https://codingotaku.com",
     "accessibilityStatement": "https://codingotaku.com/accessibility-statement",
     "webringLink": "https://codingotaku.com#webrings"
   },
-  "roles": ["Software generalist", "Accessibility advocate", "Indieweb enthusiast"],
-  "github": null,
-  "linkedin": null,
-  "bluesky": null,
-  "mastodon": null,
-  "rss": "https://codingotaku.com/blogs/feed.atom"
+  "social": {
+    "github": null,
+    "linkedin": null,
+    "bluesky": null,
+    "mastodon": null,
+    "rss": "https://codingotaku.com/blogs/feed.atom"
+  }
 }

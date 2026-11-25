@@ -1,15 +1,17 @@
 {
   "date": "2025-11-16",
   "name": "Carlos Muncharaz",
+  "roles": [ "Web developer", "Disability rights activist" ],
   "urls": {
     "homepage": "https://www.muncharaz.eu/en",
     "accessibilityStatement": null,
     "webringLink": "https://www.muncharaz.eu/en#a11y-webring-club"
   },
-  "roles": [ "Web developer", "Disability rights activist" ],
-  "github": "https://github.com/cmuncharaz",
-  "linkedin": "https://www.linkedin.com/in/cmuncharaz/",
-  "bluesky": null,
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": "https://github.com/cmuncharaz",
+    "linkedin": "https://www.linkedin.com/in/cmuncharaz/",
+    "bluesky": null,
+    "mastodon": null,
+    "rss": null
+  }
 }

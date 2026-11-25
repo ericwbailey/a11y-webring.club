@@ -1,15 +1,17 @@
 {
   "date": "2026-07-18T00:00",
   "name": "James Mathias",
+  "roles": [ "Accessibility designer", "Accessibility advocate", "Design sytems designer" ],
   "urls": {
     "homepage": "https://jamesmathias.com/",
     "accessibilityStatement": "https://jamesmathias.com/terms#accessibility",
     "webringLink": "https://jamesmathias.com/credits"
   },
-  "roles": [ "Accessibility designer", "Accessibility advocate", "Design sytems designer" ],
-  "github": "https://github.com/jmathias",
-  "linkedin": "https://www.linkedin.com/in/jmathias/",
-  "bluesky": "https://bsky.app/profile/artisticoutlaw.com",
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": "https://github.com/jmathias",
+    "linkedin": "https://www.linkedin.com/in/jmathias/",
+    "bluesky": "https://bsky.app/profile/artisticoutlaw.com",
+    "mastodon": null,
+    "rss": null
+  }
 }

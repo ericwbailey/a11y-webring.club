@@ -1,14 +1,16 @@
 {
   "date": "2023-12-20T00:00",
   "name": "Daniel Henderson-Ede",
+  "roles": [ "Design engineer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://daniel.hendersonede.com",
     "accessibilityStatement": "https://daniel.hendersonede.com/accessibility-statement/",
     "webringLink": "https://daniel.hendersonede.com#a11y-webring-heading"
   },
-  "roles": [ "Design engineer", "Accessibility advocate" ],
-  "github": "https://github.com/danhendersonede",
-  "linkedin": "https://www.linkedin.com/in/danhendersonede/",
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": "https://github.com/danhendersonede",
+    "linkedin": "https://www.linkedin.com/in/danhendersonede/",
+    "mastodon": null,
+    "rss": null
+  }
 }

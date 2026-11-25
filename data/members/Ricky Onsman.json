@@ -1,14 +1,16 @@
 {
   "date": "2023-10-09T00:00",
   "name": "Ricky Onsman",
+  "roles": [ "Principal technical writer", "Accessibility enthusiast" ],
   "urls": {
     "homepage": "https://onsman.com/",
     "accessibilityStatement": "https://onsman.com/terms-of-use/#a11y",
     "webringLink": "https://onsman.com/#:~:text=a11y%2Dwebring%2Eclub"
   },
-  "roles": [ "Principal technical writer", "Accessibility enthusiast" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/rickyonsman/",
-  "mastodon": "https://aus.social/@onsman",
-  "rss": "https://onsman.com/feed/"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/rickyonsman/",
+    "mastodon": "https://aus.social/@onsman",
+    "rss": "https://onsman.com/feed/"
+  }
 }

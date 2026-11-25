@@ -1,14 +1,16 @@
 {
   "date": "2023-01-25T19:00",
   "name": "Jasmine Rae Friedrich",
+  "roles": [ "UX and immersive designer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://www.jasminemadethis.com/",
     "accessibilityStatement": null,
     "webringLink": "https://www.jasminemadethis.com/#a11y-webring-club"
   },
-  "roles": [ "UX and immersive designer", "Accessibility advocate" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/jasmine-friedrich/",
-  "mastodon": "https://mastodon.social/@jrfbz@xoxo.zone",
-  "rss": null
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/jasmine-friedrich/",
+    "mastodon": "https://mastodon.social/@jrfbz@xoxo.zone",
+    "rss": null
+  }
 }

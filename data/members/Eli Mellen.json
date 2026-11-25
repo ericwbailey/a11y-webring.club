@@ -1,14 +1,16 @@
 {
   "date": "2023-02-08T00:00",
   "name": "Eli Mellen",
+  "roles": [ "Accessibility/Quality engineering lead", "Product consultant" ],
   "urls": {
     "homepage": "https://eli.li",
     "accessibilityStatement": null,
     "webringLink": "https://eli.li#a11y-webring-club"
   },
-  "roles": [ "Accessibility/Quality engineering lead", "Product consultant" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/eli-mellen/",
-  "mastodon": "https://tenforward.social/@eli_oat",
-  "rss": "https://eli.li/feed.rss"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/eli-mellen/",
+    "mastodon": "https://tenforward.social/@eli_oat",
+    "rss": "https://eli.li/feed.rss"
+  }
 }

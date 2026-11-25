@@ -1,14 +1,16 @@
 {
   "date": "2024-04-12T03:35",
   "name": "Jan Maarten",
+  "roles": [ "Inclusive designer", "Privacy advocate", "Writer" ],
   "urls": {
     "homepage": "https://janmaarten.com/",
     "accessibilityStatement": "https://janmaarten.com/accessibility/",
     "webringLink": "https://janmaarten.com/#a11y-webring-club"
   },
-  "roles": [ "Inclusive designer", "Privacy advocate", "Writer" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/jmaarten/",
-  "mastodon": "https://mastodon.social/@janmaarten",
-  "rss": "https://janmaarten.com/rss"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/jmaarten/",
+    "mastodon": "https://mastodon.social/@janmaarten",
+    "rss": "https://janmaarten.com/rss"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2025-03-22",
   "name": "keith hart",
+  "roles": [ "Art director", "Designer", "Developer" ],
   "urls": {
     "homepage": "https://strengthofone.com/",
     "accessibilityStatement": "https://strengthofone.com/a11y.html",
     "webringLink": "https://strengthofone.com/index#:~:text=a11y%2Dwebring%2Eclub"
   },
-  "roles": [ "Art director", "Designer", "Developer" ],
-  "github": "https://github.com/strengthofone",
-  "linkedin": "https://www.linkedin.com/in/keith-hart-76046b7/",
-  "mastodon": "https://mastodon.social/@strongest",
-  "bluesky": "https://bsky.app/profile/strongest.bsky.social",
-  "rss": null
+  "social": {
+    "github": "https://github.com/strengthofone",
+    "linkedin": "https://www.linkedin.com/in/keith-hart-76046b7/",
+    "mastodon": "https://mastodon.social/@strongest",
+    "bluesky": "https://bsky.app/profile/strongest.bsky.social",
+    "rss": null
+  }
 }

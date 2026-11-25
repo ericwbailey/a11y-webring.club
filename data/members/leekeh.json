@@ -1,16 +1,18 @@
 {
   "date": "2026-10-19T23:30",
   "name": "leekeh",
+  "roles": ["Senior frontend engineer", "Accessibility advocate", "Indieweb enthusiast"],
   "urls": {
     "homepage": "https://www.leekeh.com",
     "accessibilityStatement": "https://www.leekeh.com/accessibility",
     "webringLink": "https://www.leekeh.com/#:~:text=a11y%2Dwebring%2Eclub"
   },
-  "roles": ["Senior frontend engineer", "Accessibility advocate", "Indieweb enthusiast"],
-  "mastodon": null,
-  "github": "https://github.com/leekeh",
-  "codeberg": null,
-  "linkedin": "https://www.linkedin.com/in/leekeh",
-  "bluesky": "https://bsky.app/profile/leekeh.com",
-  "rss": "https://www.leekeh.com/rss.xml"
+  "social": {
+    "mastodon": null,
+    "github": "https://github.com/leekeh",
+    "codeberg": null,
+    "linkedin": "https://www.linkedin.com/in/leekeh",
+    "bluesky": "https://bsky.app/profile/leekeh.com",
+    "rss": "https://www.leekeh.com/rss.xml"
+  }
 }

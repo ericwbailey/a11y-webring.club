@@ -1,16 +1,18 @@
 {
   "date": "2026-05-19T00:00",
   "name": "Chaitanya",
+  "roles": [ "Cultural worker", "Accessibility enthusiast" ],
   "urls": {
     "homepage": "https://thefield.blog/",
     "accessibilityStatement": null,
     "webringLink": "https://chaitanya.id/#:~:text=a11y%2Dwebring%2Eclub"
   },
-  "roles": [ "Cultural worker", "Accessibility enthusiast" ],
-  "github": "https://github.com/chaitanyacodestoo",
-  "codeberg": "https://codeberg.org/chaitanyacodes",
-  "linkedin": "https://www.linkedin.com/in/cha1tany4/",
-  "bluesky": "https://bsky.app/profile/thefieldblog.bsky.social",
-  "mastodon": "https://mastodon.social/@thefieldblog",
-  "rss": "https://thefield.blog/index.xml"
+  "social": {
+    "github": "https://github.com/chaitanyacodestoo",
+    "codeberg": "https://codeberg.org/chaitanyacodes",
+    "linkedin": "https://www.linkedin.com/in/cha1tany4/",
+    "bluesky": "https://bsky.app/profile/thefieldblog.bsky.social",
+    "mastodon": "https://mastodon.social/@thefieldblog",
+    "rss": "https://thefield.blog/index.xml"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2024-12-09T00:00",
   "name": "Jayesh Bhoot",
+  "roles": [ "Software developer" ],
   "urls": {
     "homepage": "https://bhoot.dev/",
     "accessibilityStatement": "https://bhoot.dev/accessibility-statement",
     "webringLink": "https://bhoot.org/about-website/#part-of-webrings"
   },
-  "roles": [ "Software developer" ],
-  "github": "https://github.com/jbhoot",
-  "linkedin": "https://www.linkedin.com/in/jbhoot/",
-  "bluesky": "https://bsky.app/profile/bhoot.dev",
-  "mastodon": "https://functional.cafe/@bhoot",
-  "rss": "https://bhoot.dev/feed.xml"
+  "social": {
+    "github": "https://github.com/jbhoot",
+    "linkedin": "https://www.linkedin.com/in/jbhoot/",
+    "bluesky": "https://bsky.app/profile/bhoot.dev",
+    "mastodon": "https://functional.cafe/@bhoot",
+    "rss": "https://bhoot.dev/feed.xml"
+  }
 }

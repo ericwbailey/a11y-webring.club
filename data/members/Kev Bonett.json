@@ -1,14 +1,16 @@
 {
   "date": "2023-11-17T00:00",
   "name": "Kev Bonett (basher)",
+  "roles": [ "Senior UX engineer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://basher.biz/",
     "accessibilityStatement": null,
     "webringLink": "https://basher.biz/#https://a11y-webring.club"
   },
-  "roles": [ "Senior UX engineer", "Accessibility advocate" ],
-  "github": "https://github.com/basher",
-  "linkedin": "https://www.linkedin.com/in/kevbonett/",
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": "https://github.com/basher",
+    "linkedin": "https://www.linkedin.com/in/kevbonett/",
+    "mastodon": null,
+    "rss": null
+  }
 }

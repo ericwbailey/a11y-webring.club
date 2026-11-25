@@ -1,15 +1,16 @@
 {
   "date": "2023-01-26T12:39",
   "name": "Yessi Kenney",
+  "roles": [ "Designer" ],
   "urls": {
     "homepage": "https://yessikenney.com/",
     "accessibilityStatement": "https://yessikenney.com/accessibility-statement/",
     "webringLink": "https://yessikenney.com/#a11y-webring-club"
   },
-  "roles": [ "Designer" ],
-  "github": "https://github.com/yesskenn",
-  "linkedin": "https://www.linkedin.com/in/yessirpk/",
-  "mastodon": null,
-  "rss": null
-
+  "social": {
+    "github": "https://github.com/yesskenn",
+    "linkedin": "https://www.linkedin.com/in/yessirpk/",
+    "mastodon": null,
+    "rss": null
+  }
 }

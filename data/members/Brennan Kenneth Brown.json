@@ -1,16 +1,18 @@
 {
   "date": "2025-12-26T00:00",
   "name": "Brennan Kenneth Brown",
+  "roles": [ "Author", "Web developer", "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://brennan.day/",
     "accessibilityStatement": "https://brennan.day/accessibility",
     "webringLink": "https://brennan.day/#:~:text=a11y%20Webring"
   },
-  "roles": [ "Author", "Web developer", "Indieweb enthusiast" ],
-  "github": "https://github.com/brennankbrown",
-  "codeberg": null,
-  "linkedin": "https://linkedin.com/in/brennankbrown",
-  "bluesky": "https://bsky.app/profile/brennanbrown.ca",
-  "mastodon": "https://social.lol/@brennan",
-  "rss": "https://brennan.day/feed.xml"
+  "social": {
+    "github": "https://github.com/brennankbrown",
+    "codeberg": null,
+    "linkedin": "https://linkedin.com/in/brennankbrown",
+    "bluesky": "https://bsky.app/profile/brennanbrown.ca",
+    "mastodon": "https://social.lol/@brennan",
+    "rss": "https://brennan.day/feed.xml"
+  }
 }

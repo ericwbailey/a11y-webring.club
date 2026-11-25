@@ -1,14 +1,16 @@
 {
   "date": "2024-05-21T00:00",
   "name": "Kazuhito Kidachi (<bdi lang='ja'>木達 一仁</bdi>)",
+  "roles": [ "Executive fellow" ],
   "urls": {
     "homepage": "https://kidachi.kazuhi.to/",
     "accessibilityStatement": null,
     "webringLink": "https://kidachi.kazuhi.to/#a11y-webring-club"
   },
-  "roles": [ "Executive fellow" ],
-  "github": "https://github.com/kazuhito-kidachi/",
-  "linkedin": "https://www.linkedin.com/in/kazuhito/",
-  "mastodon": "https://social.vivaldi.net/@kazuhito",
-  "rss": "https://kidachi.kazuhi.to/blog/index.rdf"
+  "social": {
+    "github": "https://github.com/kazuhito-kidachi/",
+    "linkedin": "https://www.linkedin.com/in/kazuhito/",
+    "mastodon": "https://social.vivaldi.net/@kazuhito",
+    "rss": "https://kidachi.kazuhi.to/blog/index.rdf"
+  }
 }

@@ -1,14 +1,16 @@
 {
   "date": "2023-01-22T21:10",
   "name": "Matt Obee",
+  "roles": [ "Design technologist", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://mattobee.com/",
     "accessibilityStatement": null,
     "webringLink": "https://mattobee.com/#a11y-webring-club"
   },
-  "roles": [ "Design technologist", "Accessibility advocate" ],
-  "github": "https://github.com/mattobee",
-  "linkedin": "https://linkedin.com/in/mattobee",
-  "mastodon": "https://mastodon.social/@mattobee",
-  "rss": null
+  "social": {
+    "github": "https://github.com/mattobee",
+    "linkedin": "https://linkedin.com/in/mattobee",
+    "mastodon": "https://mastodon.social/@mattobee",
+    "rss": null
+  }
 }

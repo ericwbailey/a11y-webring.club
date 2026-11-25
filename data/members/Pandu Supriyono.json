@@ -1,15 +1,17 @@
 {
   "date": "2025-04-28T00:00",
   "name": "Pandu Supriyono",
+  "roles": [ "Web and app developer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://supriyono.nl/",
     "accessibilityStatement": "https://supriyono.nl/accessibility",
     "webringLink": "https://supriyono.nl/#a11y-webring-club"
   },
-  "roles": [ "Web and app developer", "Accessibility advocate" ],
-  "github": "https://github.com/pandu-supriyono",
-  "linkedin": "https://www.linkedin.com/in/pandu-supriyono",
-  "bluesky": "https://bsky.app/profile/pandu-supriyono.bsky.social",
-  "mastodon": "https://mamot.fr/@pandu",
-  "rss": "https://supriyono.nl/feed.xml"
+  "social": {
+    "github": "https://github.com/pandu-supriyono",
+    "linkedin": "https://www.linkedin.com/in/pandu-supriyono",
+    "bluesky": "https://bsky.app/profile/pandu-supriyono.bsky.social",
+    "mastodon": "https://mamot.fr/@pandu",
+    "rss": "https://supriyono.nl/feed.xml"
+  }
 }

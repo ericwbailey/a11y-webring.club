@@ -1,14 +1,16 @@
 {
   "date": "2023-01-30T22:05",
   "name": "Ron Vaisman",
+  "roles": [ "Front-end web developer", "Accessibility enthusiast" ],
   "urls": {
     "homepage": "https://ronvaisman.dev/",
     "accessibilityStatement": null,
     "webringLink": "https://ronvaisman.dev/#a11y-webring-club"
   },
-  "roles": [ "Front-end web developer", "Accessibility enthusiast" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/ron-vaisman/",
-  "mastodon": "https://hachyderm.io/@ronv",
-  "rss": null
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/ron-vaisman/",
+    "mastodon": "https://hachyderm.io/@ronv",
+    "rss": null
+  }
 }

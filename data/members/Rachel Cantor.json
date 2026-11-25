@@ -1,15 +1,17 @@
 {
   "date": "2024-11-01T00:00",
   "name": "Rachel Cantor",
+  "roles": [ "Frontend engineer", "DHS Trusted Tester", "Accessibility consultant"],
   "urls": {
     "homepage": "https://rachel.fyi",
     "accessibilityStatement": "https://rachel.fyi/accessibility",
     "webringLink": "https://rachel.fyi/accessibility/#a11y-webring-club"
   },
-  "roles": [ "Frontend engineer", "DHS Trusted Tester", "Accessibility consultant"],
-  "github": "https://github.com/rachelslurs",
-  "linkedin": "https://www.linkedin.com/in/rachelcantor",
-  "bluesky": null,
-  "mastodon": null,
-  "rss": "https://rachel.fyi/rss.xml"
+  "social": {
+    "github": "https://github.com/rachelslurs",
+    "linkedin": "https://www.linkedin.com/in/rachelcantor",
+    "bluesky": null,
+    "mastodon": null,
+    "rss": "https://rachel.fyi/rss.xml"
+  }
 }

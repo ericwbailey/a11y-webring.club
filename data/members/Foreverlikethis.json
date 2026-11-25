@@ -1,14 +1,16 @@
 {
   "date": "2023-01-28T12:59",
   "name": "foreverliketh.is",
+  "roles": [ "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://foreverliketh.is/",
     "accessibilityStatement": null,
     "webringLink": "https://foreverliketh.is/docs/connectivism/home-page/#54-a11y-webringclub"
   },
-  "roles": [ "Indieweb enthusiast" ],
-  "github": null,
-  "linkedin": null,
-  "mastodon": "https://indieweb.social/@accordionpolar",
-  "rss": "https://foreverliketh.is/blog/index.xml"
+  "social": {
+    "github": null,
+    "linkedin": null,
+    "mastodon": "https://indieweb.social/@accordionpolar",
+    "rss": "https://foreverliketh.is/blog/index.xml"
+  }
 }

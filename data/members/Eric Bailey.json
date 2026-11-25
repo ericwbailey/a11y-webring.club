@@ -1,16 +1,18 @@
 {
   "date": "2023-01-19T00:00",
   "name": "Eric Bailey",
+  "roles": [ "Accessibility designer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://ericwbailey.website/",
     "accessibilityStatement": "https://ericwbailey.website/accessibility-statement/",
     "webringLink": "https://ericwbailey.website/colophon/"
   },
-  "roles": [ "Accessibility designer", "Accessibility advocate" ],
-  "github": "https://github.com/ericwbailey",
-  "codeberg": null,
-  "linkedin": "https://www.linkedin.com/in/ericwbailey/",
-  "bluesky": "https://bsky.app/profile/ericwbailey.website",
-  "mastodon": "https://social.ericwbailey.website/@eric",
-  "rss": "https://ericwbailey.website/feed/feed.xml"
+  "social": {
+    "github": "https://github.com/ericwbailey",
+    "codeberg": null,
+    "linkedin": "https://www.linkedin.com/in/ericwbailey/",
+    "bluesky": "https://bsky.app/profile/ericwbailey.website",
+    "mastodon": "https://social.ericwbailey.website/@eric",
+    "rss": "https://ericwbailey.website/feed/feed.xml"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2025-06-20T11:10",
   "name": "Micaela Avigliano",
+  "roles": [ "Frontend developer", "Accessibility engineer" ],
   "urls": {
     "homepage": "https://micaavigliano.com/",
     "accessibilityStatement": "",
     "webringLink": "https://micaavigliano.com/en#a11y-webring-club"
   },
-  "roles": [ "Frontend developer", "Accessibility engineer" ],
-  "github": "https://github.com/micaavigliano",
-  "linkedin": "https://www.linkedin.com/in/micaelaavigliano/",
-  "bluesky": null,
-  "mastodon": null,
-  "rss": "https://micaavigliano.com/sitemap.xml"
+  "social": {
+    "github": "https://github.com/micaavigliano",
+    "linkedin": "https://www.linkedin.com/in/micaelaavigliano/",
+    "bluesky": null,
+    "mastodon": null,
+    "rss": "https://micaavigliano.com/sitemap.xml"
+  }
 }

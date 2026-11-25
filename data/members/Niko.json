@@ -1,15 +1,17 @@
 {
   "date": "2025-07-24T23:55",
   "name": "Niko",
+  "roles": [ "Indieweb enthusiast" ],
   "urls": {
     "homepage": "https://nikonet.xyz/",
     "accessibilityStatement": null,
     "webringLink": "https://nikonet.xyz/webrings/"
   },
-  "roles": [ "Indieweb enthusiast" ],
-  "github": null,
-  "linkedin": null,
-  "bluesky": null,
-  "mastodon": "https://weirder.earth/@aloosefruit",
-  "rss": "https://nikonet.xyz/feeds/all.xml"
+  "social": {
+    "github": null,
+    "linkedin": null,
+    "bluesky": null,
+    "mastodon": "https://weirder.earth/@aloosefruit",
+    "rss": "https://nikonet.xyz/feeds/all.xml"
+  }
 }

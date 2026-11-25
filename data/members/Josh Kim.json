@@ -1,14 +1,16 @@
 {
   "date": "2023-02-26T00:00",
   "name": "Josh Kim",
+  "roles": [ "UX and accessibility designer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://www.joshkimux.com/",
     "accessibilityStatement": "https://www.joshkimux.com/accessibility.html",
     "webringLink": "https://www.joshkimux.com/accessibility.html#:~:text=Webring"
   },
-  "roles": [ "UX and accessibility designer", "Accessibility advocate" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/joshkimux/",
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/joshkimux/",
+    "mastodon": null,
+    "rss": null
+  }
 }

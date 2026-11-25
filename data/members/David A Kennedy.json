@@ -1,16 +1,16 @@
 {
   "date": "2023-01-27T02:11",
   "name": "David A. Kennedy",
+  "roles": [ "Designer" ],
   "urls": {
     "homepage": "https://davidakennedy.com",
     "accessibilityStatement": "https://davidakennedy.com/accessibility/",
     "webringLink": "https://davidakennedy.com/colophon/"
   },
-  "roles": [
-    "Designer"
-  ],
-  "github": "https://github.com/davidakennedy",
-  "linkedin": "https://www.linkedin.com/in/davidakennedy/",
-  "mastodon": null,
-  "rss": "https://davidakennedy.com/feed/"
+  "social": {
+    "github": "https://github.com/davidakennedy",
+    "linkedin": "https://www.linkedin.com/in/davidakennedy/",
+    "mastodon": null,
+    "rss": "https://davidakennedy.com/feed/"
+  }
 }

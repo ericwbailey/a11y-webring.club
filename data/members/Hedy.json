@@ -1,15 +1,17 @@
 {
   "date": "2024-10-30T00:00",
   "name": "Hedy",
+  "roles": [ "FOSS advocate", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://home.hedy.dev/",
     "accessibilityStatement": "https://github.com/hedyhli/site/#philosophy",
     "webringLink": "https://home.hedy.dev/#:~:text=a11y%20webring"
   },
-  "roles": [ "FOSS advocate", "Accessibility advocate" ],
-  "github": "https://github.com/hedyhli",
-  "linkedin": null,
-  "bluesky": "https://bsky.app/profile/hedy.dev",
-  "mastodon": "https://tilde.zone/@hedy",
-  "rss": "https://home.hedy.dev/posts/index.xml"
+  "social": {
+    "github": "https://github.com/hedyhli",
+    "linkedin": null,
+    "bluesky": "https://bsky.app/profile/hedy.dev",
+    "mastodon": "https://tilde.zone/@hedy",
+    "rss": "https://home.hedy.dev/posts/index.xml"
+  }
 }

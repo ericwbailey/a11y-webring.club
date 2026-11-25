@@ -1,15 +1,17 @@
 {
   "date": "2024-07-16T00:00",
   "name": "E.L. Guerrero",
+  "roles": [ "Media and software artist", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://guerrero.ph",
     "accessibilityStatement": "https://guerrero.ph/colophon/#accessibility",
     "webringLink": "https://guerrero.ph/links/"
   },
-  "roles": [ "Media and software artist", "Accessibility advocate" ],
-  "github": "https://github.com/thinkbulecount2",
-  "linkedin": "https://www.linkedin.com/in/el-guerrero",
-  "bluesky": "https://bsky.app/profile/knights.bsky.social",
-  "mastodon": "https://merveilles.town/@knights",
-  "rss": null
+  "social": {
+    "github": "https://github.com/thinkbulecount2",
+    "linkedin": "https://www.linkedin.com/in/el-guerrero",
+    "bluesky": "https://bsky.app/profile/knights.bsky.social",
+    "mastodon": "https://merveilles.town/@knights",
+    "rss": null
+  }
 }

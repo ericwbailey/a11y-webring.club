@@ -1,14 +1,16 @@
 {
   "date": "2023-01-22T19:10",
   "name": "Steve Faulkner",
+  "roles": [ "Web accessibility worker" ],
   "urls": {
     "homepage": "https://html5accessibility.com/stuff/",
     "accessibilityStatement": null,
     "webringLink": "https://html5accessibility.com/stuff/#a11y-webring-club"
   },
-  "roles": [ "Web accessibility worker" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/steven-faulkner-3781ab1/",
-  "mastodon": "https://mastodon.social/@SteveFaulkner",
-  "rss": "https://html5accessibility.com/stuff/feed"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/steven-faulkner-3781ab1/",
+    "mastodon": "https://mastodon.social/@SteveFaulkner",
+    "rss": "https://html5accessibility.com/stuff/feed"
+  }
 }

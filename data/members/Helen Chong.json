@@ -1,16 +1,18 @@
 {
   "date": "2024-05-29T11:29",
   "name": "Helen Chong",
+  "roles": [ "Web developer" ],
   "urls": {
     "homepage": "https://helenchong.dev/",
     "accessibilityStatement": "https://helenchong.dev/accessibility",
     "webringLink": "https://helenchong.dev/#a11y-webring-club"
   },
-  "roles": [ "Web developer" ],
-  "github": "https://github.com/helenclx",
-  "codeberg": "https://codeberg.org/helenchong",
-  "linkedin": "https://www.linkedin.com/in/helenclx/",
-  "bluesky": "https://bsky.app/profile/helenchong.omg.lol",
-  "mastodon": "https://social.lol/@helenchong",
-  "rss": "https://helenchong.dev/blog/feed.xml"
+  "social": {
+    "github": "https://github.com/helenclx",
+    "codeberg": "https://codeberg.org/helenchong",
+    "linkedin": "https://www.linkedin.com/in/helenclx/",
+    "bluesky": "https://bsky.app/profile/helenchong.omg.lol",
+    "mastodon": "https://social.lol/@helenchong",
+    "rss": "https://helenchong.dev/blog/feed.xml"
+  }
 }

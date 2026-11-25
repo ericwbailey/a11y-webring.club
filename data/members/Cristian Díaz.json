@@ -1,14 +1,16 @@
 {
   "date": "2023-01-25T16:54",
   "name": "Cristian Díaz",
+  "roles": [ "Front-End developer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://www.itscrisdiaz.com/",
     "accessibilityStatement": null,
     "webringLink": "https://www.itscrisdiaz.com/#a11y-webring-club"
   },
-  "roles": [ "Front-End developer", "Accessibility advocate" ],
-  "github": "https://github.com/ItsCrisDiaz",
-  "linkedin": "https://www.linkedin.com/in/itscrisdiaz/",
-  "mastodon": "https://mastodon.social/@ItsCrisDiaz",
-  "rss": null
+  "social": {
+    "github": "https://github.com/ItsCrisDiaz",
+    "linkedin": "https://www.linkedin.com/in/itscrisdiaz/",
+    "mastodon": "https://mastodon.social/@ItsCrisDiaz",
+    "rss": null
+  }
 }

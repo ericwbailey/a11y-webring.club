@@ -1,14 +1,16 @@
 {
   "date": "2023-07-04T00:00",
   "name": "Sara Joy",
+  "roles": [ "Front end developer", "Accessibility enthusiast" ],
   "urls": {
     "homepage": "https://sarajoy.dev/",
     "accessibilityStatement": "https://sarajoy.dev/#a11y",
     "webringLink": "https://sarajoy.dev/#a11y-webring-club"
   },
-  "roles": [ "Front end developer", "Accessibility enthusiast" ],
-  "github": null,
-  "linkedin": null,
-  "mastodon": "https://front-end.social/@sarajw",
-  "rss": "https://sarajoy.dev/rss.xml"
+  "social": {
+    "github": null,
+    "linkedin": null,
+    "mastodon": "https://front-end.social/@sarajw",
+    "rss": "https://sarajoy.dev/rss.xml"
+  }
 }

@@ -1,14 +1,16 @@
 {
   "date": "2023-11-08T00:00",
   "name": "Elizabeth McCready",
+  "roles": [ "Software developer","Designer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://gingerkiwi.dev",
     "accessibilityStatement": null,
     "webringLink": "https://gingerkiwi.dev#a11y-webring-club"
   },
-  "roles": [ "Software developer","Designer", "Accessibility advocate" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/elizabethmccready",
-  "mastodon": null,
-  "rss": "https://gingerkiwi.dev/feed.xml"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/elizabethmccready",
+    "mastodon": null,
+    "rss": "https://gingerkiwi.dev/feed.xml"
+  }
 }

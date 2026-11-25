@@ -1,14 +1,16 @@
 {
   "date": "2024-02-12T00:00",
   "name": "Esrah Boulton",
+  "roles": [ "Front-end developer", "Accessibility advocate" ],
   "urls": {
     "homepage": "https://www.esrahboulton.com/",
     "accessibilityStatement": "https://www.esrahboulton.com/#a11y",
     "webringLink": "https://www.esrahboulton.com/#a11y-webring-club"
   },
-  "roles": [ "Front-end developer", "Accessibility advocate" ],
-  "github": "https://github.com/esrahboulton",
-  "linkedin": "https://ca.linkedin.com/in/esrah-boulton",
-  "mastodon": null,
-  "rss": null
+  "social": {
+    "github": "https://github.com/esrahboulton",
+    "linkedin": "https://ca.linkedin.com/in/esrah-boulton",
+    "mastodon": null,
+    "rss": null
+  }
 }

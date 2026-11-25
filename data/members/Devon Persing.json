@@ -1,14 +1,16 @@
 {
   "date": "2023-05-03T00:00",
   "name": "Devon Persing",
+  "roles": [ "Independent digital accessibility consultant" ],
   "urls": {
     "homepage": "https://dpersing.com/",
     "accessibilityStatement": null,
     "webringLink": "https://dpersing.com#a11y-webring-club"
   },
-  "roles": [ "Independent digital accessibility consultant" ],
-  "github": null,
-  "linkedin": "https://www.linkedin.com/in/devonpersing/",
-  "mastodon": "https://octodon.social/@viscousplatypus",
-  "rss": "https://devonpersing.netlify.app/feed.xml"
+  "social": {
+    "github": null,
+    "linkedin": "https://www.linkedin.com/in/devonpersing/",
+    "mastodon": "https://octodon.social/@viscousplatypus",
+    "rss": "https://devonpersing.netlify.app/feed.xml"
+  }
 }

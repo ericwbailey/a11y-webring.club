@@ -1,15 +1,17 @@
 {
   "date": "2025-04-27T22:00",
   "name": "Erin White",
+  "roles": [ "Designer", "Engineering manager" ],
   "urls": {
     "homepage": "https://erinrwhite.com/",
     "accessibilityStatement": "https://erinrwhite.com/site-info",
     "webringLink": "https://erinrwhite.com/#a11y-webring-club"
   },
-  "roles": [ "Designer", "Engineering manager" ],
-  "github": "https://github.com/erinrwhite",
-  "linkedin": "https://www.linkedin.com/in/erinrwhite/",
-  "bluesky": "https://bsky.app/profile/biscuit.quest",
-  "mastodon": null,
-  "rss": "https://erinrwhite.com/feed.xml"
+  "social": {
+    "github": "https://github.com/erinrwhite",
+    "linkedin": "https://www.linkedin.com/in/erinrwhite/",
+    "bluesky": "https://bsky.app/profile/biscuit.quest",
+    "mastodon": null,
+    "rss": "https://erinrwhite.com/feed.xml"
+  }
 }

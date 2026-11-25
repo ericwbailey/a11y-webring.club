@@ -1,19 +1,21 @@
 {
   "date": "2026-09-21T00:00",
   "name": "J Lopes",
-  "urls": {
-    "homepage": "https://jlopes.eu/about/",
-    "accessibilityStatement": "https://jlopes.eu/accessibility/",
-    "webringLink": "https://jlopes.eu/about/#webring-a11y"
-  },
   "roles": [
     "Frontend developer",
     "Design systems developer",
     "Indieweb enthusiast"
   ],
-  "github": "https://github.com/offeringofpie",
-  "linkedin": "https://www.linkedin.com/in/jpalopes/",
-  "bluesky": "https://bsky.app/profile/jlopes.eu",
-  "mastodon": null,
-  "rss": "https://jlopes.eu/rss.xml"
+  "urls": {
+    "homepage": "https://jlopes.eu/about/",
+    "accessibilityStatement": "https://jlopes.eu/accessibility/",
+    "webringLink": "https://jlopes.eu/about/#webring-a11y"
+  },
+  "social": {
+    "github": "https://github.com/offeringofpie",
+    "linkedin": "https://www.linkedin.com/in/jpalopes/",
+    "bluesky": "https://bsky.app/profile/jlopes.eu",
+    "mastodon": null,
+    "rss": "https://jlopes.eu/rss.xml"
+  }
 }

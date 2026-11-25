@@ -1,14 +1,16 @@
 {
   "date": "2024-09-17T00:00",
   "name": "Nic Chan",
+  "roles": [ "Front-end web developer", "Accessibility advocate", "Artist" ],
   "urls": {
     "homepage": "https://www.nicchan.me/",
     "accessibilityStatement": null,
     "webringLink": "https://www.nicchan.me/blog/#window-title-webring"
   },
-  "roles": [ "Front-end web developer", "Accessibility advocate", "Artist" ],
-  "github": "https://github.com/nchan0154",
-  "linkedin": null,
-  "mastodon": "https://indieweb.social/@NicMakesStuff",
-  "rss": "https://www.nicchan.me/feed.xml"
+  "social": {
+    "github": "https://github.com/nchan0154",
+    "linkedin": null,
+    "mastodon": "https://indieweb.social/@NicMakesStuff",
+    "rss": "https://www.nicchan.me/feed.xml"
+  }
 }

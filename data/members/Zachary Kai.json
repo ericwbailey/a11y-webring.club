@@ -1,16 +1,18 @@
 {
   "date": "2025-04-15T00:00",
   "name": "Zachary Kai",
+  "roles": [
+    "Writer",
+    "Amateur Programmer"
+  ],
   "urls": {
     "homepage": "https://zacharykai.net/",
     "accessibilityStatement": "https://zacharykai.net/accessibility",
     "webringLink": "https://zacharykai.net/webrings#:~:text=a11y%2Dwebring%2Eclub"
   },
-  "roles": [
-    "Writer",
-    "Amateur Programmer"
-  ],
-  "github": "https://github.com/zk-codes",
-  "linkedin": "https://www.linkedin.com/in/zachary-kai/",
-  "rss": "https://zacharykai.net/assets/rss.xml"
+  "social": {
+    "github": "https://github.com/zk-codes",
+    "linkedin": "https://www.linkedin.com/in/zachary-kai/",
+    "rss": "https://zacharykai.net/assets/rss.xml"
+  }
 }

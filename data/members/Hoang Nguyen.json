@@ -1,14 +1,16 @@
 {
   "date": "2026-11-08T00:00",
   "name": "Hoang Nguyen",
+  "roles": [ "DevOps Engineer" ],
   "urls": {
     "homepage": "https://www.folliehiyuki.com",
     "accessibilityStatement": "https://www.folliehiyuki.com/colophon/#accessibility",
     "webringLink": "https://www.folliehiyuki.com/#:~:text=a11y%20webring"
   },
-  "roles": [ "DevOps Engineer" ],
-  "github": "https://github.com/folliehiyuki",
-  "codeberg": "https://codeberg.org/folliehiyuki",
-  "mastodon": "https://fosstodon.org/@folliehiyuki",
-  "rss": "https://www.folliehiyuki.com/feed.rss"
+  "social": {
+    "github": "https://github.com/folliehiyuki",
+    "codeberg": "https://codeberg.org/folliehiyuki",
+    "mastodon": "https://fosstodon.org/@folliehiyuki",
+    "rss": "https://www.folliehiyuki.com/feed.rss"
+  }
 }
